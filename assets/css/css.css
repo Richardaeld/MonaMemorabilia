@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*-------------------------  background color  ---------------------------*/
+
+
+body {
+    background-color: gray;
+}
+
+.nav-home {
+    background-color:#ffabab; /*D99BB4 */
+}
+
+.nav-edit {
+    background-color: #f69552;
+}
+
+.nav-gallery {
+    background-color: #bca0dc;
+}
+
+.nav-contact {
+    background-color: #b1dda1;
+}
+
+#nav .nav-home .hvr-radial-in:before {
+    background: #ffabab;
+}
+
+#nav .nav-edit .hvr-radial-in:before {
+    background: #f69552;
+}
+
+#nav .nav-gallery .hvr-radial-in:before {
+    background: #bca0dc;
+}
+
+#nav .nav-contact .hvr-radial-in:before {
+    background: #b1dda1;
+}
+
+
+
+
+/*-------------------------  Nav Bar  ---------------------------*/
+
+#nav {
+    padding: 0;
+    margin: 0;
+}
+
+#nav li a  {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+}
+
+#nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+}
+/*
+.logo {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+*/
+.hvr-radial-in { /* Change sitting color for nav bar */
+    background: rgba(0,0,0,.25);
+    color: #000;
+    height: 100%;
+}
+
+.hvr-radial-in:before {
+    transition-duration: .3s;
+}
+
+
+/*-------------------------  Passed Demo  ---------------------------*/
+
+
+
+
+/*-------------------------  DEMO  ---------------------------*/
+
+
+.container-space {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.nav-element {
+    height: 200px;
+}
+
