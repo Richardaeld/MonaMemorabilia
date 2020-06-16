@@ -4,18 +4,24 @@
 
 
 /* body script */
-/* Fredricka+the+Great, Marck+Script, Bad+Script, Playfair+Display+SC, Vidaloka   */
+/* Fredericka+the+Great, Marck+Script, Bad+Script, Playfair+Display+SC, Vidaloka   */
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Fredericka+the+Great&family=Marck+Script&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Vidaloka&display=swap');
 
 
 
-body {
+body { /* all pass */
     margin: 0;
     padding: 0;
     border: 0;
+    line-height: .9;
 }
 
-.container-fluid {
+.container-fluid { /* all pass */
+    padding: 0;
+    margin: 0;
+}
+
+.no-gutters {
     padding: 0;
 }
 
@@ -32,6 +38,7 @@ body {
 
 .nav-edit {
     background-color: #f69552;
+
 }
 
 .nav-logo { 
@@ -66,44 +73,97 @@ body {
     background: #007489;
 }
 
-
-
-
 /*-------------------------  Nav Bar  ---------------------------*/
 
-
-#nav li a  { /* all pass */
-    display: inline-block;
-    width: 100%;
-    text-decoration: none;
+.container-space { /* all pass *//* Conjoined with #nav li */
+    font-size: 0;
 }
 
-#nav li {
+#nav li { /* all pass *//* first two Conjoined with .container-space*/
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0;
+
     display: inline-block;
     text-align: center;
-    padding: 0;
-    margin: 0;
-    height: 150px;
+    height: 150px;  /* COUNTER PART HEIGHT .hvr-radial-in */
+
 }
 
-.logo {
-    background: url("../images/lens.jpg");
+#nav { /* all pass */
+    margin-bottom: 0;
+
+}
+
+#nav li a  { /* all pass */
+   /* position: inherit; */
+    width: 100%;
+    text-decoration: none;
+    font-family: "Playfair Display SC", sans-serif;
+    padding-top: 40px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#nav li a span {
+    padding-top: 10px;
+}
+
+#nav li a span,
+#nav li a i {  /* all pass */
+    display: block;
+}
+
+.logo { /* all pass SUPER HERO IMAGE */
+    background: url("../images/lens3.jpg");
+    
     background-position: center;
     background-repeat: no-repeat;
-    
+    background-position-y: -335px;
 }
 
-.hvr-radial-in { /* Change sitting color for nav bar */
+#nav .logo a { /* all pass SUPER HERO TEXT*/
+    font-family: "tangerine", sans-serif;
+    font-weight: 700; 
+    font-size: 70px;
+    padding-top: 2px;
+    letter-spacing: 2px;
+    
+
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+/*-------------------------  Hover (lens effect)  ---------------------------*/
+
+.hvr-radial-in { /* all pass   COUNTER PART HEIGHT #nav li*/
     background: rgba(0,0,0,.25);
     color: #000;
-    height: 100%;
+    position: inherit;
+    height: 150px;
+    width: 100%;
 }
 
-.hvr-radial-in:before {
+.hvr-radial-in:before { /* all pass */
     transition-duration: .3s;
 }
 
+/*-------------------------  Hero + image  ---------------------------*/
 
+.hero {
+    background: url("../hero-modal/lorem1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.hero-frame {
+
+}
 /*-------------------------  Passed Demo  ---------------------------*/
 
 
@@ -111,30 +171,38 @@ body {
 
 /*-------------------------  DEMO  ---------------------------*/
 
-
-.container-space { /* all pass *//* Conjoined with #nav li */
-    font-size: 0;
+.vision-work div {
+    height: 300px;
+    font-family: "Playfair Display SC", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #000;
 }
 
-#nav li { /* all pass *//* conjoined with .container-space */
-    font-size: 14px;
-    padding: 0;
+.vision{
+    background-color: aliceblue; 
 }
 
-#nav li a {/* all pass */
-    font-family: "Marck Script", sans-serif;
-    padding-top: 35px;
-    font-size: 30px;
-
-}
-#nav li a span,
-#nav li a i {  /* all pass */
-    display: block;
+.work {
+    background-color: azure;
 }
 
-#nav .logo a { /* all pass */
-    font-family: "tangerine", sans-serif;
-    font-weight: 700; 
-    font-size: 50px;
-    padding-top: 3px;
+.footer-frame div{
+    display: inline-block;
+}
+
+.footer-contact {
+    background-color: aliceblue; 
+    height: 100px;
+}
+
+.footer-area {
+    background-color: azure;
+    height: 100px;
+    display: inline;
+}
+
+.footer-social {
+    background-color: aqua;
+    height: 200px;
 }
