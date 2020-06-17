@@ -164,7 +164,11 @@ body {
 }
 
 .hero-frame {
-
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*-------------------------  Passed Demo  ---------------------------*/
 
@@ -255,20 +259,35 @@ hr {
 .footer-social ul li {
 
     display: inline;
-        padding: 3% 7%;
+    
 
 }
 
 .footer-social ul li i {
+    list-style-type: none;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin: 10px 30px 10px 40px;
     background-color: rgba(0,0,0,.25);
-    position: inherit;
-    text-align: center;
+
     padding-top: 12px;
 }
+
+.social-shutter ul a {
+    transition: all 3s ease;
+    color: #000;
+    transition-delay: .2s;
+    transition-duration: 3s;
+    text-decoration: none;
+}
+
+.social-shutter ul a:hover {
+    color: #fff;
+    
+
+}
+
+
 
 .footer-contact div h5 {
    /* font-size: 23px;*/
@@ -292,3 +311,27 @@ hr {
     display: inline-block;
     width: 100%;
 }
+
+
+.carousel-text-base {
+    color: #000;
+}
+
+.carousel-text-base div {
+    color:#000;
+}
+
+.carousel-icon-base a {
+    width: 3vw;
+    background-color: rgba(0,0,0,.15);
+}
+
+.carousel-icon-base ol {
+    background-color: rgba(0,0,0,.15);
+   
+}
+
+.social-shutter {
+
+}
+
