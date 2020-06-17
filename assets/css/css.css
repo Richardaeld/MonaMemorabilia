@@ -14,6 +14,8 @@ body { /* all pass */
     padding: 0;
     border: 0;
     line-height: .9;
+    width: 100%;
+    text-align: center;
 }
 
 .container-fluid { /* all pass */
@@ -29,7 +31,7 @@ body { /* all pass */
 
 
 body {
-    background-color: gray;
+    background-color:#dad5e0
 }
 
 .nav-home {
@@ -171,38 +173,122 @@ body {
 
 /*-------------------------  DEMO  ---------------------------*/
 
+
+/*-------------------------  SUB HERO  ---------------------------*/
+
 .vision-work div {
     height: 300px;
     font-family: "Playfair Display SC", sans-serif;
     letter-spacing: 2px;
     font-weight: 300;
     color: #000;
+    text-align: center;
 }
 
 .vision{
-    background-color: aliceblue; 
+    background-color: #f69552; 
 }
 
 .work {
-    background-color: azure;
+    background-color: #bca0dc;
 }
 
+.vision h3,
+.work h3 {
+    letter-spacing: 2px;
+    font-size: 50px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.vision p {
+    padding-top: 13px;
+    font-size: 20px;
+}
+
+.work ul li {
+    font-size: 20px;
+    padding-top: 13px;    
+    list-style-type: none;
+}
+
+
+hr {
+    border-top: 2px solid black;
+    width: 50%;
+}
+
+
+/*-------------------------  FOOTER  ---------------------------*/
+
 .footer-frame div{
+    font-family: "Playfair Display SC", sans-serif;
     display: inline-block;
 }
 
 .footer-contact {
-    background-color: aliceblue; 
+    background-color: #dad5e0; 
     height: 100px;
 }
 
 .footer-area {
-    background-color: azure;
+    background-color: #dad5e0;
     height: 100px;
     display: inline;
 }
 
 .footer-social {
-    background-color: aqua;
+    font-family: "Playfair Display SC", sans-serif;
+    background-color: #dad5e0;
     height: 200px;
+}
+
+.footer-social h5 {
+    text-align: center;
+}
+
+.footer-social ul {
+    list-style-type: none;
+    
+}
+
+.footer-social ul li {
+
+    display: inline;
+        padding: 3% 7%;
+
+}
+
+.footer-social ul li i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 30px 10px 40px;
+    background-color: rgba(0,0,0,.25);
+    position: inherit;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.footer-contact div h5 {
+   /* font-size: 23px;*/
+}
+
+.footer-lock {
+    padding: 30px 0;
+
+}
+
+.footer-key {
+    padding: 30px 0;
+
+}
+
+.x {
+    text-align: center;
+}
+
+.footer-contact div {
+    display: inline-block;
+    width: 100%;
 }
