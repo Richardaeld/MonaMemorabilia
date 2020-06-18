@@ -358,3 +358,268 @@ hr {
     color: #000;
     transition-duration: 3s;
 }
+
+/*-------------------------  Services  ---------------------------*/
+
+/*-------------------------  Gallery photos  ---------------------------*/
+
+.hero-ul-gallery{
+    background: url("../gallery/hero/lorem7.png")
+}
+
+.hero-ur-gallery{
+    background: url("../gallery/hero/lorem6.png")
+}
+
+.hero-ml-gallery{
+    background: url("../gallery/hero/lorem5.png")    
+}
+
+.hero-mr-gallery{
+    background: url("../gallery/hero/lorem4.png")   
+}
+
+.hero-ll-gallery{
+    background: url("../gallery/hero/lorem3.png")    
+}
+
+.hero-lr-gallery{
+    background: url("../gallery/hero/lorem2.png")   
+}
+
+
+/*-------------------------  Gallery  ---------------------------*/
+
+.hero-frame-gallery {
+    height: 80vh;
+    width: 100%;
+}
+
+.gallery-spacer {
+    padding: 35px 0;
+}
+
+.gallery-border {
+
+}
+
+.hero-gallery {
+    height: 30vh;
+    width: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 15px groove;
+}
+
+
+.background-color-gallery{
+    /*background-color: #bca0dc;        /* model after this!!  bca0dc*/       /* #d6b4e7 */       /* #3d4849 previous */
+    background-color:rgba(188, 160, 220, .5);  /* EXTRA IDEAS!!!*/
+}
+
+.y {
+    border: 10px double #000;
+    background-color: rebeccapurple;
+}
+
+/*-------------------------  gallery Scroll spy children  ---------------------------*/
+
+.gallery-image-text h4 {
+    font-family: "Playfair Display SC", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.nav-header nav {
+    width: 100%;
+    background-color: gray;
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.nav-link-pad li {
+    padding: 13px 12px;
+
+}
+
+.sub-gallery-frame {
+    width: 20vw;
+    height: 80vh;
+    padding: 0px 13px;
+}
+
+
+
+
+/*-------------------------  Children sub gallery Full size pictures  ---------------------------*/
+
+
+.child-1-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-2-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-3-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-4-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-5-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-6-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-7-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-8-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-9-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-10-full {
+    background: url("../images/lens.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------  Children sub gallery nav bar  ---------------------------*/
+
+.child-1 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-2 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-3 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-4 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-5 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-6 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-7 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-8 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-9 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-10 {
+    background: url("../images/lens.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/*-------------------------  Contact  ---------------------------*/
