@@ -170,7 +170,7 @@ body {
 
 
 .logo { 
-    background: url("../images/lens3.jpg");
+    background: url("../gallery/logo/lens3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: -335px;   /*  double check on different screen ratios allows name to appear between lens  */
