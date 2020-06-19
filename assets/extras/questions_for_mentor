@@ -1,0 +1,40 @@
+-- Does using bootstrap affect my grade?  Will I recieve higher marks if I use my own framework rather than relying on bootstrap?
+*
+-- Used codeinstitute template in github and boilerplate for base of webpages
+*
+-- Used the idea for the structure of nav bar and buttons from code institute (Where is the line from idea used to code used {is it the 33% difference?})
+*
+-- Bootstrap - fontawesome - google fonts (How do I appropiately mark I used these?)
+*
+-- Does the static count for bootstraps build in java script
+*
+-- Nav bar colors had to write 3 lines of css to get bar to keep color and transition to a "grey filter"
+*
+-- Bootstrap Carousel
+*
+
+
+
+
+<i class="fas fa-hashtag"></i>
+
+<i class="fas fa-camera-retro"></i>
+<i class="fas fa-photo-video"></i>
+<i class="far fa-images"></i>
+
+<i class="fas fa-sd-card"></i>
+<i class="far fa-file-image"></i>
+<i class="far fa-image"></i>
+
+<i class="fas fa-phone"></i>
+<i class="fas fa-envelope-open-text"></i>
+<i class="far fa-envelope"></i>
+
+
+
+
+
+
+
+
+
