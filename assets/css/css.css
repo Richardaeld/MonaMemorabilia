@@ -65,6 +65,14 @@ body {
     background-color:rgba(188, 160, 220, .5);  /* EXTRA IDEAS!!!*/
 }
 
+.form-background-color {
+    background-color: rgba(0, 116, 137,.25)
+}
+
+.form-color {
+    background-color: rgb(148, 168, 221);
+}
+
 /*-------------------------  Hover and hover :before color  ---------------------------*/
 
 #nav .nav-home .hvr-radial-in:before {
@@ -198,13 +206,9 @@ body {
 
 /*-------------------------  index hero carousel  ---------------------------*/
 
-.carousel-icon-base div div {
-   /* background-color: #606060; */
-    background-color:rgba(96, 96, 96, .15)
-}
-
-.carousel-text-base div {
-    color:#000;
+.carousel-text-base div div {
+    color:#fff;
+    background-color: rgba(96, 96, 96, .55);
 }
 
 .carousel-icon-base a {
@@ -214,9 +218,15 @@ body {
 }
 
 .carousel-icon-base ol {
-    background-color: rgba(0,0,0,.15);   
+    background-color: rgba(0,0,0,.50);   
 }
 
+.carousel-item img {
+    height: 93vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
 /*-------------------------  SUB HERO Index ---------------------------*/
 
 .services-work div {
@@ -324,6 +334,23 @@ body {
     color: #000;
     transition-duration: 1.5s;
 }
+/*-------------------------  Services   ---------------------------*/
+
+/*-------------------------  Gallery  ---------------------------*/
+/*-------------------------  Gallery structure  ---------------------------*/
+
+.gallery-spacer {
+    padding: 35px 0;
+}
+
+.gallery-hero {
+    height: 30vh;
+    width: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 15px groove;
+}
 
 
 /*-------------------------  Gallery Hero images  ---------------------------*/
@@ -353,22 +380,14 @@ body {
 }
 
 
-/*-------------------------  Gallery structure  ---------------------------*/
 
-.gallery-spacer {
-    padding: 35px 0;
-}
-
-.gallery-hero {
-    height: 30vh;
-    width: 30vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 15px groove;
-}
 
 /*-------------------------  gallery Scroll spy children  ---------------------------*/
+
+.sub-gallery-nav-color {
+    background-color: rgb(148, 168, 221);
+
+}
 
 .gallery-image-text h4 {
     font-family: "Playfair Display SC", sans-serif;
@@ -378,7 +397,8 @@ body {
 
 .nav-header nav {
     width: 100%;
-    background-color: gray;
+    /*background-color: gray; */
+    background-color: #876b8d;
 }
 
 
@@ -395,7 +415,7 @@ body {
     width: 20vw;
     height: 80vh;
     padding: 0px 13px;
-    border: 40px outset #007489;   /*bca0dc*/ 
+    border: 32px outset #007489;   /*bca0dc*/ 
 }
 
 /*-------------------------  Children sub gallery Full size pictures  ---------------------------*/
@@ -562,13 +582,7 @@ body {
     background-repeat: no-repeat;
 }
 
-
-
 /*-------------------------  Contact  ---------------------------*/
-
-.form-background-color {
-    background-color: rgba(0, 116, 137,.25)
-}
 
 .form-text {
     font-family: "Playfair Display SC", sans-serif;
@@ -577,11 +591,6 @@ body {
     font-weight: 600;
     display: inline-block;
 }
-
-.form-spacing {
-    padding: 43px 3px;
-}
-
 
 .input-spacing div,
 .input-spacing div div {
@@ -598,29 +607,15 @@ body {
     padding: 27px 0;
 }
 
-.form-name {
-    float: left;
-}
-
-.form-email {
-    float: right;
-    padding: 23px 17px;
-}
-
-.form-button {
-    float:left;
-}
-
 .form-header {
     padding-top: 22px;
     padding-bottom: 12px;
 }
 
-.form-color {
-    background-color: rgb(148, 168, 221);
-}
-
 .form-color div {
     padding: 5px 23px;
     margin: 5px 23px;
+}
+.form-footer-pad {
+    padding-top: 50px;
 }
