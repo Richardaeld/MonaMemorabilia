@@ -107,7 +107,7 @@ body {
     background-color: #fbd2d7              /*  #ffc2c2         previous */
 }
 
-.services{
+.services{   /* RENAME FOR FRONT PAGE!!   */
     background-color: #f69552; 
 }
 
@@ -115,19 +115,19 @@ body {
     background-color: #bca0dc;
 }
 
-.services1 {
+.services1 {     /*   CHECK LIKELY USELESS    */
     background-color: #007489;
 }
 
-.services2 {
+.services2 {      /*   CHECK LIKELY USELESS    */
     background-color:#ffabab;
 }
 
-.services3 {
+.services3 {      /*   CHECK LIKELY USELESS    */
     background-color: #bca0dc;
 }
 
-.services4 {
+.services4 {        /*   CHECK LIKELY USELESS    */
     background-color: #f69552;
 }
 
@@ -229,7 +229,7 @@ body {
 }
 /*-------------------------  SUB HERO Index ---------------------------*/
 
-.services-work div {
+.services-work div {    /* RENAME FOR FRONT PAGE!!   */
     height: 300px;
     font-family: "Playfair Display SC", sans-serif;
     letter-spacing: 2px;
@@ -237,14 +237,14 @@ body {
     color: #000;
 }
 
-.services h3,
+.services h3,     /* RENAME FOR FRONT PAGE!!   */
 .work h3 {
     font-size: 50px;
     padding-top: 12px;
     padding-bottom: 10px;
 }
 
-.services p {
+.services p {     /* RENAME FOR FRONT PAGE!!   */
     padding-top: 13px;
     padding-left: 50px;
     padding-right: 50px;
@@ -336,53 +336,90 @@ body {
 }
 /*-------------------------  Services   ---------------------------*/
 
+.services-padding-color {
+    background-color: #f7ae7a;     /*  f69552  */
+}
+
+.services-packages-color {
+    background-color: #f69552;
+}
+
+.services-custom-color {
+    background-color: #bca0dc;
+}
+
+.services-padding{   /**/
+    padding: 100px;
+
+}
+
+.services-padding div {
+    display: inline-block;
+}
+
+.services-text div {  /**/
+    height: 300px;
+    font-family: "Playfair Display SC", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #000;
+}
+
+.services-custom ul li {  /**/
+    font-size: 20px;
+    padding-top: 13px;    
+    list-style-type: none;
+}
+
+.services-custom h3,
+.service-packages h3 {  /**/
+    font-size: 50px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.service-packages p { /**/ 
+    padding-top: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+
+
 /*-------------------------  Gallery  ---------------------------*/
-/*-------------------------  Gallery structure  ---------------------------*/
-
-.gallery-spacer {
-    padding: 35px 0;
-}
-
-.gallery-hero {
-    height: 30vh;
-    width: 30vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 15px groove;
-}
 
 
 /*-------------------------  Gallery Hero images  ---------------------------*/
 
 .gallery-hero-family{
-    background: url("../gallery/hero/lorem7.png")
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
 }
 
-.gallery-hero-children{
-    background: url("../gallery/hero/lorem6.png")
+.gallery-hero-flora{
+    background: url("../gallery/sub-gallery/flora/flora-10.jpg");
 }
 
 .gallery-hero-live-events{
-    background: url("../gallery/hero/lorem5.png")    
+    background: url("../gallery/sub-gallery/pets/pet-10.jpg");    
 }
 
 .gallery-hero-real-estate{
-    background: url("../gallery/hero/lorem4.png")   
+    background: url("../gallery/sub-gallery/exotic-pets/snake-10.jpg");   
 }
 
 .gallery-hero-product-placement{
-    background: url("../gallery/hero/lorem3.png")    
+    background: url("../gallery/sub-gallery/photoshop/photoshop-3.jpg");    
 }
 
 .gallery-hero-retouch{
-    background: url("../gallery/hero/lorem2.png")   
+    background: url("../gallery/hero/lorem-background.jpg");   
 }
 
 
 
 
-/*-------------------------  gallery Scroll spy children  ---------------------------*/
+/*-------------------------  Sub Gallery Scroll Spy -- Nav bar   ---------------------------*/
 
 .sub-gallery-nav-color {
     background-color: rgb(148, 168, 221);
@@ -415,85 +452,85 @@ body {
     width: 20vw;
     height: 80vh;
     padding: 0px 13px;
-    border: 32px outset #007489;   /*bca0dc*/ 
+    border: 32px groove #bca0dc;                /* #007489;     outset*/   /*bca0dc*/ 
 }
 
-/*-------------------------  Children sub gallery Full size pictures  ---------------------------*/
+/*-------------------------   Sub Gallery Family -- Full -- size pictures  ---------------------------*/
 
 .child-1-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-2-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-3-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-4-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-5-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-6-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-7-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-8-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-9-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .child-10-full {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-/*-------------------------  Children sub gallery nav bar  ---------------------------*/
+/*-------------------------  Sub Gallery Family -- nav -- bar  ---------------------------*/
 
 .child-1 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -502,7 +539,7 @@ body {
 }
 
 .child-2 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -511,7 +548,7 @@ body {
 }
 
 .child-3 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -520,7 +557,7 @@ body {
 }
 
 .child-4 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -529,7 +566,7 @@ body {
 }
 
 .child-5 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -538,7 +575,7 @@ body {
 }
 
 .child-6 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -547,7 +584,7 @@ body {
 }
 
 .child-7 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -556,7 +593,7 @@ body {
 }
 
 .child-8 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -565,7 +602,7 @@ body {
 }
 
 .child-9 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
     height: 50px;
     width: 100px;
     background-position: center;
@@ -574,13 +611,867 @@ body {
 }
 
 .child-10 {
-    background: url("../images/lens.jpg");
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
     height: 50px;
     width: 100px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*-------------------------   Sub Gallery location -- Full -- size pictures  ---------------------------*/
+
+.location-1-full {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-2-full {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-3-full {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-4-full {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-5-full {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-6-full {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-7-full {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-8-full {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-9-full {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-10-full {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------  Sub Gallery Location -- nav -- bar  ---------------------------*/
+
+.location-1 {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-2 {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-3 {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-4 {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-5 {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-6 {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-7 {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-8 {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-9 {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.location-10 {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------   Sub Gallery Pets -- Full -- size pictures  ---------------------------*/
+
+.pets-1-full {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-2-full {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-3-full {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-4-full {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-5-full {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-6-full {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-7-full {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-8-full {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-9-full {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-10-full {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------  Sub Gallery Pets -- nav -- bar  ---------------------------*/
+
+.pets-1 {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-2 {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-3 {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-4 {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-5 {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-6 {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-7 {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-8 {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-9 {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pets-10 {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------   Sub Gallery Exotic pets -- Full -- size pictures  ---------------------------*/
+
+.exotic-pets-1-full {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-2-full {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-3-full {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-4-full {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-5-full {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-6-full {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-7-full {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-8-full {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-9-full {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-10-full {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------  Sub Gallery exotic pets -- nav -- bar  ---------------------------*/
+
+.exotic-pets-1 {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-2 {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-3 {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-4 {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-5 {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-6 {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-7 {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-8 {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-9 {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exotic-pets-10 {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------   Sub Gallery photoshop -- Full -- size pictures  ---------------------------*/
+
+.photoshop-1-full {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-2-full {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-3-full {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-4-full {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-5-full {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-6-full {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-7-full {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-8-full {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-9-full {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-10-full {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------  Sub Gallery photoshop -- nav -- bar  ---------------------------*/
+
+.photoshop-1 {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-2 {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-3 {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-4 {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-5 {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-6 {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-7 {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-8 {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-9 {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photoshop-10 {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------   Sub Gallery Family -- Full -- size pictures  ---------------------------*/
+/*
+.child-1-full {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-2-full {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-3-full {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-4-full {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-5-full {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-6-full {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-7-full {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-8-full {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-9-full {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-10-full {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------  Sub Gallery Family -- nav -- bar  ---------------------------*/
+/*
+.child-1 {
+    background: url("../gallery/sub-gallery/family/family-1.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-2 {
+    background: url("../gallery/sub-gallery/family/family-2.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-3 {
+    background: url("../gallery/sub-gallery/family/family-3.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-4 {
+    background: url("../gallery/sub-gallery/family/family-4.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-5 {
+    background: url("../gallery/sub-gallery/family/family-5.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-6 {
+    background: url("../gallery/sub-gallery/family/family-6.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-7 {
+    background: url("../gallery/sub-gallery/family/family-7.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-8 {
+    background: url("../gallery/sub-gallery/family/family-8.jpg");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-9 {
+    background: url("../gallery/sub-gallery/family/family-9.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.child-10 {
+    background: url("../gallery/sub-gallery/family/family-10.JPG");
+    height: 50px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*/
+
+
+/*-------------------------  Gallery structure  ---------------------------*/
+
+
+
+.gallery-spacer {
+    padding: 35px 0;
+}
+
+.gallery-text span {
+    position: relative;
+    font-family: "Playfair Display SC", sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 27px;
+    color: #000;
+    top: -50px;
+}
+
+.gallery-hero {
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+    border: 15px groove #bca0dc;
+    background-color: #bca0dc
+   /* object-fit: cover; */
+}
+
+
 
 /*-------------------------  Contact  ---------------------------*/
 
