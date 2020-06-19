@@ -7,24 +7,25 @@
 /* Fredericka+the+Great, Marck+Script, Bad+Script, Playfair+Display+SC, Vidaloka   */
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Fredericka+the+Great&family=Marck+Script&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Vidaloka&display=swap');
 
+/*-------------------------  Base value correction  ---------------------------*/
 
-
-body { /* all pass */
-    margin: 0;
-    padding: 0;
-    border: 0;
+body { 
     line-height: .9;
-    width: 100%;
     text-align: center;
 }
 
-.container-fluid { /* all pass */
+.container-fluid {
     padding: 0;
     margin: 0;
 }
 
-.no-gutters {
-    padding: 0;
+hr {
+    border-top: 2px solid black;
+    width: 50%;
+}
+
+.upper{
+    text-transform: uppercase;
 }
 
 /*-------------------------  background color  ---------------------------*/
@@ -55,6 +56,17 @@ body {
     background-color: #007489;
 }
 
+.footer-color {
+    background-color: #dad5e0; 
+}
+
+.background-color-gallery{
+    /*background-color: #bca0dc;        /* model after this!!  bca0dc*/       /* #d6b4e7 */       /* #3d4849 previous */
+    background-color:rgba(188, 160, 220, .5);  /* EXTRA IDEAS!!!*/
+}
+
+/*-------------------------  Hover and hover :before color  ---------------------------*/
+
 #nav .nav-home .hvr-radial-in:before {
     background: #ffabab;
 }
@@ -75,31 +87,61 @@ body {
     background: #007489;
 }
 
-/*-------------------------  Nav Bar  ---------------------------*/
+.footer-social ul a:hover {
+    color: #fff;
+}
 
-.container-space { /* all pass *//* Conjoined with #nav li */
+
+/*-------------------------   background sub color   ---------------------------*/
+
+.home-body,
+.home-body div {                    /*  hero border color  */
+    background-color: #fbd2d7              /*  #ffc2c2         previous */
+}
+
+.services{
+    background-color: #f69552; 
+}
+
+.work {
+    background-color: #bca0dc;
+}
+
+.services1 {
+    background-color: #007489;
+}
+
+.services2 {
+    background-color:#ffabab;
+}
+
+.services3 {
+    background-color: #bca0dc;
+}
+
+.services4 {
+    background-color: #f69552;
+}
+
+/*-------------------------  Nav Bar formation and alignment  ---------------------------*/
+
+.container-space { /* removes 1px division *//* Conjoined with #nav li */
     font-size: 0;
 }
 
-#nav li { /* all pass *//* first two Conjoined with .container-space*/
-    font-size: 14px;
-    padding-left: 0;
+#nav li {         /* first two Conjoined with .container-space*/
+    padding-left: 0;        /* paddings cover MM signiture over picture*/
     padding-right: 0;
 
     display: inline-block;
-    text-align: center;
-    height: 150px;  /* COUNTER PART HEIGHT .hvr-radial-in */
-
+    height: 150px;  /* COUNTER PART HEIGHT (Removes 1px division) .hvr-radial-in */
 }
 
-#nav { /* all pass */
+#nav { 
     margin-bottom: 0;
-
 }
 
-#nav li a  { /* all pass */
-   /* position: inherit; */
-    width: 100%;
+#nav li a  {
     text-decoration: none;
     font-family: "Playfair Display SC", sans-serif;
     padding-top: 40px;
@@ -112,100 +154,87 @@ body {
 }
 
 #nav li a span,
-#nav li a i {  /* all pass */
+#nav li a i {  
     display: block;
 }
 
-.logo { /* all pass SUPER HERO IMAGE */
+/*-------------------------  Logo on nav  ---------------------------*/
+
+
+.logo { 
     background: url("../images/lens3.jpg");
-    
     background-position: center;
     background-repeat: no-repeat;
-    background-position-y: -335px;
+    background-position-y: -335px;   /*  double check on different screen ratios allows name to appear between lens  */
+  /*  background-position-y: center  */   /* USE ME IF LOGO CHANGES  */
 }
 
-#nav .logo a { /* all pass SUPER HERO TEXT*/
+#nav .logo a { 
     font-family: "tangerine", sans-serif;
     font-weight: 700; 
     font-size: 70px;
     padding-top: 2px;
     letter-spacing: 2px;
-    
+    }
 
-}
+/*-------------------------  Hover (lens effect and slow fade)  ---------------------------*/
 
-.upper{
-    text-transform: uppercase;
-}
-
-/*-------------------------  Hover (lens effect)  ---------------------------*/
-
-.hvr-radial-in { /* all pass   COUNTER PART HEIGHT #nav li*/
+.hvr-radial-in { /*  COUNTER PART HEIGHT #nav li  */
     background: rgba(0,0,0,.25);
     color: #000;
-    position: inherit;
     height: 150px;
     width: 100%;
 }
 
-.hvr-radial-in:before { /* all pass */
-    transition-duration: .3s;
+.hvr-radial-in:before { 
+    transition-duration: .25s;
 }
 
-/*-------------------------  Hero + image  ---------------------------*/
+/*-------------------------  Hero Image Index  ---------------------------*/
 
-.hero {
-    background: url("../hero-modal/lorem1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
+.hero-padding {
+    padding: 30px 0;
 }
 
-.hero-frame {
-    height: 80vh;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/*-------------------------  index hero carousel  ---------------------------*/
+
+.carousel-icon-base div div {
+   /* background-color: #606060; */
+    background-color:rgba(96, 96, 96, .15)
 }
-/*-------------------------  Passed Demo  ---------------------------*/
 
+.carousel-text-base div {
+    color:#000;
+}
 
+.carousel-icon-base a {
+    width: 3vw;
+    background-color: #606060               /*#890345  magenta*/
+   /* background-color: rgba(0,0,0,.15); */
+}
 
+.carousel-icon-base ol {
+    background-color: rgba(0,0,0,.15);   
+}
 
-/*-------------------------  DEMO  ---------------------------*/
+/*-------------------------  SUB HERO Index ---------------------------*/
 
-
-/*-------------------------  SUB HERO  ---------------------------*/
-
-.vision-work div {
+.services-work div {
     height: 300px;
     font-family: "Playfair Display SC", sans-serif;
     letter-spacing: 2px;
     font-weight: 500;
     color: #000;
-    text-align: center;
 }
 
-.vision{
-    background-color: #f69552; 
-}
-
-.work {
-    background-color: #bca0dc;
-}
-
-.vision h3,
+.services h3,
 .work h3 {
-    letter-spacing: 2px;
     font-size: 50px;
     padding-top: 12px;
     padding-bottom: 10px;
 }
 
-.vision p {
+.services p {
     padding-top: 13px;
     padding-left: 50px;
     padding-right: 50px;
@@ -218,39 +247,16 @@ body {
     list-style-type: none;
 }
 
-
-hr {
-    border-top: 2px solid black;
-    width: 50%;
-}
-
-
 /*-------------------------  FOOTER  ---------------------------*/
 
 .footer-frame div{
     font-family: "Playfair Display SC", sans-serif;
-    display: inline-block;
-}
-
-.footer-contact {
-    background-color: #dad5e0; 
-    height: 100px;
-}
-
-.footer-area {
-    background-color: #dad5e0;
-    height: 100px;
-    display: inline;
 }
 
 .footer-social {
-    font-family: "Playfair Display SC", sans-serif;
-    background-color: #dad5e0;
     height: 200px;
     font-weight: 700;
 }
-
-
 
 .footer-social h5 {
     text-align: center;
@@ -263,10 +269,6 @@ hr {
 
 .footer-social ul li {
     padding: 40px 13px;
-
-    
-    
-
 }
 
 .footer-social ul li i {
@@ -276,28 +278,19 @@ hr {
     border-radius: 50%;
     background-color: rgba(0,0,0,.25);
     padding-top: 12px;
-    /*border: #000 solid 1px; */
-
 }
 
-.social-shutter ul a {
-    transition: all 3s ease;
+.footer-social ul li a {   /* change to shutter effect*/
+   /* transition: all 1.5s ease-out; */
     color: #000;
-    transition-delay: .2s;
-    transition-duration: 3s;
-    text-decoration: none;
+    transition-delay: .5s;
+   /* transition-duration: 1.5s; *//* used in short hand property */
+    text-decoration: none;  
 }
 
-.social-shutter ul a:hover {
-    color: #fff;
-    
-
-}
-
-
-
-.footer-contact div h5 {
-   /* font-size: 23px;*/
+.footer-social ul li i:hover {
+    transition-duration: 4s;
+    transform: rotate(360deg);
 }
 
 .footer-lock {
@@ -306,15 +299,10 @@ hr {
 }
 
 .footer-key {
-
     font-weight: 600;
 }
 
-.x {
-    text-align: center;
-}
-
-.x p {
+.footer-lock-key-pad div p {
     padding: 13px 0;
 }
 
@@ -323,104 +311,61 @@ hr {
     width: 100%;
 }
 
-
-.carousel-text-base {
-    color: #000;
-}
-
-.carousel-text-base div {
-    color:#000;
-}
-
-.carousel-icon-base a {
-    width: 3vw;
-    background-color: rgba(0,0,0,.15);
-}
-
-.carousel-icon-base ol {
-    background-color: rgba(0,0,0,.15);
-   
-}
-
-.social-shutter {
-
-}
-
 .form-button a{
     border: #000 solid 1px; 
     color: #000;
    /* background-color: #007489; */
     background-color: rgba(0,0,0,.25)
+
 }
 
 .form-button a:hover {
     background-color: #fff;
     color: #000;
-    transition-duration: 3s;
+    transition-duration: 1.5s;
 }
 
-/*-------------------------  Services  ---------------------------*/
 
-/*-------------------------  Gallery photos  ---------------------------*/
+/*-------------------------  Gallery Hero images  ---------------------------*/
 
-.hero-ul-gallery{
+.gallery-hero-family{
     background: url("../gallery/hero/lorem7.png")
 }
 
-.hero-ur-gallery{
+.gallery-hero-children{
     background: url("../gallery/hero/lorem6.png")
 }
 
-.hero-ml-gallery{
+.gallery-hero-live-events{
     background: url("../gallery/hero/lorem5.png")    
 }
 
-.hero-mr-gallery{
+.gallery-hero-real-estate{
     background: url("../gallery/hero/lorem4.png")   
 }
 
-.hero-ll-gallery{
+.gallery-hero-product-placement{
     background: url("../gallery/hero/lorem3.png")    
 }
 
-.hero-lr-gallery{
+.gallery-hero-retouch{
     background: url("../gallery/hero/lorem2.png")   
 }
 
 
-/*-------------------------  Gallery  ---------------------------*/
-
-.hero-frame-gallery {
-    height: 80vh;
-    width: 100%;
-}
+/*-------------------------  Gallery structure  ---------------------------*/
 
 .gallery-spacer {
     padding: 35px 0;
 }
 
-.gallery-border {
-
-}
-
-.hero-gallery {
+.gallery-hero {
     height: 30vh;
     width: 30vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border: 15px groove;
-}
-
-
-.background-color-gallery{
-    /*background-color: #bca0dc;        /* model after this!!  bca0dc*/       /* #d6b4e7 */       /* #3d4849 previous */
-    background-color:rgba(188, 160, 220, .5);  /* EXTRA IDEAS!!!*/
-}
-
-.y {
-    border: 10px double #000;
-    background-color: rebeccapurple;
 }
 
 /*-------------------------  gallery Scroll spy children  ---------------------------*/
@@ -441,7 +386,7 @@ hr {
     display: inline-block;
 }
 
-.nav-link-pad li {
+.nav-link-pad li {  /* padding for top in page links*/
     padding: 13px 12px;
 
 }
@@ -450,13 +395,10 @@ hr {
     width: 20vw;
     height: 80vh;
     padding: 0px 13px;
+    border: 40px outset #007489;   /*bca0dc*/ 
 }
 
-
-
-
 /*-------------------------  Children sub gallery Full size pictures  ---------------------------*/
-
 
 .child-1-full {
     background: url("../images/lens.jpg");
@@ -623,3 +565,62 @@ hr {
 
 
 /*-------------------------  Contact  ---------------------------*/
+
+.form-background-color {
+    background-color: rgba(0, 116, 137,.25)
+}
+
+.form-text {
+    font-family: "Playfair Display SC", sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.form-spacing {
+    padding: 43px 3px;
+}
+
+
+.input-spacing div,
+.input-spacing div div {
+    padding-top: 13px;
+}
+
+#radio-padding,
+#radio-padding div label,
+#radio-padding div input {
+    padding: 0;
+}
+
+.form-spacing label {
+    padding: 27px 0;
+}
+
+.form-name {
+    float: left;
+}
+
+.form-email {
+    float: right;
+    padding: 23px 17px;
+}
+
+.form-button {
+    float:left;
+}
+
+.form-header {
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+
+.form-color {
+    background-color: rgb(148, 168, 221);
+}
+
+.form-color div {
+    padding: 5px 23px;
+    margin: 5px 23px;
+}
