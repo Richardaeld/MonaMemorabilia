@@ -30,15 +30,21 @@ body {
 }
 
 .sub-hero-odd {
-    background-color: #bca0dc;
+   /* background-color: #bca0dc;*/
+    background-color: rgba(166, 98, 197, 0.568)
 }
 
 .sub-hero-even {
-    background-color: #f69552;
+   /* background-color: #f69552;*/
+    background-color: rgba(255, 115, 0, 0.459)
 }
 
 .footer-color {
     background-color:rgb(250, 222, 225);
+}
+
+.sub-hero-header {  /*  still idea optional stage   */
+    background-color: rgba(39, 180, 46, 0.377)
 }
 
 /*    -------------------------  header               ------------------*/
@@ -110,46 +116,31 @@ body {
 
 /*    -------------------------  footer               ------------------*/
 
-.footer-gutter {
-    padding: 0;
-    margin: 0;
-}
 
-.footer-gutter div div div div div {
-    padding: 0;
-}
-
-.footer-frame div {
+.footer-contact-frame {
     font-family: "Playfair Display SC", sans-serif;
-    display: inline;
-}
-
-.footer-contact {
     text-align: center;
 }
-
-.footer-contact div div a {
-    text-decoration: none;
-}
-
-.footer-contact div a:hover {
-    color: #fff;
-}
-
-.footer-contact div a {
-    color: #000;
-}
-
-.footer-contact div p {
-    padding: 7px 0;
-}        
-
-.footer-contact div {
+.footer-contact-text {
     display: inline-block;
-    width: 100%;
 }
+
+.footer-contact-text div {
+    display: inline-block;
+}
+
+
+
+.footer-contact-text div a {
+    display: block;
+}
+
+
+
 
 .footer-social {
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     height: 200px;
 }
@@ -182,6 +173,9 @@ body {
     color: #fff;
 }
 
+.footer-form {
+    align-content: 
+}
 
 
 /*
