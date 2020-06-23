@@ -1,24 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
 
-/*    -------------------------  Color               ------------------*/
+/*    -------------------------  Base and Color   ------------------*/
 
 body {
-    background-color: #fbd2d7;
+
+   /*background-color: rgba(250, 222, 225);*/
+   /* background-color: rgba(143, 59, 177, 0.432); */
+   /* background-color: rgba(126, 81, 231, 0.274) */
+   /* background-color: rgba(83, 144, 223, 0.562);*/
+  /*  background-color: #fbd2d7;*/ /* same color!*/
+   /* background-color: rgb(251, 210, 215); */
+    
+
 }
 
+hr {
+    border: 1px solid #000;
+    width: 50%;
+}
 .upper {
     text-transform: uppercase;
 }
 
 .custom-navbar{
-    background: rgb(250, 222, 225) !important;
-    /*background: #bca0dc !important;
-    /*background: rgb(148, 168, 221) !important; */
+    background-color: rgb(251, 210, 215) !important;
+
+/*    background-color: #f2c6f4 !important;  */ /* Transparent effect light purple  */
+    /*background-color: rgba(143, 59, 177, 0.432) !important; */
+    /*background-color: rgba(143, 59, 177, 0.432) !important; */
+    /*background: rgb(250, 222, 225) !important;*/  /* most recent */
+    /*background: #bca0dc !important; */
+    /*background: rgb(148, 168, 221) !important; */         /*  playing with different colors   */ 
     /*background: #f7ae7a !important;	*/
+    
+}
+
+.hero-frame {
+    background-color: rgba(126, 81, 231, 0.274);
 }
 
 .hero-carousel-pad {
-    background-color: rgba(250, 222, 225);
+
+    background-color: rgb(251, 210, 215);
+
+   /* background-color: #f2c6f4;*/       /* lavander */
+   /* background-color: rgba(250, 222, 225);   /*  fadded red  */
+   /*background-color: rgb(251, 210, 215);  */
 }
 
 .hero-carousel div a:hover {
@@ -26,25 +53,35 @@ body {
 }
 
 .sub-hero-frame {
-    background-color: rgb(250, 222, 225);
-}
-
-.sub-hero-odd {
-   /* background-color: #bca0dc;*/
-    background-color: rgba(166, 98, 197, 0.568)
-}
-
-.sub-hero-even {
-   /* background-color: #f69552;*/
-    background-color: rgba(255, 115, 0, 0.459)
-}
-
-.footer-color {
-    background-color:rgb(250, 222, 225);
+   /* background-color: rgb(250, 222, 225); */
 }
 
 .sub-hero-header {  /*  still idea optional stage   */
-    background-color: rgba(39, 180, 46, 0.377)
+    background-color: rgba(201, 163, 40, 0.377);
+}
+
+.sub-hero-odd {
+    height: 325px;
+
+    background-color: rgba(119, 211, 33, 0.363);
+   /* background-color: #bca0dc;*/
+  /*  background-color: rgba(166, 98, 197, 0.568); */
+}
+
+.sub-hero-even {
+    height: 325px;
+    background-color: rgba(17, 216, 173, 0.342);
+   /* background-color: #f69552;*/
+    /*background-color: rgba(255, 115, 0, 0.459); */
+}
+
+
+
+.footer-color {
+    
+   /* background-color: rgba(126, 81, 231, 0.274); */  /* grey lavander  */
+   /* background-color:rgb(250, 222, 225); */
+    background-color: rgba(0,0,0,.25); 
 }
 
 /*    -------------------------  header               ------------------*/
@@ -54,7 +91,8 @@ body {
     font-family: "Tangerine", sans-serif;
     letter-spacing: 2px;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 55px;
+    margin-top: 30px;
 }
 
 @media (min-width: 768px){
@@ -74,6 +112,23 @@ body {
 
 .custom-navbar {
     font-family: "Playfair Display SC", sans-serif;
+}
+
+.custom-nav-header {
+    font-family: "Tangerine", sans-serif;
+    font-size: 30px;
+    padding: 3px 6px;
+    margin: 0;
+    border: 5px groove #f2c6f4;
+    /*border: 2px groove  rgba(166, 98, 197, 0.568);*/
+    
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.custom-nav-header span {
+    position: relative;
+    right: 4px;
 }
 
 /*    -------------------------  carousel               ------------------*/
@@ -97,6 +152,10 @@ body {
     font-size: 15px;
 }
 
+.hero-margin {
+    padding-bottom: 40px;
+}
+
 /*    -------------------------  Sub Hero               ------------------*/
 
 .sub-hero-frame{
@@ -104,12 +163,21 @@ body {
     letter-spacing: 2px;
     font-size: 20px;
     text-align: center;
-    position: relative;
 }
 
-.sub-hero-frame ul {
+.sub-hero-frame div h3 {
+    padding-top: 13px;
+}
+
+.sub-hero-frame div span {
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.sub-hero-frame ul li {
     list-style-type: none;
-    font-size: 15px
+    font-size: 15px;
+    padding: 5px 0;
 }
 
 
@@ -125,18 +193,24 @@ body {
     display: inline-block;
 }
 
-.footer-contact-text div {
-    display: inline-block;
+.footer-contact-text h3 {
+    padding-top: 10px;
 }
 
+.footer-contact-text div {
+    display: inline-block;
 
+}
 
 .footer-contact-text div a {
     display: block;
+    text-decoration: none;
+    color: #000;
 }
 
-
-
+.footer-contact-text div a:hover {
+    color: #fff;
+}
 
 .footer-social {
     padding-top: 10px;
@@ -168,14 +242,11 @@ body {
 }
 
 .footer-social ul li i:hover {
-    transition-duration: 4s;
+    transition-duration: 3s;
     transform: rotate(360deg);
     color: #fff;
 }
 
-.footer-form {
-    align-content: 
-}
 
 
 /*
