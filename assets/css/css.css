@@ -89,10 +89,12 @@ hr {
 
 
 .footer-color {
+    background-color: #808080;
+    color: #fff;
     
    /* background-color: rgba(126, 81, 231, 0.274); */  /* grey lavander  */
    /* background-color:rgb(250, 222, 225); */
-    background-color: rgba(0,0,0,.25); 
+
 }
 
 /*    -------------------------  header               ------------------*/
@@ -126,8 +128,7 @@ hr {
 }
 
 @media (min-width: 1200px) {
-    .logo {padding-top: 30px;
-
+    .logo {padding-top: 30px;    
     }
 
 
@@ -228,17 +229,22 @@ hr {
 
 .footer-contact-text div {
     display: inline-block;
+}
 
+.footer-contact-text {
+    color: #fff;
 }
 
 .footer-contact-text div a {
     display: block;
     text-decoration: none;
-    color: #000;
+    color: #fff;
+
 }
 
 .footer-contact-text div a:hover {
-    color: #fff;
+    font-size: 17px;
+    color: #32ed38;
 }
 
 .footer-social {
@@ -266,17 +272,35 @@ hr {
 }
 
 .footer-social ul li a {   /* change to shutter effect*/
-    color: #000;
+    color: #fff;
     transition-delay: .5s;
 }
 
 .footer-social ul li i:hover {
-    transition-duration: 3s;
+    background-color: #000;
+    transition-duration: 2s;
     transform: rotate(360deg);
-    color: #fff;
+    color: #32ed38;
 }
 
+.custom-button {
+    /*background-color:rgb(236, 149, 50);*/
+    background-color: rgba(0,0,0,.25);
+    color:#fff;
+}
 
+.custom-button:hover {
+
+    background-color: #32ed38;
+    background-color: #000;
+    color: #32ed38;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.x {
+    width: 100%;
+}
 
 /*
 
