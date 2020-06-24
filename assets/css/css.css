@@ -4,12 +4,23 @@
 
 body {
 
-   /*background-color: rgba(250, 222, 225);*/
-   /* background-color: rgba(143, 59, 177, 0.432); */
-   /* background-color: rgba(126, 81, 231, 0.274) */
-   /* background-color: rgba(83, 144, 223, 0.562);*/
-  /*  background-color: #fbd2d7;*/ /* same color!*/
-   /* background-color: rgb(251, 210, 215); */
+  /*  background-color: #eafacf;  */
+  /*  background-color: #cffaf5;  */
+   /* background-color: #e0cffa;   
+
+  /*  background-color: #a1d89b;    */
+
+
+  /*  background-color: rgba(119, 211, 33, 0.541);  Warm green */
+  /*  background-color: rgba(2, 241, 182, 0.274);  */
+  /*  background-color: rgba(33, 140, 211, 0.363);  blue */
+  /*  background-color: rgba(119, 211, 33, 0.363)    green     */
+  /*  background-color: rgba(250, 222, 225);            */
+  /*  background-color: rgba(143, 59, 177, 0.432);        */ 
+  /*  background-color: rgba(126, 81, 231, 0.274) ;         */
+  /*  background-color: rgba(83, 144, 223, 0.562);          */
+  /*  background-color: #fbd2d7; /* same color!           */
+  /*  background-color: rgb(251, 210, 215);             */
     
 
 }
@@ -36,12 +47,12 @@ hr {
 }
 
 .hero-frame {
-    background-color: rgba(126, 81, 231, 0.274);
+   /* background-color: rgba(126, 81, 231, 0.274); */
 }
 
 .hero-carousel-pad {
 
-    background-color: rgb(251, 210, 215);
+    background-color: rgba(56, 123, 211, 0.39);
 
    /* background-color: #f2c6f4;*/       /* lavander */
    /* background-color: rgba(250, 222, 225);   /*  fadded red  */
@@ -86,26 +97,48 @@ hr {
 
 /*    -------------------------  header               ------------------*/
 
-.logo h1 {
-    font-size: 50px;
+.logo {
     font-family: "Tangerine", sans-serif;
-    letter-spacing: 2px;
     text-align: center;
-    padding-top: 55px;
-    margin-top: 30px;
+    letter-spacing: 2px;
 }
 
+.logo h1 {
+    font-size: 50px;
+    padding: 12px 0;
+}
+
+
+
+.logo h3,
+.logo h2 {
+    padding: 12px 20px;
+    font-size: 40px;
+}
+
+
 @media (min-width: 768px){
+
+
     .logo h1 {
         font-size: 100px;
     }
 }
 
+@media (min-width: 1200px) {
+    .logo {padding-top: 30px;
+
+    }
+
+
+}
+
+/*
 @media (min-width: 768px){
     .hero-carousel-pad h3 {
         font-size: 25px;
     }
-}
+} */
 
 
 /*    -------------------------  navbar               ------------------*/
@@ -116,7 +149,7 @@ hr {
 
 .custom-nav-header {
     font-family: "Tangerine", sans-serif;
-    font-size: 30px;
+    font-size: 30px; 
     padding: 3px 6px;
     margin: 0;
     border: 5px groove #f2c6f4;
@@ -134,9 +167,7 @@ hr {
 /*    -------------------------  carousel               ------------------*/
 
 .hero-carousel {
-    padding-bottom: 35px;
-    margin: 25px 20px;
-    max-width: 925px;
+  /*  max-width: 925px; */
 }
 
 .hero-carousel div a { 
@@ -148,12 +179,10 @@ hr {
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
     letter-spacing: 2px;
-    padding: 25px 0 20px 0;
-    font-size: 15px;
+    /*font-size: 15px; */
 }
 
 .hero-margin {
-    padding-bottom: 40px;
 }
 
 /*    -------------------------  Sub Hero               ------------------*/
