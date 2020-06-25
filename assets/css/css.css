@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
 
-/*    -------------------------  Base and Color   ------------------*/
+/*    -------------------------  Default settings and Color   ------------------*/
      /*                     PHOTO RATIO!!!   960 x 768                    */
 body {
 }
@@ -14,11 +14,20 @@ hr {
     text-transform: uppercase;
 }
 
+.nav-pad {
+    height: 76px;
+}
+
 .custom-navbar{
     background-color: rgb(251, 210, 215) !important;   
 }
 
 .hero-frame {
+}
+
+.logo {
+    background-color: #e0cffa;
+    background-color: #D2D7FA; /*  test color  */
 }
 
 .hero-carousel-pad {
@@ -39,16 +48,41 @@ hr {
 .sub-hero-odd {
     height: 325px;
     background-color: rgba(119, 211, 33, 0.363);
+    background-color: #d7fad2; /*  test color  */
 }
 
 .sub-hero-even {
     height: 325px;
     background-color: rgba(17, 216, 173, 0.342);
+    background-color: #fae1d2; /*  test color  */
 }
 
 .footer-color {
     background-color: #808080;
     color: #fff;
+}
+
+/*    -------------------------  navbar               ------------------*/
+
+.custom-navbar {
+    font-family: "Playfair Display SC", sans-serif;
+}
+
+.custom-nav-header {
+    font-family: "Tangerine", sans-serif;
+    font-size: 30px; 
+    padding: 3px 6px;
+    margin: 0;
+    border: 5px groove #f2c6f4;
+    /*border: 2px groove  rgba(166, 98, 197, 0.568);*/
+    
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.custom-nav-header span {
+    position: relative;
+    right: 4px;
 }
 
 /*    -------------------------  header               ------------------*/
@@ -94,28 +128,7 @@ hr {
 } */
 
 
-/*    -------------------------  navbar               ------------------*/
 
-.custom-navbar {
-    font-family: "Playfair Display SC", sans-serif;
-}
-
-.custom-nav-header {
-    font-family: "Tangerine", sans-serif;
-    font-size: 30px; 
-    padding: 3px 6px;
-    margin: 0;
-    border: 5px groove #f2c6f4;
-    /*border: 2px groove  rgba(166, 98, 197, 0.568);*/
-    
-    border-radius: 50%;
-    font-weight: bold;
-}
-
-.custom-nav-header span {
-    position: relative;
-    right: 4px;
-}
 
 /*    -------------------------  carousel               ------------------*/
 
@@ -174,6 +187,12 @@ hr {
 
 .footer-contact-text {
     display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-contact-text {
+    color: #fff;
 }
 
 .footer-contact-text h3 {
@@ -184,15 +203,20 @@ hr {
     display: inline-block;
 }
 
-.footer-contact-text {
-    color: #fff;
-}
-
 .footer-contact-text div a {
     display: block;
     text-decoration: none;
     color: #fff;
 
+}
+
+.footer-com {
+    padding-bottom: 50px;
+
+}
+
+.footer-com p {
+    padding-top: 5px;
 }
 
 .footer-com a {
@@ -215,6 +239,7 @@ hr {
     border: 2px solid rgba(0,0,0,.25);
     background-color: rgba(0,0,0,.10);
     color:#000;
+    padding-bottom: 5px;
 }
 
 .custom-button:hover {
@@ -232,7 +257,7 @@ hr {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    height: 200px;
+    min-height: 200px;
 }
 
 .footer-social ul li {
@@ -281,9 +306,7 @@ hr {
 
 /*    -------------------------  contact us              ------------------*/
 
-.nav-pad {
-    height: 76px;
-}
+
 
 .form-frame {
     background-color: rgba(119, 211, 33, 0.363);
