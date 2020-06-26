@@ -354,10 +354,23 @@ hr {
 
 
 .form-frame {
-    background-color: rgba(119, 211, 33, 0.363);
+    background-color: #a9a9a9;
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
-    padding-top: 25px;
+    color: #fff;
+}
+
+.contact-header h3 {
+    padding: 7px 0;
+    
+}
+
+.form-frame-color {
+    /*background-color: rgba(119, 211, 33, 0.363); */ /* looks great with white background */
+    background-color: #d7fad2;
+    margin-bottom: 30px;
+    color: #000;
+    border: 6px groove teal;
 }
 
 .form-row div label {
