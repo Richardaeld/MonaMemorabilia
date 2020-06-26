@@ -3,10 +3,11 @@
 /*    -------------------------  Default settings and Color   ------------------*/
      /*                     PHOTO RATIO!!!   960 x 768                    */
 body {
+
 }
 
 hr {
-    border: 1px solid #000;
+    border: 2px solid #fff;
     width: 50%;
 }
 
@@ -15,19 +16,30 @@ hr {
 }
 
 .nav-pad {
+
     height: 76px;
+    background-color: #010203;
 }
 
 .custom-navbar{
-    background-color: rgb(251, 210, 215) !important;   
+   /* background-color: rgb(251, 210, 215) !important; */  
+    background-color: #e3e3e3 !important;   /*  Test */
+    background-color: #010203 !important;  /*  test pop*/
+    background-color: rgba(1, 2, 3, .90) !important; /* test pop 2*/
+}
+
+.custom-navbar-gallery{
+    background-color: #e3e3e3 !important;   
 }
 
 .hero-frame {
 }
 
 .logo {
-    background-color: #e0cffa;
+    background-color: #e0cffa; /* original */
     background-color: #D2D7FA; /*  test color  */
+    background-color: #004040; /*  test color pop*/
+    background-color: #010203; /*  test color pop 2*/
 }
 
 .hero-carousel-pad {
@@ -39,6 +51,7 @@ hr {
 }
 
 .sub-hero-frame {
+
 }
 
 .sub-hero-header {  /*  still idea optional stage   */
@@ -46,19 +59,30 @@ hr {
 }
 
 .sub-hero-odd {
+
     height: 325px;
     background-color: rgba(119, 211, 33, 0.363);
     background-color: #d7fad2; /*  test color  */
+    background-color: #400040; /*  test color pop*/
+    background-color: #010203;
+    color: #fff;
 }
 
 .sub-hero-even {
     height: 325px;
     background-color: rgba(17, 216, 173, 0.342);
     background-color: #fae1d2; /*  test color  */
+    background-color: #400000; /*  test color pop*/
+    background-color: #010203;
+
+    color: #fff;
 }
 
 .footer-color {
     background-color: #808080;
+    background-color: #a9a9a9; /* test color pop*/
+    background-color: #004040; /*  test color pop 2*/
+    background-color: #484848;
     color: #fff;
 }
 
@@ -91,25 +115,34 @@ hr {
     font-family: "Tangerine", sans-serif;
     text-align: center;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 .logo h1 {
     font-size: 50px;
-    padding: 12px 0;
+    padding: 12px 13px;
 }
 
-.logo h3,
+.logo h3 {
+    padding:12px;
+    font-size: 17px;
+}
+
 .logo h2 {
-    padding: 12px 20px;
-    font-size: 40px;
+    padding: 12px 20px 17px 20px;
+    font-size: 20px;
 }
 
 
 @media (min-width: 768px){
-
-
     .logo h1 {
         font-size: 100px;
+    }
+    .logo h2{
+            font-size: 40px;
+    }
+    .logo h3 {
+        font-size: 30px;
     }
 }
 
@@ -164,7 +197,7 @@ hr {
     padding-top: 13px;
 }
 
-.sub-hero-frame div span {
+.sub-hero-frame div p {
     text-align: center;
     padding: 5px 15px;
 }
@@ -175,6 +208,18 @@ hr {
     padding: 5px 0;
 }
 
+.custom-button-light {
+    border: 2px solid #fffafa;
+    background-color: #a9a9a9;
+    color:#000;
+    padding-bottom: 5px;
+}
+
+.custom-button-light:hover {
+    background-color: #a9a9a9;
+    font-size: 20px;
+    color: #fff;
+}
 
 
 /*    -------------------------  footer   contact us       ------------------*/
@@ -345,4 +390,32 @@ hr {
 .radio-text label:hover {
     background-color: rgba(0,0,0,.50);
     color: #fff;
+}
+
+/*    -------------------------  gallery main             ------------------*/
+
+.photo-icons {
+    font-family: "Playfair Display SC", sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #737373;
+}
+
+.photo-icons img {
+    height: 200px;
+    padding: 13px 
+}
+
+.photo-icons a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.photo-icons a span {
+    display: block;
+    color: #fff;    
+}
+
+.photo-icons a span:hover {
+    color: #000;
 }
