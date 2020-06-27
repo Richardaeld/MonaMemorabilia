@@ -57,25 +57,30 @@
 		</div>
 
 	</nav>
-	<!------------------- Header  ------------------------------>
+	<!------------------- padding/headroom for navbar and form  ------------------------------>
 
 
-<header class="form-frame">
-    <div class="row justify-content-center">
+
+    <div class="row">
         <div class="col-12 nav-pad"></div>
-        <div class="col contact-header">
-            <h3>Contact Submission Form</h3>    
-        </div>
+        <div class="col-12 gallery-pad"></div>
     </div>
-</header>
-
-	<!-------------------  Form  ------------------------------>
 
 
-<section class="form-frame ">
+	<!-------------------  Form contains header and section ------------------------------>
+
+
+<div class="form-frame ">
 	<div class="d-flex justify-content-center">
+        
 		<div class="col-10 col-md-8 form-frame-color">
-
+        
+        <header class="col contact-header">            
+                <h3>Contact Submission Form</h3>    
+                <hr>            
+        </header>
+        
+        <section>
 			<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form input-spacing">
 
 				<div class="form-row">
@@ -125,15 +130,16 @@
                     <div class="col-12">                            
                         <div>
                             <a type="button">                                        
-                                <input class="btn custom-button" type="submit" value="Submit">  
+                                <input class="btn custom-button-contact" type="submit" value="Submit">  
                             </a>
                         </div>                           
                     </div>
                 </div>
 			</form>
-		</div>
+		</section>
+        </div>
 	</div>
-</section>
+</div>
 
 
 	<!------------------- footer contact us by --  social links  ------------------------------>

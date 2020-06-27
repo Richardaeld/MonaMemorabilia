@@ -43,16 +43,16 @@ hr {
 }
 
 .hero-carousel-pad {
-    background-color: rgba(56, 123, 211, 0.39);
+
+    /*background-color: rgba(56, 123, 211, 0.39);*/ /* shows with known bug */
+    background-color: #010203;
 }
 
 .hero-carousel div a:hover {
     background-color: rgba(238, 238, 238, .1);
 }
 
-.sub-hero-frame {
 
-}
 
 .sub-hero-header {  /*  still idea optional stage   */
     background-color: rgba(201, 163, 40, 0.377);
@@ -119,8 +119,9 @@ hr {
 }
 
 .logo h1 {
-    font-size: 50px;
     padding: 12px 13px;
+    font-size: 40px;
+
 }
 
 .logo h3 {
@@ -194,7 +195,7 @@ hr {
 }
 
 .sub-hero-frame div h3 {
-    padding-top: 13px;
+    padding: 13px 15px 0 15px;
 }
 
 .sub-hero-frame div p {
@@ -205,20 +206,26 @@ hr {
 .sub-hero-frame ul li {
     list-style-type: none;
     font-size: 15px;
-    padding: 5px 0;
+    padding: 5px 17px;
+}
+
+.sub-hero-frame div ul {
+    padding-left: 0;
 }
 
 .custom-button-light {
     border: 2px solid #fffafa;
     background-color: #a9a9a9;
+    border-radius: 5px;
     color:#000;
     padding-bottom: 5px;
 }
 
 .custom-button-light:hover {
-    background-color: #a9a9a9;
-    font-size: 20px;
-    color: #fff;
+    background-color: #fffafa;
+    color: #010203;
+    border: 2px solid #a9a9a9;
+    transition-duration: .25s;
 }
 
 
@@ -256,8 +263,7 @@ hr {
 }
 
 .footer-com {
-    padding-bottom: 50px;
-
+    padding-bottom: 25px;
 }
 
 .footer-com p {
@@ -351,7 +357,10 @@ hr {
 
 /*    -------------------------  contact us              ------------------*/
 
-
+.gallery-pad {
+    background-color: #a9a9a9;
+    height: 20px;
+}
 
 .form-frame {
     background-color: #a9a9a9;
@@ -362,15 +371,33 @@ hr {
 
 .contact-header h3 {
     padding: 7px 0;
-    
 }
+
+.contact-header hr {
+    border: 1px solid #010203;
+    width: 75%;
+}
+
+@media (min-width: 768px) {
+    .contact-header hr {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-header hr {
+        width: 60%;
+    }
+}
+
+
 
 .form-frame-color {
     /*background-color: rgba(119, 211, 33, 0.363); */ /* looks great with white background */
     background-color: #d7fad2;
     margin-bottom: 30px;
     color: #000;
-    border: 6px groove teal;
+    border: 6px groove #f5d2fa;
 }
 
 .form-row div label {
@@ -403,6 +430,20 @@ hr {
 .radio-text label:hover {
     background-color: rgba(0,0,0,.50);
     color: #fff;
+}
+
+.custom-button-contact {
+    border: 2px solid #fae1d2;
+    background-color: #8a8f8a;
+    color: #010203;
+    padding-bottom:5px;
+}
+
+.custom-button-contact:hover{
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, .50);
+    color: #fff;
+    transition: .25s;
 }
 
 /*    -------------------------  gallery main             ------------------*/
