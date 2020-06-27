@@ -433,15 +433,17 @@ hr {
 }
 
 .custom-button-contact {
-    border: 2px solid #fae1d2;
-    background-color: #8a8f8a;
+    border: 2px solid #0102036b;
+    background-color: rgba(0,0,0,.15);
     color: #010203;
     padding-bottom:5px;
+    padding: 6px 17px;
+    font-size: 19px;
 }
 
 .custom-button-contact:hover{
     border: 2px solid #fff;
-    background-color: rgba(0, 0, 0, .50);
+    background-color: #17a2b8;
     color: #fff;
     transition: .25s;
 }
