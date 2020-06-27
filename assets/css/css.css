@@ -201,7 +201,7 @@ hr {
 
 .sub-hero-frame div p {
     text-align: center;
-    padding: 5px 15px;
+    padding: 5px 30px;
 }
 
 .sub-hero-frame ul li {
@@ -462,13 +462,17 @@ hr {
 .photo-icons {
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
-    min-height: 100vh;
     background-color: #737373;
+}
+
+.photo-icons div {
+    margin: 15px 0;
 }
 
 .photo-icons img {
     height: 200px;
-    padding: 13px 
+    box-shadow: 7px 7px 14px #3a4034;
+
 }
 
 .photo-icons a {
@@ -478,7 +482,9 @@ hr {
 
 .photo-icons a span {
     display: block;
-    color: #fff;    
+    color: #fff;
+    padding: 5px 0 25px 0;  
+    font-size: 20px;  
 }
 
 .photo-icons a span:hover {
