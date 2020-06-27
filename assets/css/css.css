@@ -99,7 +99,7 @@ hr {
     margin: 0;
     border: 5px groove #f2c6f4;
     /*border: 2px groove  rgba(166, 98, 197, 0.568);*/
-    
+    box-shadow: 1px 1px 2px #f2c6f4;
     border-radius: 50%;
     font-weight: bold;
 }
@@ -107,6 +107,7 @@ hr {
 .custom-nav-header span {
     position: relative;
     right: 4px;
+    text-shadow: 4px 4px 7px white;
 }
 
 /*    -------------------------  header               ------------------*/
@@ -359,11 +360,15 @@ hr {
 
 .gallery-pad {
     background-color: #a9a9a9;
+    background-color: #010203;
+    background-color: #cacaca;
     height: 20px;
 }
 
 .form-frame {
     background-color: #a9a9a9;
+    background-color: #010203;
+    background-color: #cacaca;
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
     color: #fff;
@@ -394,10 +399,12 @@ hr {
 
 .form-frame-color {
     /*background-color: rgba(119, 211, 33, 0.363); */ /* looks great with white background */
-    background-color: #d7fad2;
+    background-color: #d7fad2;  /* green color*/
     margin-bottom: 30px;
     color: #000;
-    border: 6px groove #f5d2fa;
+    border-radius: 17px;
+    /*border: 6px groove #f5d2fa; */
+    box-shadow: 14px 14px 7px #a9a9a9;
 }
 
 .form-row div label {
@@ -442,8 +449,10 @@ hr {
 }
 
 .custom-button-contact:hover{
-    border: 2px solid #fff;
-    background-color: #17a2b8;
+    border: 2px solid #3a4034;
+   background-color: rgba(52, 58, 64, .75);
+   /* background-color: #343a40; /*
+   /* background-color: #17a2b8;*/
     color: #fff;
     transition: .25s;
 }
