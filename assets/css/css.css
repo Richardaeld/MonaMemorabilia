@@ -503,6 +503,8 @@ hr {
     z-index: 1000000;
 }
 
+
+
 .photo-icons a span:hover {
     color: #000;
 }
@@ -511,7 +513,8 @@ hr {
 
 .sub-gallery-color {
     background-color: #737373;
-
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .return-arrow {
@@ -532,6 +535,8 @@ hr {
     padding-left: 7px;
 }
 
+
+
 .return-arrow a:hover {
     text-decoration: none;
     color: #fff;
@@ -543,6 +548,8 @@ hr {
     font-family: "Playfair Display SC", sans-serif;
     padding: 17px 0;
 }
+
+
 
 .sub-gallery-text h4 {
     font-size: 35px;
@@ -559,12 +566,21 @@ hr {
     font-size: 30px;
 }
 
+.sub-gallery-text a i {
+    color: #fff;
+    font-size: 25px;
+    padding-left: 13px;
+}
+
 .sub-gallery-text a:hover {
     text-decoration: none;
 }
 
 .sub-gallery-img img {
+    border: 2px solid #fff;
+    border-radius: 15px;
     max-height: 75vh;
+    max-width: 80vw;
     box-shadow: 7px 7px 14px #3a4034;
 
 }
@@ -577,7 +593,7 @@ hr {
     font-family: "Playfair Display SC", sans-serif;
 }
 
-.header-image img{
+.header-nav-image li a img{
     height: 50px;
     background-position: center;
     background-size: cover;
