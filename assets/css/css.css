@@ -343,17 +343,7 @@ hr {
 
 
 
-/*
 
-@media (min-width: 576px)
-
-@media (min-width: 768px)
-
-@media (min-width: 992px)
-
-@media (min-width: 1200px)
-
-*/
 
 
 /*    -------------------------  contact us              ------------------*/
@@ -479,6 +469,8 @@ hr {
 }
 
 .photo-icons img {
+    border: 2px solid #fff;
+    border-radius: 15px;
     height: 200px;
     box-shadow: 7px 7px 14px #3a4034;
 
@@ -491,6 +483,7 @@ hr {
 }
 
 .photo-icons a {
+    
     display: inline-block;
     text-decoration: none;
 }
@@ -501,6 +494,7 @@ hr {
     padding: 5px 0 13px 0;  
     font-size: 20px;  
     z-index: 1000000;
+
 }
 
 
@@ -520,15 +514,28 @@ hr {
 .return-arrow {
     background-color: #737373;
     font-family: "Playfair Display SC", sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: none;
     display: inline;
 }
 
 .sub-gallery-header h3 {
-        font-size: 55px;
-
+    padding-top: 17px;
+    font-size: 45px;
+    color: #fff;
+    padding-bottom: 5px;
 }
+
+@media (min-width: 992px) {
+    .sub-gallery-header h3 {
+        font-size: 65px;
+        padding-bottom: 0;
+}    
+    .return-arrow {
+        font-size: 35px;
+    }
+}
+
 
 .return-arrow a {
     color: #fff;
@@ -590,6 +597,7 @@ hr {
     text-align: center;
     display: inline-block;
     margin: 0;
+    padding: 0;
     font-family: "Playfair Display SC", sans-serif;
 }
 
@@ -599,3 +607,20 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.header-nav-imgage li a img:hover {
+    height: 65px;
+}
+
+
+/*
+
+@media (min-width: 576px)
+
+@media (min-width: 768px)
+
+@media (min-width: 992px)
+
+@media (min-width: 1200px)
+
+*/
