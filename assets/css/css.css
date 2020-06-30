@@ -459,6 +459,14 @@ hr {
 
 /*    -------------------------  gallery main             ------------------*/
 
+.gallery-pad {
+    height: 25px; 
+
+}
+.gallery-frame {
+
+}
+
 .photo-icons {
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
@@ -466,13 +474,20 @@ hr {
 }
 
 .photo-icons div {
-    margin: 15px 0;
+    height: 230px;
+    margin: 30px 0 70px 0;
 }
 
 .photo-icons img {
     height: 200px;
     box-shadow: 7px 7px 14px #3a4034;
 
+
+}
+
+.photo-icons img:hover {
+    height: 230px;
+    box-shadow: 10px 10px 20px #3a4034;
 }
 
 .photo-icons a {
@@ -483,10 +498,88 @@ hr {
 .photo-icons a span {
     display: block;
     color: #fff;
-    padding: 5px 0 25px 0;  
+    padding: 5px 0 13px 0;  
     font-size: 20px;  
+    z-index: 1000000;
 }
 
 .photo-icons a span:hover {
     color: #000;
+}
+
+/*    -------------------------  gallery sub             ------------------*/
+
+.sub-gallery-color {
+    background-color: #737373;
+
+}
+
+.return-arrow {
+    background-color: #737373;
+    font-family: "Playfair Display SC", sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    display: inline;
+}
+
+.sub-gallery-header h3 {
+        font-size: 55px;
+
+}
+
+.return-arrow a {
+    color: #fff;
+    padding-left: 7px;
+}
+
+.return-arrow a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sub-gallery-header {
+    text-align: center;
+    background-color: #737373;
+    font-family: "Playfair Display SC", sans-serif;
+    padding: 17px 0;
+}
+
+.sub-gallery-text h4 {
+    font-size: 35px;
+    padding: 40px 0 20px 0;
+
+}
+
+.sub-gallery-text h5 {
+    font-size: 55px;
+}
+
+.sub-gallery-text span {
+    color: #fff;
+    font-size: 30px;
+}
+
+.sub-gallery-text a:hover {
+    text-decoration: none;
+}
+
+.sub-gallery-img img {
+    max-height: 75vh;
+    box-shadow: 7px 7px 14px #3a4034;
+
+}
+
+.sub-gallery-frame {
+    background-color: #737373;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    font-family: "Playfair Display SC", sans-serif;
+}
+
+.header-image img{
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
