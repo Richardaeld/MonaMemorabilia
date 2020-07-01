@@ -301,7 +301,7 @@ hr {
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
     color: #fff;
-    
+    min-height: 80vh;     /* help with page being short  */
 }
 
 .contact-header h3 {
@@ -379,22 +379,23 @@ hr {
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
     background-color: #737373;
+    min-height: 80vh;  /*   help compensate for body being to short  */
 }
 
 .photo-icons div {
-    height: 230px;
+    height: 230px; /* was 230 300 */
     margin: 30px 0 70px 0;
 }
 
 .photo-icons img {
     border: 2px solid #fff;
     border-radius: 15px;
-    height: 200px;
+    height: 200px;  /*  was 200 250  */
     box-shadow: 7px 7px 14px #3a4034;
 }
 
 .photo-icons img:hover {
-    height: 230px;
+    height: 230px;  /*  was 230 300 */
     box-shadow: 10px 10px 20px #3a4034;
 }
 
