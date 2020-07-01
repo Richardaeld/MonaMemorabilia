@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
 
 /*    -------------------------  Default settings and Color   ------------------*/
-     /*                     PHOTO RATIO!!!   960 x 768                    */
-body {
+     /*                     PHOTO RATIO!!!   960 x 768     V2 roughly 500kb             */
+    /*                     PHOTO RATIO!!!   960 x 768     V2               */
 
+body {
 }
 
 hr {
@@ -15,36 +16,20 @@ hr {
     text-transform: uppercase;
 }
 
-.nav-pad {
-
+.nav-pad {   /* compensates for fixed nav bar */
     height: 76px;
     background-color: #010203;
 }
 
 .custom-navbar{
-   /* background-color: rgb(251, 210, 215) !important; */  
-    background-color: #e3e3e3 !important;   /*  Test */
-    background-color: #010203 !important;  /*  test pop*/
     background-color: rgba(1, 2, 3, .90) !important; /* test pop 2*/
 }
 
-.custom-navbar-gallery{
-    background-color: #e3e3e3 !important;   
-}
-
-.hero-frame {
-}
-
 .logo {
-    background-color: #e0cffa; /* original */
-    background-color: #D2D7FA; /*  test color  */
-    background-color: #004040; /*  test color pop*/
     background-color: #010203; /*  test color pop 2*/
 }
 
 .hero-carousel-pad {
-
-    /*background-color: rgba(56, 123, 211, 0.39);*/ /* shows with known bug */
     background-color: #010203;
 }
 
@@ -52,38 +37,16 @@ hr {
     background-color: rgba(238, 238, 238, .1);
 }
 
-
-
 .sub-hero-header {  /*  still idea optional stage   */
     background-color: rgba(201, 163, 40, 0.377);
 }
 
-.sub-hero-odd {
-
-    height: 325px;
-    background-color: rgba(119, 211, 33, 0.363);
-    background-color: #d7fad2; /*  test color  */
-    background-color: #400040; /*  test color pop*/
+.sub-hero-text {
     background-color: #010203;
-    color: #fff;
-}
-
-.sub-hero-even {
-    height: 325px;
-    background-color: rgba(17, 216, 173, 0.342);
-    background-color: #fae1d2; /*  test color  */
-    background-color: #400000; /*  test color pop*/
-    background-color: #010203;
-
-    color: #fff;
 }
 
 .footer-color {
-    background-color: #808080;
-    background-color: #a9a9a9; /* test color pop*/
-    background-color: #004040; /*  test color pop 2*/
     background-color: #484848;
-    color: #fff;
 }
 
 /*    -------------------------  navbar               ------------------*/
@@ -122,7 +85,7 @@ hr {
 .logo h1 {
     padding: 12px 13px;
     font-size: 40px;
-
+    text-shadow: 4px 4px 7px white;
 }
 
 .logo h3 {
@@ -149,27 +112,12 @@ hr {
 }
 
 @media (min-width: 1200px) {
-    .logo {padding-top: 30px;    
+    .logo {
+        padding-top: 30px;    
     }
-
-
 }
-
-/*
-@media (min-width: 768px){
-    .hero-carousel-pad h3 {
-        font-size: 25px;
-    }
-} */
-
-
-
 
 /*    -------------------------  carousel               ------------------*/
-
-.hero-carousel {
-  /*  max-width: 925px; */
-}
 
 .hero-carousel div a { 
     width: 3vw;
@@ -181,9 +129,6 @@ hr {
     text-align: center;
     letter-spacing: 2px;
     /*font-size: 15px; */
-}
-
-.hero-margin {
 }
 
 /*    -------------------------  Sub Hero               ------------------*/
@@ -214,6 +159,12 @@ hr {
     padding-left: 0;
 }
 
+.sub-hero-text {
+    height: 325px;
+    color: #fff;
+
+}
+
 .custom-button-light {
     border: 2px solid #fffafa;
     background-color: #a9a9a9;
@@ -232,6 +183,9 @@ hr {
 
 /*    -------------------------  footer   contact us       ------------------*/
 
+.footer-color {
+    color: #fff;
+}
 
 .footer-contact-frame {
     font-family: "Playfair Display SC", sans-serif;
@@ -284,9 +238,8 @@ hr {
     color: #000;
     background-color: #fff;
     border: 2px groove rgba(0,0,0,.25);
-
 }
-
+/*  --------------------------- Possible extra code! --------------
 .custom-button {
     border: 2px solid rgba(0,0,0,.25);
     background-color: rgba(0,0,0,.10);
@@ -298,9 +251,7 @@ hr {
     background-color: rgba(0,0,0,.50);
     font-size: 20px;
     color: #fff;
-}
-
-
+}*/
 
 /*    -------------------------  footer   follow us       ------------------*/
 
@@ -341,27 +292,16 @@ hr {
     color: #000;
 }
 
-
-
-
-
-
 /*    -------------------------  contact us              ------------------*/
 
-.gallery-pad {
-    background-color: #a9a9a9;
-    background-color: #010203;
-    background-color: #cacaca;
-    height: 20px;
-}
-
-.form-frame {
-    background-color: #a9a9a9;
-    background-color: #010203;
-    background-color: #cacaca;
+.form-box {
+    padding: 40px 0;
+    background-color: #cacaca;  /*  previous color is lighter  */
+    background-color: #737373;
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
     color: #fff;
+    
 }
 
 .contact-header h3 {
@@ -385,16 +325,13 @@ hr {
     }
 }
 
-
-
-.form-frame-color {
-    /*background-color: rgba(119, 211, 33, 0.363); */ /* looks great with white background */
+.form-frame {
+    margin-bottom: 30px;    /*  sleep on this  */
     background-color: #d7fad2;  /* green color*/
-    margin-bottom: 30px;
     color: #000;
     border-radius: 17px;
-    /*border: 6px groove #f5d2fa; */
-    box-shadow: 14px 14px 7px #a9a9a9;
+    box-shadow: 14px 14px 7px #a9a9a9;  /*  previos color lighter*/
+    box-shadow: 14px 14px 7px #3a4034;
 }
 
 .form-row div label {
@@ -407,15 +344,6 @@ hr {
 
 .form-row div {
     padding: 10px 0;
-}
-
-.form-row {
-
-}
-
-.radio-text label{
-    color: #000;
-    border: 2px solid #17a2b8;
 }
 
 .radio-text label {
@@ -440,22 +368,12 @@ hr {
 
 .custom-button-contact:hover{
     border: 2px solid #3a4034;
-   background-color: rgba(52, 58, 64, .75);
-   /* background-color: #343a40; /*
-   /* background-color: #17a2b8;*/
+    background-color: rgba(52, 58, 64, .75);
     color: #fff;
     transition: .25s;
 }
 
 /*    -------------------------  gallery main             ------------------*/
-
-.gallery-pad {
-    height: 25px; 
-
-}
-.gallery-frame {
-
-}
 
 .photo-icons {
     font-family: "Playfair Display SC", sans-serif;
@@ -473,8 +391,6 @@ hr {
     border-radius: 15px;
     height: 200px;
     box-shadow: 7px 7px 14px #3a4034;
-
-
 }
 
 .photo-icons img:hover {
@@ -483,7 +399,6 @@ hr {
 }
 
 .photo-icons a {
-    
     display: inline-block;
     text-decoration: none;
 }
@@ -493,11 +408,7 @@ hr {
     color: #fff;
     padding: 5px 0 13px 0;  
     font-size: 20px;  
-    z-index: 1000000;
-
 }
-
-
 
 .photo-icons a span:hover {
     color: #000;
@@ -512,11 +423,8 @@ hr {
 }
 
 .return-arrow {
-    background-color: #737373;
     font-family: "Playfair Display SC", sans-serif;
     font-size: 25px;
-    text-decoration: none;
-    display: inline;
 }
 
 .sub-gallery-header h3 {
@@ -536,13 +444,10 @@ hr {
     }
 }
 
-
 .return-arrow a {
     color: #fff;
     padding-left: 7px;
 }
-
-
 
 .return-arrow a:hover {
     text-decoration: none;
@@ -556,12 +461,9 @@ hr {
     padding: 17px 0;
 }
 
-
-
 .sub-gallery-text h4 {
     font-size: 35px;
     padding: 40px 0 20px 0;
-
 }
 
 .sub-gallery-text h5 {
@@ -632,17 +534,21 @@ hr {
 }
 
 .services-frame div {
-    text-align: center
+    text-align: center;
+    background-color: #737373;
+    color: #000;
 
 }
 
 .service-headed h4 {
     margin: 7px 7px 0 7px;
     border: 1px solid #000;
+    background-color: #fff;
 }
 
 .service-listed p {
     border: 1px solid #000;
     border-top: 0;
     margin: 0 7px 7px 7px;
+    background-color: #fff;
 }
