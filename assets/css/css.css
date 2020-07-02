@@ -530,26 +530,46 @@ hr {
 
 /*    -------------------------  services             ------------------*/
 
-.service-frame-pad {
-    margin: 7px 7px;
+
+
+.services-frame {
+    background-color: #737373;
+}
+
+.services-box {
+    padding: 20px 20px;
 }
 
 .services-frame div {
     text-align: center;
-    background-color: #737373;
     color: #000;
 
 }
 
-.service-headed h4 {
-    margin: 7px 7px 0 7px;
-    border: 1px solid #000;
+.service-headed h4,
+.service-listed p {
     background-color: #fff;
+    font-family: "Playfair Display SC", sans-serif;
+    border: 1px solid #000;
+    box-shadow: 7px 7px 14px #3a4034;
+    
+}
+
+.service-headed h4 {
+    padding: 13px 5px;
+    margin: 7px 7px 0 7px;
+    letter-spacing: 2px;   
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
 }
 
 .service-listed p {
-    border: 1px solid #000;
     border-top: 0;
     margin: 0 7px 7px 7px;
-    background-color: #fff;
+    padding: 13px 23px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
