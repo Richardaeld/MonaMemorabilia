@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
 
 /*    -------------------------  Default settings and Color   ------------------*/
-     /*                     PHOTO RATIO!!!   960 x 768     V2 roughly 500kb             */
-    /*                     PHOTO RATIO!!!   960 x 768     V2               */
-    /*                     737373 color start      898989                      */
+     /*                     PHOTO RATIO!!!   960 x 768     V2 roughly 500kb             2:3 ratio   */
+    /*                     PHOTO RATIO!!!   1200 x 800     V2 roughly 250kb            80vw x 75vh set to  */
+    /*                     737373 color start      898989                               1920 1280   my desktop res */
 body {
 }
 
