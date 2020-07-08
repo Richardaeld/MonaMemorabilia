@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
 /*    -------------------------  Default settings and Color   ------------------*/
      /*                     PHOTO RATIO!!!   960 x 768     V2 roughly 500kb             2:3 ratio   */
     /*                     PHOTO RATIO!!!   1200 x 800     V2 roughly 250kb            80vw x 75vh set to  */
@@ -17,7 +20,7 @@ hr {
 }
 
 .nav-pad {   /* compensates for fixed nav bar */
-    height: 76px;
+    height: 87px;
     background-color: #010203;
 }
 
@@ -55,13 +58,14 @@ hr {
     font-family: "Playfair Display SC", sans-serif;
 }
 
+/*
 .custom-nav-header {
     font-family: "Tangerine", sans-serif;
     font-size: 30px; 
     padding: 3px 6px;
     margin: 0;
     border: 5px groove #f2c6f4;
-    /*border: 2px groove  rgba(166, 98, 197, 0.568);*/
+    /*border: 2px groove  rgba(166, 98, 197, 0.568);*//*
     box-shadow: 1px 1px 2px #f2c6f4;
     border-radius: 50%;
     font-weight: bold;
@@ -72,6 +76,7 @@ hr {
     right: 4px;
     text-shadow: 4px 4px 7px white;
 }
+*/
 
 /*    -------------------------  header               ------------------*/
 
@@ -187,57 +192,111 @@ hr {
 }
 
 .footer-contact-frame {
-    font-family: "Playfair Display SC", sans-serif;
+    font-family: "Yanone Kaffeesatz",sans-serif;
     text-align: center;
 }
 
-.footer-contact-text {
-    display: inline-block;
-    padding-left: 0;
-    padding-right: 0;
+/* ------------------  new footer com ------------------------*/
+
+#footer-form span {
+    position: relative;
+    right: 30px;
 }
 
-.footer-contact-text {
-    color: #fff;
+#footer-email span {
+    padding-top: 0px;
+    position: relative;
+    left: 28px;
 }
 
-.footer-contact-text h3 {
-    padding-top: 10px;
+#footer-phone span {
+    padding-top: 0;
+    position: relative;
+    right: 42px;
 }
 
-.footer-contact-text div {
-    display: inline-block;
+#footer-studio {
+    position: relative;
+    right: 23px;
 }
 
-.footer-contact-text div a {
+#footer-city {
+    padding-top: 0;
+    position: relative;
+    left: 4px;
+}
+
+.footer-contact-frame div {
+    letter-spacing: 2px;
+}
+
+.footer-contact-frame h3 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: "Yanone Kaffeesatz",sans-serif;
+    display: inline;
+}
+
+.footer-contact h6 {
+    display: inline;
+    position: relative;
+    bottom: 13px;
+}
+
+
+.footer-studio {
+    left: 13px;
+}
+
+.social-padding {
+    padding:0;
+}
+
+
+.footer-contact {
+    padding-top: 15px;
+}
+
+
+.footer-studio a {
+    position: relative;
+    right: 37px;
+}
+
+.footer-contact a {
+    padding-top: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.footer-contact span {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+   
+}
+
+
+
+.footer-contact a h4,
+.footer-contact a span {
+    color:#fff;
     display: block;
+    padding-top: 20px;
+}
+.footer-contact a span i {
+    padding-right: 20px;
+}
+
+
+
+.footer-contact a:hover {
     text-decoration: none;
-    color: #fff;
-
 }
 
-.footer-com {
-    padding-bottom: 25px;
-}
 
-.footer-com p {
-    padding-top: 5px;
-}
 
-.footer-com a {
-    padding: 3px 0;
-    border-radius: 5px;
-    background-color: rgba(0,0,0,.25);
-    border: 2px groove rgba(0,0,0,.25);
-}
-
-.footer-com a:hover {
-    border-radius: 5px;
-    transition-duration: 1.5s;
-    color: #000;
-    background-color: #fff;
-    border: 2px groove rgba(0,0,0,.25);
-}
 /*  --------------------------- Possible extra code! --------------
 .custom-button {
     border: 2px solid rgba(0,0,0,.25);
@@ -263,7 +322,7 @@ hr {
 }
 
 .footer-social ul li {
-    padding: 10px 13px;
+    padding: 20px 13px;
 }
 
 .footer-social ul li a i::before {
@@ -289,6 +348,13 @@ hr {
     background-color: #fff;
     transition-duration: 1.5s;
     color: #000;
+}
+
+@media (max-width: 575.98px) { 
+    .footer-contact,
+    .footer-social {
+        padding-top: 40px;
+    }
 }
 
 /*    -------------------------  contact us              ------------------*/
@@ -496,7 +562,7 @@ hr {
 
 .sub-gallery-frame {
     background-color: #737373;
-    background-image: linear-gradient(#898989, #737373,  #898989);
+    /*background-image: linear-gradient(#898989, #737373,  #898989);  */
     text-align: center;
     display: inline-block;
     margin: 0;
@@ -530,7 +596,15 @@ hr {
 
 /*    -------------------------  services             ------------------*/
 
+.services-hero a img{
+    height: 600px;
+    width: 900px;
+}
 
+.services-pad {
+ 
+    height: 50px;
+}
 
 .services-frame {
     background-color: #737373;
