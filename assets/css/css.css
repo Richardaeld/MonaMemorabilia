@@ -452,27 +452,43 @@ hr {
 
 /*    -------------------------  gallery main             ------------------*/
 
+.gallery-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.gallery-padding {
+    padding: 10px 0px 30px 0px;
+    background-color: #737373;
+}
+
 .photo-icons {
     font-family: "Playfair Display SC", sans-serif;
     text-align: center;
     background-color: #737373;
-    min-height: 80vh;  /*   help compensate for body being to short  */
+    min-height: 793px;          /*-----------look up how to scale properly-----------------*/
 }
 
 .photo-icons div {
-    height: 230px; /* was 230 300 */
-    margin: 30px 0 70px 0;
+    height: 348px; /* was 230 300 */
+    margin: 30px 0 0px 0;
 }
 
 .photo-icons img {
     border: 2px solid #fff;
     border-radius: 15px;
-    height: 200px;  /*  was 200 250  */
+    height: 250px;  /*  was 200 250  */
     box-shadow: 7px 7px 14px #3a4034;
+    transition: .5s;
 }
-
+/*
+.photo-icons a span:hover {
+    color: #000;
+}
+*/
 .photo-icons img:hover {
-    height: 230px;  /*  was 230 300 */
+    transform: scale(1.1);
+    /*height: 300px; */ /*  was 230 300 */
     box-shadow: 10px 10px 20px #3a4034;
 }
 
@@ -484,12 +500,18 @@ hr {
 .photo-icons a span {
     display: block;
     color: #fff;
-    padding: 5px 0 13px 0;  
+    padding-top: 5px;
+    padding-bottom: 13px;
     font-size: 20px;  
 }
 
-.photo-icons a span:hover {
-    color: #000;
+@media (min-width: 767.98px) { 
+    .gallery-padding {
+        padding-bottom: 60px;
+    }
+    .photo-icons div {
+        padding-bottom: 20px; 
+    }
 }
 
 /*    -------------------------  gallery sub             ------------------*/
