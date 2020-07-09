@@ -205,6 +205,7 @@ hr {
 
 #footer-email span {
     padding-top: 0px;
+    position: relative;
 }
 
 #footer-phone span {
@@ -353,6 +354,26 @@ hr {
     }
 }
 
+@media (max-width: 575.98px) {  
+     .footer-contact span {
+         font-size: 13px;
+     }
+    .footer-contact h3 {
+        font-size: 37px;
+    }
+    .footer-social h3 {
+        font-size: 37;
+    }
+    .footer-contact h6 {
+        font-size: 12px;
+    }
+    #footer-email span {
+        right: 17px;
+    }
+    #footer-phone span {
+        right: 68px;
+    }
+}
 
 /*    -------------------------  contact us              ------------------*/
 
@@ -496,6 +517,15 @@ hr {
     }
     .photo-icons div {
         padding-bottom: 20px; 
+    }
+}
+
+@media (max-width: 575.98px) {  
+    .photo-icons img {
+        height: 180px;
+    }
+    .photo-icons div {
+        height: 270px;
     }
 }
 
