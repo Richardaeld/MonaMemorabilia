@@ -666,12 +666,23 @@ hr {
 /*    -------------------------  services             ------------------*/
 
 .services-hero-text {
+    font-family: "Rubik", sans-serif;
     background-color: #737373;
     text-align: center;
+    color: #fff;
 }
 
 .services-hero-text h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
     text-align:center;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.services-hero-text h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 200;
 }
 
 .services-hero img{
@@ -696,7 +707,8 @@ hr {
 
 .services-box {
     padding: 20px 20px;
-    font-family: "Playfair Display SC", sans-serif;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 1px;
     background-color: #737373;
 
 }
