@@ -200,23 +200,21 @@ hr {
 
 #footer-form span {
     position: relative;
-    right: 30px;
+    right: 58px;
 }
 
 #footer-email span {
     padding-top: 0px;
-    position: relative;
-    left: 28px;
 }
 
 #footer-phone span {
     padding-top: 0;
     position: relative;
-    right: 42px;
+    right: 70px;
 }
 
 #footer-studio {
-    position: relative;
+    position: relative; 
     right: 23px;
 }
 
@@ -244,11 +242,6 @@ hr {
     bottom: 13px;
 }
 
-
-.footer-studio {
-    left: 13px;
-}
-
 .social-padding {
     padding:0;
 }
@@ -256,12 +249,6 @@ hr {
 
 .footer-contact {
     padding-top: 15px;
-}
-
-
-.footer-studio a {
-    position: relative;
-    right: 37px;
 }
 
 .footer-contact a {
@@ -273,11 +260,9 @@ hr {
 .footer-contact span {
     font-size: 20px;
     text-align: center;
-    padding-left: 20px;
+   
    
 }
-
-
 
 .footer-contact a h4,
 .footer-contact a span {
