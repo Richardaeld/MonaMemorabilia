@@ -88,16 +88,16 @@ hr {
 /*    -------------------------  header               ------------------*/
 
 .logo {
-    font-family: "Tangerine", sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
     text-align: center;
     letter-spacing: 2px;
     color: #fff;
 }
 
 .logo h1 {
-    padding: 12px 13px;
+    padding: 12px 13px 13px 13px;
     font-size: 40px;
-    text-shadow: 4px 4px 7px white;
+    text-shadow: 2px 2px 4px white;
 }
 
 .logo h3 {
@@ -107,7 +107,7 @@ hr {
 
 .logo h2 {
     padding: 12px 20px 17px 20px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 @media (min-width: 768px){
@@ -147,7 +147,7 @@ hr {
 .sub-hero-frame{
     font-family: "Rubik", sans-serif;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -162,7 +162,7 @@ hr {
 
 .sub-hero-frame ul li {
     list-style-type: none;
-    font-size: 15px;
+    font-size: 17px;
     padding: 5px 17px;
 }
 
