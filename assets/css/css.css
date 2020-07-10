@@ -691,7 +691,20 @@ hr {
 
 */
 
-/*    -------------------------  services             ------------------*/
+/*    -------------------------  services       ABOUT US      ------------------*/
+
+.about-header {
+    background-color: #737373;
+    font-family: "Raleway",sans-serif;
+    color: #fff;
+}
+
+.about-header h1 {
+    margin-bottom: 0;
+    font-size: 60px;
+    padding: 20px 0 50px 0;
+    font-weight: 400;
+}
 
 .services-hero-text {
     font-family: "Rubik", sans-serif;
@@ -702,7 +715,7 @@ hr {
 }
 
 .services-hero-text h1 {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 10px;
     text-align:center;
     font-weight: 300;
@@ -727,6 +740,7 @@ hr {
 .services-hero {
     text-align: center;
     background-color: #737373;
+    padding-bottom: 50px;
 }
 
 
@@ -747,17 +761,20 @@ hr {
 }
 
 .services-box h4 {
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+    font-size: 40px;
     text-align: center;
     padding: 13px 5px;
     margin: 7px 7px 0 7px;
     letter-spacing: 2px;   
-
+    
 }
 
 .services-box p {
     text-align: justify;
     margin: 0 7px 7px 7px;
     padding: 13px 23px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
 }
