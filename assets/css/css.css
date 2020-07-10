@@ -151,11 +151,11 @@ hr {
     text-align: center;
 }
 
-.sub-hero-frame div h3 {
+.sub-hero-frame article h3 {
     padding: 13px 15px 0 15px;
 }
 
-.sub-hero-frame div p {
+.sub-hero-frame article p {
     text-align: center;
     padding: 5px 30px;
 }
@@ -166,7 +166,7 @@ hr {
     padding: 5px 17px;
 }
 
-.sub-hero-frame div ul {
+.sub-hero-frame article ul {
     padding-left: 0;
 }
 
@@ -521,7 +521,7 @@ hr {
     min-height: 793px;          /*-----------look up how to scale properly-----------------*/
 }
 
-.photo-icons div {
+.photo-icons article {
     height: 348px; /* was 230 300 */
     margin: 30px 0 0px 0;
 }
@@ -561,7 +561,7 @@ hr {
     .gallery-padding {
         padding-bottom: 60px;
     }
-    .photo-icons div {
+    .photo-icons article {
         padding-bottom: 20px; 
     }
 }
@@ -570,7 +570,7 @@ hr {
     .photo-icons img {
         height: 180px;
     }
-    .photo-icons div {
+    .photo-icons article {
         height: 270px;
     }
 }
@@ -748,7 +748,7 @@ hr {
 
 }
 
-.services-frame div {
+.services-frame article {
     color: #fff;
 }
 
