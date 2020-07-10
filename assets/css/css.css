@@ -693,18 +693,7 @@ hr {
 
 /*    -------------------------  services       ABOUT US      ------------------*/
 
-.about-header {
-    background-color: #737373;
-    font-family: "Raleway",sans-serif;
-    color: #fff;
-}
 
-.about-header h1 {
-    margin-bottom: 0;
-    font-size: 60px;
-    padding: 20px 0 50px 0;
-    font-weight: 400;
-}
 
 .services-hero-text {
     font-family: "Rubik", sans-serif;
