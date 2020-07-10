@@ -60,7 +60,9 @@ hr {
 /*    -------------------------  navbar               ------------------*/
 
 .custom-navbar {
-    font-family: "Playfair Display SC", sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
 
 /*
@@ -143,7 +145,7 @@ hr {
 /*    -------------------------  Sub Hero               ------------------*/
 
 .sub-hero-frame{
-    font-family: "Playfair Display SC", sans-serif;
+    font-family: "Rubik", sans-serif;
     letter-spacing: 2px;
     font-size: 20px;
     text-align: center;
@@ -401,7 +403,7 @@ hr {
     padding: 40px 0;
     background-color: #cacaca;  /*  previous color is lighter  */
     background-color: #737373;
-    font-family: "Playfair Display SC", sans-serif;
+    font-family: "Rubik", sans-serif;
     text-align: center;
     color: #fff;
     min-height: 80vh;     /* help with page being short  */
@@ -489,8 +491,9 @@ hr {
 }
 
 .photo-icons {
-    font-family: "Playfair Display SC", sans-serif;
+    font-family: "Rubik", sans-serif;
     text-align: center;
+    letter-spacing: 1px;
     background-color: #737373;
     min-height: 793px;          /*-----------look up how to scale properly-----------------*/
 }
@@ -528,7 +531,7 @@ hr {
     color: #fff;
     padding-top: 5px;
     padding-bottom: 13px;
-    font-size: 20px;  
+    font-size: 23px;  
 }
 
 @media (min-width: 767.98px) { 
@@ -558,8 +561,8 @@ hr {
 }
 
 .return-arrow {
-    font-family: "Playfair Display SC", sans-serif;
-    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    font-size: 29px;
 }
 
 .sub-gallery-header h3 {
@@ -567,6 +570,8 @@ hr {
     font-size: 45px;
     color: #fff;
     padding-bottom: 5px;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 @media (min-width: 992px) {
@@ -592,7 +597,7 @@ hr {
 .sub-gallery-header {
     text-align: center;
     background-color: #737373;
-    font-family: "Playfair Display SC", sans-serif;
+    font-family: "Rubik", sans-serif;
     padding: 17px 0;
 }
 
@@ -636,7 +641,7 @@ hr {
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-family: "Playfair Display SC", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .header-nav-image li a img{
@@ -670,6 +675,7 @@ hr {
     background-color: #737373;
     text-align: center;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 .services-hero-text h1 {
