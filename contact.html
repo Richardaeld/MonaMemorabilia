@@ -78,7 +78,7 @@
 				</header>
 				<!------------------- Section form body  ------------------------------>
 
-				<section>
+				<section role="form" id="contact-info" aria-label="Contact information and photo session needs">
 					<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form input-spacing">
 
 						<div class="form-row contact-input-spacing">
@@ -86,54 +86,49 @@
 							<div class="col-12 col-md-6">
 								<label for="first_name">Enter First Name</label>
 								<input type="text" id="first_name" name="first_name" class="form-control" placeholder="First Name" required>
-                    </div>
+                            </div>
 								<div class="col-12 col-md-6">
 									<label for="last_name">Enter Last Name</label>
 									<input type="text" id="last_name" name="last_name" class="form-control" placeholder="Last Name" required>
-                    </div>
+                            </div>
 
-									<div class="col-12 col-md-6">
-										<label for="email">Enter Email</label>
-										<input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                    </div>
-										<div class="col-12 col-md-6">
-											<label for="phone_number">Enter Phone Number</label>
-											<input type="number" id="phone_number" name="phone_number" class="form-control" placeholder="Phone Number" required>
-                    </div>
+							<div class="col-12 col-md-6">
+								<label for="email">Enter Email</label>
+								<input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                            </div>
+							<div class="col-12 col-md-6">
+								<label for="phone_number">Enter Phone Number</label>
+								<input type="number" id="phone_number" name="phone_number" class="form-control" placeholder="Phone Number" required>
+                            </div>
 
-											<div class="col-12">
-												<label for="name">Select Method of Contact</label>
-											</div>
+							<div class="col-12">
+								<label for="name">Select Method of Contact</label>
+							</div>
 
-											<div class="col-12 btn-group btn-group-toggle radio-text"
-												data-toggle="buttons">
+							<div class="col-12 btn-group btn-group-toggle radio-text" data-toggle="buttons" id="radio_label" role="radiogroup" aria-labelledby="radio_label">
+								<label class="btn btn-outline-dark  active" for="radio_email">
+    						    <input type="radio" name="contact_method" id="radio_email" value="email" role="radio" checked>Email</label>
 
-												<label class="btn btn-outline-dark  active" for="radio_email">
-						    <input type="radio" name="contact_method" id="radio_email" value="email" checked>Email
-                        </label>
+								<label class="btn btn-outline-dark " for="radio_pnone_call" type="button" role="radio">
+					    	        <input type="radio" name="contact_method" id="radio_pnone_call" value="phone_call">Phone Call</label>
 
-												<label class="btn btn-outline-dark " for="radio_pnone_call" type="button">
-						    <input type="radio" name="contact_method" id="radio_pnone_call" value="phone_call">Phone Call
-                        </label>
+								<label class="btn btn-outline-dark " for="radio_text" role="radio">
+    						        <input type="radio" name="contact_method" id="radio_text" value="text">Text</label>
+							</div>
 
-												<label class="btn btn-outline-dark " for="radio_text">
-    						<input type="radio" name="contact_method" id="radio_text" value="text">Text
-                        </label>
-											</div>
+							<div class="col-12">
+								<label for="client_idea">Describe Your Session needs and/or any questions you may have</label>
+								<textarea class="form-control" name="client_idea" id="client_idea" rows="4" placeholder="Example: Subject of session, type of session, your envisioned end product, etc..."></textarea>
+							</div>
 
-											<div class="col-12">
-												<label for="client_idea">Describe Your Session needs and/or any questions you may have</label>
-												<textarea class="form-control" name="client_idea" id="client_idea" rows="4" placeholder="Example: Subject of session, type of session, your envisioned end product, etc..."></textarea>
-											</div>
-
-											<div class="col-12">
-												<div>
-													<a type="button">
-														<input class="btn custom-button-contact" type="submit" value="Submit">
-                            </a>
-												</div>
-											</div>
-										</div>
+							<div class="col-12">
+								<div>
+									<a type="button">
+		    							<input class="btn custom-button-contact" type="submit" value="Submit">
+                                    </a>
+								</div>
+							</div>
+						</div>
 					</form>
 				</section>
 			</div>
