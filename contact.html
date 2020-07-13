@@ -78,7 +78,7 @@
 				</header>
 				<!------------------- Section form body  ------------------------------>
 
-				<section role="form" id="contact-info" aria-label="Contact information and photo session needs">
+				<section id="contact-info" aria-label="Contact information and photo session needs">
 					<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form input-spacing">
 
 						<div class="form-row contact-input-spacing">
@@ -102,18 +102,18 @@
                             </div>
 
 							<div class="col-12">
-								<label for="name">Select Method of Contact</label>
+								<label for="radio-label">Select Method of Contact</label>
 							</div>
 
 							<div class="col-12 btn-group btn-group-toggle radio-text" data-toggle="buttons" id="radio_label" role="radiogroup" aria-labelledby="radio_label">
 								<label class="btn btn-outline-dark  active" for="radio_email">
-    						    <input type="radio" name="contact_method" id="radio_email" value="email" role="radio" checked>Email</label>
+    						        <input type="radio" name="contact_method" id="radio_email" value="email" tabindex="0" aria-checked="true" checked>Email</label>
 
-								<label class="btn btn-outline-dark " for="radio_pnone_call" type="button" role="radio">
-					    	        <input type="radio" name="contact_method" id="radio_pnone_call" value="phone_call">Phone Call</label>
+								<label class="btn btn-outline-dark " for="radio_pnone_call">
+					    	        <input type="radio" name="contact_method" id="radio_pnone_call" value="phone_call" tabindex="-1" aria-checked="false">Phone Call</label>
 
-								<label class="btn btn-outline-dark " for="radio_text" role="radio">
-    						        <input type="radio" name="contact_method" id="radio_text" value="text">Text</label>
+								<label class="btn btn-outline-dark " for="radio_text">
+    						        <input type="radio" name="contact_method" id="radio_text" value="text" tabindex="-1" aria-checked="false">Text</label>
 							</div>
 
 							<div class="col-12">
@@ -123,9 +123,7 @@
 
 							<div class="col-12">
 								<div>
-									<a type="button">
-		    							<input class="btn custom-button-contact" type="submit" value="Submit">
-                                    </a>
+		    							<button class="btn custom-button-contact" type="submit" value="Submit">Submit</button>
 								</div>
 							</div>
 						</div>
