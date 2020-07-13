@@ -101,11 +101,12 @@
 								<input type="number" id="phone_number" name="phone_number" class="form-control" placeholder="Phone Number" required>
                             </div>
 
-							<div class="col-12">
+	    					<div class="col-12">
 								<label for="radio-label">Select Method of Contact</label>
 							</div>
 
-							<fieldset class="col-12 btn-group btn-group-toggle radio-text" data-toggle="buttons" id="radio_label" role="radiogroup" aria-labelledby="radio_label">
+							<div class="col-12 btn-group btn-group-toggle radio-text" data-toggle="buttons" id="radio_label" role="radiogroup" aria-labelledby="radio_label">
+                            
 								<label class="btn btn-outline-dark  active" for="radio_email">
     						        <input type="radio" name="contact_method" id="radio_email" value="email" tabindex="0" aria-checked="true" checked>Email</label>
 
@@ -114,7 +115,7 @@
 
 								<label class="btn btn-outline-dark " for="radio_text">
     						        <input type="radio" name="contact_method" id="radio_text" value="text" tabindex="-1" aria-checked="false">Text</label>
-							</fieldset>
+							</div>
 
 							<div class="col-12">
 								<label for="client_idea">Describe Your Session needs and/or any questions you may have</label>
@@ -123,7 +124,7 @@
 
 							<div class="col-12">
 								<div>
-		    							<button class="btn custom-button-contact" type="submit" value="Submit">Submit</button>
+		    							<button class="btn custom-button-contact" type="submit" value="Submit"></button>
 								</div>
 							</div>
 						</div>
