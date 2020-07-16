@@ -1,18 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Yanone+Kaffeesatz:wght@200;300;400;469;500;600;700&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
-/*    -------------------------  Default settings and Color   ------------------*/
-     /*                     PHOTO RATIO!!!   960 x 768     V2 roughly 500kb             2:3 ratio   */
-    /*                     PHOTO RATIO!!!   1200 x 800     V2 roughly 250kb            80vw x 75vh set to  */
-    /*                     737373 color start      898989                               1920 1280   my desktop res */
 body {
+    background-color: #484848;
 }
 
 hr {
@@ -20,74 +9,24 @@ hr {
     width: 50%;
 }
 
-.upper {
-    text-transform: uppercase;
-}
-
-.nav-pad {   /* compensates for fixed nav bar */
+.nav-pad {
     height: 87px;
     background-color: #010203;
 }
 
-.custom-navbar{
-    background-color: rgba(1, 2, 3, .90) !important; /* test pop 2*/
-}
-
-.logo {
-    background-color: #010203; /*  test color pop 2*/
-}
-
-.hero-carousel-pad {
-    background-color: #010203;
-}
-
-.hero-carousel div a:hover {
-    background-color: rgba(238, 238, 238, .1);
-}
-
-.sub-hero-header {  /*  still idea optional stage   */
-    background-color: rgba(201, 163, 40, 0.377);
-}
-
-.sub-hero-text {
-    background-color: #010203;
-}
-
-.footer-color {
-    background-color: #484848;
-}
-
-/*    -------------------------  navbar               ------------------*/
+/*    ------------------------- all main navbar               ------------------*/
 
 .custom-navbar {
+    background-color: rgba(1, 2, 3, .90) !important;
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
 }
 
-/*
-.custom-nav-header {
-    font-family: "Tangerine", sans-serif;
-    font-size: 30px; 
-    padding: 3px 6px;
-    margin: 0;
-    border: 5px groove #f2c6f4;
-    /*border: 2px groove  rgba(166, 98, 197, 0.568);*//*
-    box-shadow: 1px 1px 2px #f2c6f4;
-    border-radius: 50%;
-    font-weight: bold;
-}
-
-.custom-nav-header span {
-    position: relative;
-    right: 4px;
-    text-shadow: 4px 4px 7px white;
-}
-*/
-
-/*    -------------------------  header               ------------------*/
+/*    ------------------------- index  header               ------------------*/
 
 .logo {
+    background-color: #010203;
     font-family: "Yanone Kaffeesatz", sans-serif;
     text-align: center;
     letter-spacing: 2px;
@@ -100,13 +39,9 @@ hr {
     text-shadow: 2px 2px 4px white;
 }
 
-.logo h3 {
-    padding:12px;
-    font-size: 17px;
-}
-
+.logo h3,
 .logo h2 {
-    padding: 12px 20px 17px 20px;
+    padding:20px;
     font-size: 17px;
 }
 
@@ -128,21 +63,22 @@ hr {
     }
 }
 
-/*    -------------------------  carousel               ------------------*/
+.hero-carousel-pad {
+    background-color: #010203;
+}
+
+/*    ------------------------- index  carousel   buttons       ------------------*/
+
+.hero-carousel div a:hover {
+    background-color: rgba(238, 238, 238, .1);
+}
 
 .hero-carousel div a { 
     width: 3vw;
     background-color: transparent;
 }
 
-.hero-carousel-pad h3 {
-    font-family: "Playfair Display SC", sans-serif;
-    text-align: center;
-    letter-spacing: 2px;
-    /*font-size: 15px; */
-}
-
-/*    -------------------------  Sub Hero               ------------------*/
+/*    ------------------------- index Sub Hero               ------------------*/
 
 .sub-hero-frame{
     font-family: "Rubik", sans-serif;
@@ -156,8 +92,7 @@ hr {
 }
 
 .sub-hero-frame article p {
-    text-align: center;
-    padding: 5px 30px;
+    padding: 5px 40px;
 }
 
 .sub-hero-frame ul li {
@@ -171,24 +106,24 @@ hr {
 }
 
 .sub-hero-text {
+    background-color: #010203;
     padding-top: 15px;
     height: 325px;
     color: #fff;
-
 }
 
 .custom-button-light {
-    border: 2px solid #fffafa;
     background-color: #a9a9a9;
+    border: 2px solid #fffafa;
     border-radius: 5px;
-    color:#000;
+    color:#010203;
     padding-bottom: 5px;
 }
 
+.custom-button-light:focus,
 .custom-button-light:hover {
-    background-color: #fffafa;
-    color: #010203;
-    border: 2px solid #a9a9a9;
+    background-color: #fff;
+    border: 3px solid #a9a9a9;
     transition-duration: .25s;
 }
 
@@ -207,18 +142,15 @@ hr {
     }
 }
 
-/*    -------------------------  footer   contact us       ------------------*/
-
-.footer-color {
-    color: #fff;
-}
+/*    -------------------------  all main footer pt.1  contact us/studio       ------------------*/
 
 .footer-contact-frame {
+    background-color: #484848;
+    color: #fff;
     font-family: "Yanone Kaffeesatz",sans-serif;
     text-align: center;
+    letter-spacing: 2px;
 }
-
-/* ------------------  new footer com ------------------------*/
 
 #footer-form span {
     position: relative;
@@ -247,15 +179,9 @@ hr {
     left: 4px;
 }
 
-.footer-contact-frame div {
-    letter-spacing: 2px;
-}
-
 .footer-contact-frame h3 {
     font-size: 45px;
-    letter-spacing: 2px;
     font-weight: bold;
-    font-family: "Yanone Kaffeesatz",sans-serif;
     display: inline;
 }
 
@@ -269,22 +195,12 @@ hr {
     padding:0;
 }
 
-
 .footer-contact {
     padding-top: 15px;
 }
 
-.footer-contact a {
-    padding-top: 20px;
-    font-size: 17px;
-    text-align: center;
-}
-
 .footer-contact span {
     font-size: 20px;
-    text-align: center;
-   
-   
 }
 
 .footer-contact a h4,
@@ -293,39 +209,20 @@ hr {
     display: block;
     padding-top: 20px;
 }
+
 .footer-contact a span i {
     padding-right: 20px;
 }
-
-
 
 .footer-contact a:hover {
     text-decoration: none;
 }
 
-
-
-/*  --------------------------- Possible extra code! --------------
-.custom-button {
-    border: 2px solid rgba(0,0,0,.25);
-    background-color: rgba(0,0,0,.10);
-    color:#000;
-    padding-bottom: 5px;
-}
-
-.custom-button:hover {
-    background-color: rgba(0,0,0,.50);
-    font-size: 20px;
-    color: #fff;
-}*/
-
-/*    -------------------------  footer   follow us       ------------------*/
-
+/*    -------------------------  all main footer pt.2  follow us       ------------------*/
 
 .footer-social {
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 10px;
-    text-align: center;
     min-height: 200px;
 }
 
@@ -352,6 +249,7 @@ hr {
     transition-delay: .5s;
 }
 
+.footer-social ul li i:focus,
 .footer-social ul li i:hover {
     background-color: #fff;
     transition-duration: 1.5s;
@@ -362,12 +260,9 @@ hr {
     .footer-contact {
         padding-top: 20px;
     }
-
-    .footer-studio,
-    .footer-social {
-        padding-top: 70px;
+    .footer-studio {
+        padding-top: 40px;
     }
-
 }
 
 @media (max-width: 1199.98px) {
@@ -378,7 +273,7 @@ hr {
 
 @media (max-width: 575.98px) {  
      .footer-contact span {
-         font-size: 13px;
+        font-size: 13px;
      }
     .footer-contact h3 {
         font-size: 37px;
@@ -397,108 +292,69 @@ hr {
     }
 }
 
-/*    -------------------------  contact us              ------------------*/
+/*    -------------------------    ABOUT US      ------------------*/
 
-.form-box {
-    padding: 40px 0;
-    background-color: #cacaca;  /*  previous color is lighter  */
-    background-color: #737373;
+.about-hero-text {
     font-family: "Rubik", sans-serif;
+    background-color: #737373;
     text-align: center;
     color: #fff;
-    min-height: 80vh;     /* help with page being short  */
+    letter-spacing: 1px;
 }
 
-.contact-header h3 {
-    padding: 7px 0;
+.about-hero-text h1 {
+    font-family: "Yanone Kaffeesatz",sans-serif;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: 2px;
 }
 
-.contact-header hr {
-    border: 1px solid #010203;
-    width: 75%;
+.about-hero-text h3 {
+    font-weight: 200;
 }
 
-@media (min-width: 768px) {
-    .contact-header hr {
-        width: 80%;
-    }
+.about-hero img{
+    border: 2px solid #fff;
+    border-radius: 15px;
+    max-height: 75vh;
+    max-width: 80vw;
+    margin-bottom: 30px;
+    box-shadow: 7px 7px 14px #3a4034;
 }
 
-@media (min-width: 1200px) {
-    .contact-header hr {
-        width: 60%;
-    }
+.about-hero {
+    padding-bottom: 50px;
 }
 
-.form-frame {
-    margin-bottom: 30px;    /*  sleep on this  */
-    background-color: #d7fad2;  /* green color*/
-    color: #000;
-    border-radius: 17px;
-    box-shadow: 14px 14px 7px #a9a9a9;  /*  previos color lighter*/
-    box-shadow: 14px 14px 7px #3a4034;
-}
-
-.contact-input-spacing div {
-    padding-right: 30px !important;
-    padding-left: 30px !important;
-}
-
-
-
-@media (max-width: 575.98px) {
-    .contact-input-spacing div {
-        padding-right:10px !important;
-        padding-left: 10px !important;
-    }
-
-}
-
-@media (max-width: 991.98px) { 
-    .contact-input-spacing div {
-        padding-right: 20px !important;
-        padding-left: 20px !important;
-    }    
-}
-
-
-.form-row div label {
-    padding: 13px 0 13px 0;
-}
-
-.form-row div input {
-    color: #000;
-}
-
-.form-row div {
-    padding: 10px 0;
-}
-
-.radio-text label {
-    border: 2px solid rgba(0,0,0,.25);
-    background-color: rgba(0,0,0,.10);
-    color:#000;
-}
-
-.radio-text label:hover {
-    background-color: rgba(0,0,0,.50);
+.about-frame {
+    background-color: #737373;
     color: #fff;
 }
 
-.custom-button-contact {
-    border: 2px solid #0102036b;
-    background-color: rgba(0,0,0,.15);
-    color: #010203;
-    padding-bottom:5px;
-    padding: 6px 17px;
-    font-size: 19px;
+.about-box {
+    padding: 20px 20px;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 1px;
 }
 
-.custom-button-contact:hover{
-    border: 2px solid #3a4034;
-    background-color: rgba(52, 58, 64, .75);
-    color: #fff;
-    transition: .25s;
+.about-box h4 {
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    padding: 13px 5px;
+    margin: 7px 7px 0 7px;
+    letter-spacing: 2px;    
+}
+
+.about-box p {
+    text-align: justify;
+    margin: 0 7px 7px 7px;
+    padding: 13px 23px 40px 23px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /*    -------------------------  gallery main             ------------------*/
@@ -517,30 +373,24 @@ hr {
     font-family: "Rubik", sans-serif;
     text-align: center;
     letter-spacing: 1px;
-    background-color: #737373;
-    min-height: 793px;          /*-----------look up how to scale properly-----------------*/
+    min-height: 793px;          
 }
 
 .photo-icons article {
-    height: 348px; /* was 230 300 */
+    height: 348px; 
     margin: 30px 0 0px 0;
 }
 
 .photo-icons img {
     border: 2px solid #fff;
     border-radius: 15px;
-    height: 250px;  /*  was 200 250  */
+    height: 250px;  
     box-shadow: 7px 7px 14px #3a4034;
     transition: .5s;
 }
-/*
-.photo-icons a span:hover {
-    color: #000;
-}
-*/
+
 .photo-icons img:hover {
     transform: scale(1.1);
-    /*height: 300px; */ /*  was 230 300 */
     box-shadow: 10px 10px 20px #3a4034;
 }
 
@@ -581,6 +431,7 @@ hr {
     background-color: #737373;
     margin-left: 0;
     margin-right: 0;
+    color: #fff;
 }
 
 .return-arrow {
@@ -589,10 +440,8 @@ hr {
 }
 
 .sub-gallery-header h3 {
-    padding-top: 17px;
+    padding: 17px 25px 5px 25px;
     font-size: 45px;
-    color: #fff;
-    padding-bottom: 5px;
     letter-spacing: 1px;
     font-weight: 400;
 }
@@ -613,8 +462,8 @@ hr {
 }
 
 .return-arrow a:hover {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 
 .sub-gallery-header {
@@ -622,6 +471,16 @@ hr {
     background-color: #737373;
     font-family: "Rubik", sans-serif;
     padding: 17px 0;
+}
+
+.sub-gallery-frame {
+    background-color: #737373;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
 }
 
 .sub-gallery-text h4 {
@@ -654,17 +513,6 @@ hr {
     max-height: 75vh;
     max-width: 80vw;
     box-shadow: 7px 7px 14px #3a4034;
-
-}
-
-.sub-gallery-frame {
-    background-color: #737373;
-    /*background-image: linear-gradient(#898989, #737373,  #898989);  */
-    text-align: center;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    font-family: "Rubik", sans-serif;
 }
 
 .header-nav-image li a img{
@@ -672,101 +520,104 @@ hr {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 1s;
 }
 
-.header-nav-imgage li a img:hover {
-    height: 65px;
-}
+.header-nav-image li a img:hover {     
+    transform: scale(1.1);
+    border: 2px solid #3a4034;
+}  
 
+/*    -------------------------  contact us              ------------------*/
 
-/*
-
-@media (min-width: 576px)
-
-@media (min-width: 768px)
-
-@media (min-width: 992px)
-
-@media (min-width: 1200px)
-
-*/
-
-/*    -------------------------  services       ABOUT US      ------------------*/
-
-
-
-.services-hero-text {
-    font-family: "Rubik", sans-serif;
+.form-box {
+    padding: 40px 0;
     background-color: #737373;
+    font-family: "Rubik", sans-serif;
     text-align: center;
     color: #fff;
-    letter-spacing: 1px;
+    min-height: 80vh;    
 }
 
-.services-hero-text h1 {
-    font-family: "Yanone Kaffeesatz",sans-serif;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    font-weight: 500;
-    font-size: 80px;
-    letter-spacing: 2px;
+.contact-header h3 {
+    padding: 17px 0px 7px 0px;
 }
 
-
-
-.services-hero-text h3 {
-    font-family: "Rubik", sans-serif;
-    font-weight: 200;
+.contact-header hr {
+    border: 1px solid #010203;
+    width: 75%;
 }
 
-.services-hero img{
+@media (min-width: 768px) {
+    .contact-header hr {
+        width: 80%;
+    }
+}
 
-    border: 2px solid #fff;
-    border-radius: 15px;
-    max-height: 75vh;
-    max-width: 80vw;
+@media (min-width: 1200px) {
+    .contact-header hr {
+        width: 60%;
+    }
+}
+
+.form-frame {
     margin-bottom: 30px;
-    box-shadow: 7px 7px 14px #3a4034;
+    background-color: #d7fad2;
+    color: #000;
+    border-radius: 17px;
+    box-shadow: 14px 14px 7px #3a4034;
 }
 
-.services-hero {
-    text-align: center;
-    background-color: #737373;
-    padding-bottom: 50px;
+.contact-input-spacing div {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
 }
 
-
-.services-frame {
-    background-color: #737373;
+@media (max-width: 575.98px) {
+    .contact-input-spacing div {
+        padding-right:10px !important;
+        padding-left: 10px !important;
+    }
 }
 
-.services-box {
-    padding: 20px 20px;
-    font-family: "Rubik", sans-serif;
-    letter-spacing: 1px;
-    background-color: #737373;
-
+@media (max-width: 991.98px) { 
+    .contact-input-spacing div {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }    
 }
 
-.services-frame article {
+.form-row div label {
+    padding: 13px 0 13px 0;
+}
+
+.form-row div {
+    padding: 10px 0;
+}
+
+.radio-text label {
+    border: 2px solid rgba(0,0,0,.25);
+    background-color: rgba(0,0,0,.10);
+    color:#000;
+}
+
+.radio-text label:hover {
+    background-color: rgba(0,0,0,.50);
     color: #fff;
 }
 
-.services-box h4 {
-    font-family: "Raleway",sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    text-align: center;
-    padding: 13px 5px;
-    margin: 7px 7px 0 7px;
-    letter-spacing: 2px;   
-    
+.custom-button-contact {
+    border: 2px solid #0102036b;
+    background-color: rgba(0,0,0,.15);
+    color: #010203;
+    padding-bottom:5px;
+    padding: 6px 17px;
+    font-size: 19px;
 }
 
-.services-box p {
-    text-align: justify;
-    margin: 0 7px 7px 7px;
-    padding: 13px 23px 40px 23px;
-    font-size: 20px;
-    font-weight: 500;
+.custom-button-contact:hover{
+    border: 2px solid #3a4034;
+    background-color: rgba(52, 58, 64, .75);
+    color: #fff;
+    transition: .25s;
 }
