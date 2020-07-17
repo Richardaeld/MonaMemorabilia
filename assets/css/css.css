@@ -63,11 +63,11 @@ hr {
     }
 }
 
+/*    ------------------------- index  carousel          ------------------*/
+
 .hero-carousel-pad {
     background-color: #010203;
 }
-
-/*    ------------------------- index  carousel   buttons       ------------------*/
 
 .hero-carousel div a:hover {
     background-color: rgba(238, 238, 238, .1);
@@ -540,6 +540,9 @@ hr {
 }
 
 .contact-header h3 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    letter-spacing: 1px;
+    font-size: 40px;
     padding: 17px 0px 7px 0px;
 }
 

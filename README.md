@@ -1,123 +1,113 @@
-![alt text](assets/images/logo.png)
+![Monachese Photography](assets/images/logo.png "Monachese Photography")
 
 # Monachese Photography
-*--sales pitch--*
 
-This page shows the value provided by a professional photographer with editing skills. By showcasing a variety of different photos, photo taking techniques, and editing effects this helps 
-build a emotional value to product provided. With an obvious market of parents and grandparents applied to there is also others applied to: those wanting professional portraits taken, people
-wanting their photo's(or a photo taken that can be) turned into a frameable work of art, and real estate landscape photos taken(due to scope of project not implimented yet).
+This site allows a photographer's company to show off their brand and ability to digitally improve photos. The implied clientele is parents and grandparents, however this site
+also applies to a smaller market of young adults seeking business portraits and those seeking to digitally improve previously taken photo's.
 
-a 
+# Live Protype Demo and Wire Frame
 
-This website showcases a single photographer's aptitude for being behind the lens of his camera and using visual editing software. 
++ An active demo can be found [here](https://richardaeld.github.io/MonaMemorabilia/ "Web Page") at github. 
++ The wire frame png's can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/wireframe "Wire Frame") also at github.
 
-The main focus of this photographer is the emotional value of personal family moments. This  
+# UX Choices
 
-The art shown has family The main focus of this website is showcasing images that give emotional worth.    
+### Home
 
-There is a large focus on family photography to appeal to parents and grandparents alike.  To a lesser degree there are  
++ Shows off four eye drawing images in carousel
++ Gives a brief description of general services offered
 
+### About Us
 
-The focus of these photographs is mostly family portraits and children. There are other photographs that display a more artistic and formal side to this photographer. The family
-and children sections of photos is for selling photos to parents and grandparents. The portrait section is for selling to busisness women/men for professional porfolios. Finally
-the Digital Editing section is for selling artwork. The idea of this section is to appeal the largest clientel as possible. Changing a photo into a work of art is fairly simple
-and should yeild a greater profit with the upsale of a picture frame.
++ Hero image showing the difference with and without color grading
++ A text section emphasizing the above and beyond work offered by the company 
 
-The site is structured to give people a strong visual interest in the product being sold. With minimual use of text and an about us section that is about the user and improving
-their experience. This helps make the potiental client curious about the product and makes them want to communicate with the company. The lack of pricing was a tactful choice to 
-keep potiental clients from feeling like they cannot afford this service. This gives the site a chance to communicate as a person to person sales tactic.  The site may not make a 
-sale everytime but it gives an oppertunity to negociate a price and attempt an upsale rather than immediately losing a customer.  
+### Gallery
 
-*--ux--*
++ Makes use of negative space to draw the eye to four sub gallery links
++ Zoom feature when hovering over images to help confer it's a link
 
-The main purpose of this site is to sell session time blocks and digital editing packages. From the first page it highlights 4 different styles of photography   
+### Sub Gallery (all pages)
 
-*--features--*
++ Back button to main gallery and a two way in page nav for user convience
++ All images have an added border and shadow to give a 3 dimensional effect to help draw the eye
 
-# *site wide header*
-*4 major links for site navigation
-*a company logo that lives in the left corner which doubles as a Home nav button
-*collapses into a drop down list when to small to displat correctly, leaving only a burger and logo visiable
+### Contact us
 
-# *site wide footer*
-*footer has 3 clickable methods of contact on it 
-*a clickable location for the non-existant studio,  ***Cannot get it to display an accurate location 
-*6 clickable social media options for following that also display a simple css hover effect for added charm
++ Simple submission form that prevents users from accidently submitting without filling in contact information
++ Fitted with plenty of space for users to submit a well thought out idea or multiple questions
 
-# *Index.html*
-*responsiveness changes hero text-size 
-*Hero carousel used to help showcase some impressive and diverse photos on this page
-*Sub hero text is used to give clients a basic idea of sessions and extras offered and a push to give a comepletely custom session idea
+### Brand identity
 
-# *about us*
-*Large hero image of the editing service offered on the site with a header exclaiming the professional difference
-*3 text block catagories talking about what sets this company appart from the rest
++ fonts used
++ carries out logo colors
++ that last thing I can think of
 
-# *gallery*
-*heavy use of grey space to help 4 images stand out
-*a clean zoom effect used to show a hover effect
-*minimal use of header text to label the galleries
+# Potiental clients
 
-# *Sub-galley**(all are nearly identical code, only img and alt tags are different)*
-*Large header used to remind user where they are
-*A back arrow and text left in top left corner for returning to main gallery page
-*under header is 5 images that are used as a in page nav to snap to the larger image
-*invisible command is used on generic picture text for in page nav to snap to which helps center on intended image
-*below each large picture is a clickable back to top which takes the user to the top of the screen
++ A: Is looking for a candid photo
+    + Sees the home page carousel and describes a business portrait in the "Describe your session needs" on Contact Us page
 
-# *contact us*
-*a inviting green is used on the form, the only background color that is not a neutral color
-*header is to let users know they are on a submission form 
-*each part of form's 4 basic customer info enteries is labeled with a tiny header over it and placeholder text
-*below those 4 is a radio button for allowing the site to know how the user wishes to be contated
-*The last box is a 4 lined box for the customer to have plenty of room to add their entire idea(s) for a generic or custom session
++ B: Wants a frameable photo of child to give to grandparents  
+    + Finds an artistic color graded photo in Children Gallery page 
 
++ C: Has an idea for a photo session that is non standard
+    + Home page has a small section about custom projects w/ button to submit custom ideas
 
++ D: Is looking for previously taken photos to be digitally edited
+    + Sees the half edited photo on About us page and decides that the style they like
 
-## --existing features --
+# Testing
 
-## --features left to implement --
-*Photo slider to change photo from before digital editing to after (Would be neat but outside of scope of project)
-*use of a modal in sub-gallery pages to pop up a picture rather than relying on a in page nav
+# Previous Bugs
 
-## --technologies used--
-***Check these
-    **JS
-    **JQuery
-    **Believe bother are used with bootstraps carousel
+Numerous graphical misalignments were experienced during the construction of this project.  These were primarily generated by bootstrap creating padding and margins with 
+the use of rows and container-fluid commands. Thus they were easily taken care of with appropiate padding/margin removal and use of "!important".
 
-## --testing --
-*I use a 1920x1080 monitor in landscape and profile
-    **Use inspect in chrome to check every preset responsiveness in both landscape and profile on both of my monitors.
-*also use a projector with a browser zoom to help see and find visual problems
+# Scalability 
 
-***Known problems include site not going to bottom of screen (ex: leaving white space below bottom of footer)
++ Photo slider to change photo from before digital editing to after (Would be neat but outside of scope of project)
++ Use of a modal in sub-gallery pages to pop up a picture rather than relying on a in page nav 
 
-## --deployment--
-*single git branch
-*drawing of ideas on pen and paper  
-*negative feed back from mentor lead to a total rewrite of webpage
-*updates after rewrite focused on responsiveness and a more minimal approach to code
-*numerous updates were based on image placement, reduction of image size(KB), standardization of image ratio(1200x800 or 800x1200), and finding images that "sold" the product
+# Technologies
 
+## Languages 
++ HTML
++ CSS
++ JS (With Bootstrap)
++ JQuery (With Bootstrap)
+
+## Framework
++ [Bootstrap](https://getbootstrap.com/) 
++ [Balsmiq](https://balsamiq.com/)
+
+## Web based tools
+
++ GitHub - Deployment of prototype site
++ GitPod - Integrated development environment and deployment
++ Pingdom - Checking for page load time
++ BrowserStack - Checking for platform incompatibility
++ tiny.png - Minimizing KB load per photo
++ fontawesome - Icons used
++ google fonts - Fonts used 
++ W3C Validator 
+
+## Web based references
+
++ [webaccessibilitychecklist](http://webaccessibilitychecklist.com/) - Helpped make page Aria accessible
++ [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) -  helped with understanding when to use aria
++ [w3schools](https://www.w3schools.com/) - helped fine tune css and accomplish vision
++ [stack overflow](https://stackoverflow.com/) - helped understand how to correct bugs and accomplish vision
 
 
-## -------------credits-------------
+# Acknowledgements 
 
-## --content--
-https://developer.mozilla.org/ -- helped with understanding when to use aria
-https://www.w3schools.com/ -- provided ideas for css/html tricks
-https://stackoverflow.com/ -- helped understand how to correct bugs
-The footer, "follow us on" section was inspired by class videos.
-The front pages hero carousel frame was taken from bootstrap.
-The subgallerys snap to top was taken from bootstrap scroll spy
-The contact us pages form was taken from 3 different parts of bootstraps form page.
-
-## --media--
-fontawesome
-bootstrap
-google fonts
 The photos and logo were created by the same person, "Micheal Monachese" 
 
-## --acknowledgements--
-The idea of this website came from a childhood friend Ive been watching struggle sense covid-19 has shrunk his current business
+The idea of this website came from a childhood friend that has a forte a photography
+
+
+
+
+
+
