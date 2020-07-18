@@ -1,626 +1,626 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Yanone+Kaffeesatz:wght@200;300;400;469;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&family=Yanone+Kaffeesatz:wght@200;300;400;469;500;600;700&display=swap");
 
 body {
-    background-color: #484848;
+  background-color: #484848;
 }
 
 hr {
-    border: 2px solid #fff;
-    width: 50%;
+  border: 2px solid #fff;
+  width: 50%;
 }
 
 .nav-pad {
-    height: 87px;
-    background-color: #010203;
+  height: 87px;
+  background-color: #010203;
 }
 
 /*    ------------------------- all main navbar               ------------------*/
 
 .custom-navbar {
-    background-color: rgba(1, 2, 3, .90) !important;
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 30px;
-    letter-spacing: 1px;
+  background-color: rgba(1, 2, 3, 0.9) !important;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
 }
 
 /*    ------------------------- index  header               ------------------*/
 
 .logo {
-    background-color: #010203;
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    text-align: center;
-    letter-spacing: 2px;
-    color: #fff;
+  background-color: #010203;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #fff;
 }
 
 .logo h1 {
-    padding: 12px 13px 13px 13px;
-    font-size: 40px;
-    text-shadow: 2px 2px 4px white;
+  padding: 12px 13px 13px 13px;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px white;
 }
 
 .logo h3,
 .logo h2 {
-    padding:20px;
-    font-size: 17px;
+  padding: 20px;
+  font-size: 17px;
 }
 
-@media (min-width: 768px){
-    .logo h1 {
-        font-size: 100px;
-    }
-    .logo h2{
-            font-size: 40px;
-    }
-    .logo h3 {
-        font-size: 30px;
-    }
+@media (min-width: 768px) {
+  .logo h1 {
+    font-size: 100px;
+  }
+  .logo h2 {
+    font-size: 40px;
+  }
+  .logo h3 {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .logo {
-        padding-top: 30px;    
-    }
+  .logo {
+    padding-top: 30px;
+  }
 }
 
 /*    ------------------------- index  carousel          ------------------*/
 
 .hero-carousel-pad {
-    background-color: #010203;
+  background-color: #010203;
 }
 
 .hero-carousel div a:hover {
-    background-color: rgba(238, 238, 238, .1);
+  background-color: rgba(238, 238, 238, 0.1);
 }
 
-.hero-carousel div a { 
-    width: 3vw;
-    background-color: transparent;
+.hero-carousel div a {
+  width: 3vw;
+  background-color: transparent;
 }
 
 /*    ------------------------- index Sub Hero               ------------------*/
 
-.sub-hero-frame{
-    font-family: "Rubik", sans-serif;
-    letter-spacing: 2px;
-    font-size: 17px;
-    text-align: center;
+.sub-hero-frame {
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 2px;
+  font-size: 17px;
+  text-align: center;
 }
 
 .sub-hero-frame article h3 {
-    padding: 13px 15px 0 15px;
+  padding: 13px 15px 0 15px;
 }
 
 .sub-hero-frame article p {
-    padding: 5px 40px;
+  padding: 5px 40px;
 }
 
 .sub-hero-frame ul li {
-    list-style-type: none;
-    font-size: 17px;
-    padding: 5px 17px;
+  list-style-type: none;
+  font-size: 17px;
+  padding: 5px 17px;
 }
 
 .sub-hero-frame article ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .sub-hero-text {
-    background-color: #010203;
-    padding-top: 15px;
-    height: 325px;
-    color: #fff;
+  background-color: #010203;
+  padding-top: 15px;
+  height: 325px;
+  color: #fff;
 }
 
 .custom-button-light {
-    background-color: #a9a9a9;
-    border: 2px solid #fffafa;
-    border-radius: 5px;
-    color:#010203;
-    padding-bottom: 5px;
+  background-color: #a9a9a9;
+  border: 2px solid #fffafa;
+  border-radius: 5px;
+  color: #010203;
+  padding-bottom: 5px;
 }
 
 .custom-button-light:focus,
 .custom-button-light:hover {
-    background-color: #fff;
-    border: 3px solid #a9a9a9;
-    transition-duration: .25s;
+  background-color: #fff;
+  border: 3px solid #a9a9a9;
+  transition-duration: 0.25s;
 }
 
 @media (max-width: 575.98px) {
-    .sub-hero-text h3 {
-        font-size: 23px;
-    }
-    .sub-hero-text li {
-        font-size: 13px;
-    }
-    .sub-hero-text p {
-        font-size: 13px;
-    }
-    .sub-hero-text span{
-        font-size: 13px;
-    }
+  .sub-hero-text h3 {
+    font-size: 23px;
+  }
+  .sub-hero-text li {
+    font-size: 13px;
+  }
+  .sub-hero-text p {
+    font-size: 13px;
+  }
+  .sub-hero-text span {
+    font-size: 13px;
+  }
 }
 
 /*    -------------------------  all main footer pt.1  contact us/studio       ------------------*/
 
 .footer-contact-frame {
-    background-color: #484848;
-    color: #fff;
-    font-family: "Yanone Kaffeesatz",sans-serif;
-    text-align: center;
-    letter-spacing: 2px;
+  background-color: #484848;
+  color: #fff;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 #footer-form span {
-    position: relative;
-    right: 58px;
+  position: relative;
+  right: 58px;
 }
 
 #footer-email span {
-    padding-top: 0px;
-    position: relative;
+  padding-top: 0px;
+  position: relative;
 }
 
 #footer-phone span {
-    padding-top: 0;
-    position: relative;
-    right: 70px;
+  padding-top: 0;
+  position: relative;
+  right: 70px;
 }
 
 #footer-studio {
-    position: relative; 
-    right: 23px;
+  position: relative;
+  right: 23px;
 }
 
 #footer-city {
-    padding-top: 0;
-    position: relative;
-    left: 4px;
+  padding-top: 0;
+  position: relative;
+  left: 4px;
 }
 
 .footer-contact-frame h3 {
-    font-size: 45px;
-    font-weight: bold;
-    display: inline;
+  font-size: 45px;
+  font-weight: bold;
+  display: inline;
 }
 
 .footer-contact h6 {
-    display: inline;
-    position: relative;
-    bottom: 13px;
+  display: inline;
+  position: relative;
+  bottom: 13px;
 }
 
 .social-padding {
-    padding:0;
+  padding: 0;
 }
 
 .footer-contact {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .footer-contact span {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .footer-contact a h4,
 .footer-contact a span {
-    color:#fff;
-    display: block;
-    padding-top: 20px;
+  color: #fff;
+  display: block;
+  padding-top: 20px;
 }
 
 .footer-contact a span i {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .footer-contact a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*    -------------------------  all main footer pt.2  follow us       ------------------*/
 
 .footer-social {
-    padding-top: 15px;
-    padding-bottom: 10px;
-    min-height: 200px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  min-height: 200px;
 }
 
 .footer-social ul li {
-    padding: 20px 13px;
+  padding: 20px 13px;
 }
 
 .footer-social ul li a i::before {
-    position: relative;
-    top: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .footer-social ul li i {
-    list-style-type: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid rgba(0,0,0,.25);
-    background-color: rgba(0,0,0,.25);
+  list-style-type: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
-.footer-social ul li a { 
-    color: #fff;
-    transition-delay: .5s;
+.footer-social ul li a {
+  color: #fff;
+  transition-delay: 0.5s;
 }
 
 .footer-social ul li i:focus,
 .footer-social ul li i:hover {
-    background-color: #fff;
-    transition-duration: 1.5s;
-    color: #000;
+  background-color: #fff;
+  transition-duration: 1.5s;
+  color: #000;
 }
 
-@media (max-width: 767.98px) { 
-    .footer-contact {
-        padding-top: 20px;
-    }
-    .footer-studio {
-        padding-top: 40px;
-    }
+@media (max-width: 767.98px) {
+  .footer-contact {
+    padding-top: 20px;
+  }
+  .footer-studio {
+    padding-top: 40px;
+  }
 }
 
 @media (max-width: 1199.98px) {
-    .footer-social {
-        padding-top: 40px;
-    }
+  .footer-social {
+    padding-top: 40px;
+  }
 }
 
-@media (max-width: 575.98px) {  
-     .footer-contact span {
-        font-size: 13px;
-     }
-    .footer-contact h3 {
-        font-size: 37px;
-    }
-    .footer-social h3 {
-        font-size: 37;
-    }
-    .footer-contact h6 {
-        font-size: 12px;
-    }
-    #footer-email span {
-        right: 17px;
-    }
-    #footer-phone span {
-        right: 68px;
-    }
+@media (max-width: 575.98px) {
+  .footer-contact span {
+    font-size: 13px;
+  }
+  .footer-contact h3 {
+    font-size: 37px;
+  }
+  .footer-social h3 {
+    font-size: 37;
+  }
+  .footer-contact h6 {
+    font-size: 12px;
+  }
+  #footer-email span {
+    right: 17px;
+  }
+  #footer-phone span {
+    right: 68px;
+  }
 }
 
 /*    -------------------------    ABOUT US      ------------------*/
 
 .about-hero-text {
-    font-family: "Rubik", sans-serif;
-    background-color: #737373;
-    text-align: center;
-    color: #fff;
-    letter-spacing: 1px;
+  font-family: "Rubik", sans-serif;
+  background-color: #737373;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .about-hero-text h1 {
-    font-family: "Yanone Kaffeesatz",sans-serif;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    font-weight: 500;
-    font-size: 80px;
-    letter-spacing: 2px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-weight: 500;
+  font-size: 80px;
+  letter-spacing: 2px;
 }
 
 .about-hero-text h3 {
-    font-weight: 200;
+  font-weight: 200;
 }
 
-.about-hero img{
-    border: 2px solid #fff;
-    border-radius: 15px;
-    max-height: 75vh;
-    max-width: 80vw;
-    margin-bottom: 30px;
-    box-shadow: 7px 7px 14px #3a4034;
+.about-hero img {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  max-height: 75vh;
+  max-width: 80vw;
+  margin-bottom: 30px;
+  box-shadow: 7px 7px 14px #3a4034;
 }
 
 .about-hero {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .about-frame {
-    background-color: #737373;
-    color: #fff;
+  background-color: #737373;
+  color: #fff;
 }
 
 .about-box {
-    padding: 20px 20px;
-    font-family: "Rubik", sans-serif;
-    letter-spacing: 1px;
+  padding: 20px 20px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 1px;
 }
 
 .about-box h4 {
-    font-family: "Raleway",sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    text-align: center;
-    padding: 13px 5px;
-    margin: 7px 7px 0 7px;
-    letter-spacing: 2px;    
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  padding: 13px 5px;
+  margin: 7px 7px 0 7px;
+  letter-spacing: 2px;
 }
 
 .about-box p {
-    text-align: justify;
-    margin: 0 7px 7px 7px;
-    padding: 13px 23px 40px 23px;
-    font-size: 20px;
-    font-weight: 500;
+  text-align: justify;
+  margin: 0 7px 7px 7px;
+  padding: 13px 23px 40px 23px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /*    -------------------------  gallery main             ------------------*/
 
 .gallery-container {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .gallery-padding {
-    padding: 10px 0px 30px 0px;
-    background-color: #737373;
+  padding: 10px 0px 30px 0px;
+  background-color: #737373;
 }
 
 .photo-icons {
-    font-family: "Rubik", sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    min-height: 793px;          
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  min-height: 793px;
 }
 
 .photo-icons article {
-    height: 348px; 
-    margin: 30px 0 0px 0;
+  height: 348px;
+  margin: 30px 0 0px 0;
 }
 
 .photo-icons img {
-    border: 2px solid #fff;
-    border-radius: 15px;
-    height: 250px;  
-    box-shadow: 7px 7px 14px #3a4034;
-    transition: .5s;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  height: 250px;
+  box-shadow: 7px 7px 14px #3a4034;
+  transition: 0.5s;
 }
 
 .photo-icons img:hover {
-    transform: scale(1.1);
-    box-shadow: 10px 10px 20px #3a4034;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px #3a4034;
 }
 
 .photo-icons a {
-    display: inline-block;
-    text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .photo-icons a span {
-    display: block;
-    color: #fff;
-    padding-top: 5px;
-    padding-bottom: 13px;
-    font-size: 23px;  
+  display: block;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 13px;
+  font-size: 23px;
 }
 
-@media (min-width: 767.98px) { 
-    .gallery-padding {
-        padding-bottom: 60px;
-    }
-    .photo-icons article {
-        padding-bottom: 20px; 
-    }
+@media (min-width: 767.98px) {
+  .gallery-padding {
+    padding-bottom: 60px;
+  }
+  .photo-icons article {
+    padding-bottom: 20px;
+  }
 }
 
-@media (max-width: 575.98px) {  
-    .photo-icons img {
-        height: 180px;
-    }
-    .photo-icons article {
-        height: 270px;
-    }
+@media (max-width: 575.98px) {
+  .photo-icons img {
+    height: 180px;
+  }
+  .photo-icons article {
+    height: 270px;
+  }
 }
 
 /*    -------------------------  gallery sub             ------------------*/
 
 .sub-gallery-color {
-    background-color: #737373;
-    margin-left: 0;
-    margin-right: 0;
-    color: #fff;
+  background-color: #737373;
+  margin-left: 0;
+  margin-right: 0;
+  color: #fff;
 }
 
 .return-arrow {
-    font-family: "Rubik", sans-serif;
-    font-size: 29px;
+  font-family: "Rubik", sans-serif;
+  font-size: 29px;
 }
 
 .sub-gallery-header h3 {
-    padding: 17px 25px 5px 25px;
-    font-size: 45px;
-    letter-spacing: 1px;
-    font-weight: 400;
+  padding: 17px 25px 5px 25px;
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 
 @media (min-width: 992px) {
-    .sub-gallery-header h3 {
-        font-size: 65px;
-        padding-bottom: 0;
-}    
-    .return-arrow {
-        font-size: 35px;
-    }
+  .sub-gallery-header h3 {
+    font-size: 65px;
+    padding-bottom: 0;
+  }
+  .return-arrow {
+    font-size: 35px;
+  }
 }
 
 .return-arrow a {
-    color: #fff;
-    padding-left: 7px;
+  color: #fff;
+  padding-left: 7px;
 }
 
 .return-arrow a:hover {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .sub-gallery-header {
-    text-align: center;
-    background-color: #737373;
-    font-family: "Rubik", sans-serif;
-    padding: 17px 0;
+  text-align: center;
+  background-color: #737373;
+  font-family: "Rubik", sans-serif;
+  padding: 17px 0;
 }
 
 .sub-gallery-frame {
-    background-color: #737373;
-    text-align: center;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    font-family: "Rubik", sans-serif;
-    color: #fff;
+  background-color: #737373;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
 }
 
 .sub-gallery-text h4 {
-    font-size: 35px;
-    padding: 40px 0 20px 0;
+  font-size: 35px;
+  padding: 40px 0 20px 0;
 }
 
 .sub-gallery-text h5 {
-    font-size: 55px;
+  font-size: 55px;
 }
 
 .sub-gallery-text span {
-    color: #fff;
-    font-size: 30px;
+  color: #fff;
+  font-size: 30px;
 }
 
 .sub-gallery-text a i {
-    color: #fff;
-    font-size: 25px;
-    padding-left: 13px;
+  color: #fff;
+  font-size: 25px;
+  padding-left: 13px;
 }
 
 .sub-gallery-text a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .sub-gallery-img img {
-    border: 2px solid #fff;
-    border-radius: 15px;
-    max-height: 75vh;
-    max-width: 80vw;
-    box-shadow: 7px 7px 14px #3a4034;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  max-height: 75vh;
+  max-width: 80vw;
+  box-shadow: 7px 7px 14px #3a4034;
 }
 
-.header-nav-image li a img{
-    height: 50px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: 1s;
+.header-nav-image li a img {
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 1s;
 }
 
-.header-nav-image li a img:hover {     
-    transform: scale(1.1);
-    border: 2px solid #3a4034;
-}  
+.header-nav-image li a img:hover {
+  transform: scale(1.1);
+  border: 2px solid #3a4034;
+}
 
 /*    -------------------------  contact us              ------------------*/
 
 .form-box {
-    padding: 40px 0;
-    background-color: #737373;
-    font-family: "Rubik", sans-serif;
-    text-align: center;
-    color: #fff;
-    min-height: 80vh;    
+  padding: 40px 0;
+  background-color: #737373;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: #fff;
+  min-height: 80vh;
 }
 
 .contact-header h3 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    letter-spacing: 1px;
-    font-size: 40px;
-    padding: 17px 0px 7px 0px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 1px;
+  font-size: 40px;
+  padding: 17px 0px 7px 0px;
 }
 
 .contact-header hr {
-    border: 1px solid #010203;
-    width: 75%;
+  border: 1px solid #010203;
+  width: 75%;
 }
 
 @media (min-width: 768px) {
-    .contact-header hr {
-        width: 80%;
-    }
+  .contact-header hr {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1200px) {
-    .contact-header hr {
-        width: 60%;
-    }
+  .contact-header hr {
+    width: 60%;
+  }
 }
 
 .form-frame {
-    margin-bottom: 30px;
-    background-color: #d7fad2;
-    color: #000;
-    border-radius: 17px;
-    box-shadow: 14px 14px 7px #3a4034;
+  margin-bottom: 30px;
+  background-color: #d7fad2;
+  color: #000;
+  border-radius: 17px;
+  box-shadow: 14px 14px 7px #3a4034;
 }
 
 .contact-input-spacing div {
-    padding-right: 30px !important;
-    padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
 }
 
 @media (max-width: 575.98px) {
-    .contact-input-spacing div {
-        padding-right:10px !important;
-        padding-left: 10px !important;
-    }
+  .contact-input-spacing div {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
 }
 
-@media (max-width: 991.98px) { 
-    .contact-input-spacing div {
-        padding-right: 20px !important;
-        padding-left: 20px !important;
-    }    
+@media (max-width: 991.98px) {
+  .contact-input-spacing div {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
 }
 
 .form-row div label {
-    padding: 13px 0 13px 0;
+  padding: 13px 0 13px 0;
 }
 
 .form-row div {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .radio-text label {
-    border: 2px solid rgba(0,0,0,.25);
-    background-color: rgba(0,0,0,.10);
-    color:#000;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
 }
 
 .radio-text label:hover {
-    background-color: rgba(0,0,0,.50);
-    color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .custom-button-contact {
-    border: 2px solid #0102036b;
-    background-color: rgba(0,0,0,.15);
-    color: #010203;
-    padding-bottom:5px;
-    padding: 6px 17px;
-    font-size: 19px;
+  border: 2px solid #0102036b;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #010203;
+  padding-bottom: 5px;
+  padding: 6px 17px;
+  font-size: 19px;
 }
 
-.custom-button-contact:hover{
-    border: 2px solid #3a4034;
-    background-color: rgba(52, 58, 64, .75);
-    color: #fff;
-    transition: .25s;
+.custom-button-contact:hover {
+  border: 2px solid #3a4034;
+  background-color: rgba(52, 58, 64, 0.75);
+  color: #fff;
+  transition: 0.25s;
 }
