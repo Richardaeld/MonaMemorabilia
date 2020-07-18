@@ -304,8 +304,7 @@ hr {
 
 .about-hero-text h1 {
   font-family: "Yanone Kaffeesatz", sans-serif;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding: 40px 20px 30px 20px;
   font-weight: 500;
   font-size: 80px;
   letter-spacing: 2px;
@@ -357,19 +356,47 @@ hr {
   font-weight: 500;
 }
 
+@media (max-width: 767.98px) {
+  .about-hero-text h1 {
+    font-size: 60px;
+  }
+  .about-hero-text h3 {
+    font-size: 23px;
+  }
+  .about-box h4 {
+    font-size: 30px;
+  }
+  .about-box p {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 575.98px) {
   .about-hero-text h1 {
     font-size: 40px;
+  }
+  .about-hero {
+    padding-bottom: 20px;
   }
   .about-hero-text h3 {
     font-size: 17px;
   }
   .about-box h4 {
-    font-size: 23px;
+    font-size: 27px;
   }
   .about-box p {
     font-size: 13px;
   }
+
+  .about-box,
+  .about-box p {
+      padding-bottom: 10px;
+      padding-top: 7px;
+  }  
+}
+
+.about-bottom-pad {
+  padding-bottom: 25px;
 }
 
 /*    -------------------------  gallery main             ------------------*/
