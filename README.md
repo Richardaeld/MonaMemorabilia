@@ -58,6 +58,8 @@ also applies to a smaller market of young adults seeking business portraits and 
     + Sees the half edited photo on About us page and decides that the style they like
 
 # Testing
++ pingdom results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom)
++ browserstack results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack)
 
 # Previous and Current Bugs
 
@@ -70,6 +72,11 @@ footer just keeps extending to fill the page.
 The file "Core.python3.2641.1592707923" will crash gitpod when attempting to delete it.
 
 When sub gallerys viewed at i5 resolution on landscape the nav bar and bottom cut off borders of images.
+
+## Not supported 
++ internet explorer 9 and older
++ opera 12.15 and older
++ firefox 3.6 and older
 
 # Scalability 
 
