@@ -131,7 +131,7 @@ hr {
   .sub-hero-text h3 {
     font-size: 23px;
   }
-  .sub-hero-text li {
+  .sub-hero-text ul li {
     font-size: 13px;
   }
   .sub-hero-text p {
@@ -355,6 +355,21 @@ hr {
   padding: 13px 23px 40px 23px;
   font-size: 20px;
   font-weight: 500;
+}
+
+@media (max-width: 575.98px) {
+  .about-hero-text h1 {
+    font-size: 40px;
+  }
+  .about-hero-text h3 {
+    font-size: 17px;
+  }
+  .about-box h4 {
+    font-size: 23px;
+  }
+  .about-box p {
+    font-size: 13px;
+  }
 }
 
 /*    -------------------------  gallery main             ------------------*/
