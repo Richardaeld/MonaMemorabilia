@@ -483,9 +483,23 @@ hr {
 
 .sub-gallery-header h3 {
   padding: 17px 25px 5px 25px;
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 1px;
   font-weight: 400;
+}
+
+.sub-gallery-text span,
+.sub-gallery-text a i {
+  color: #fff;
+  font-size:15px;
+  padding-left: 13px;
+}
+
+@media (min-width: 768px) {
+  .sub-gallery-text span,
+  .sub-gallery-text a i {
+      font-size: 23px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -495,6 +509,12 @@ hr {
   }
   .return-arrow {
     font-size: 35px;
+  }
+.sub-gallery-text span,
+.sub-gallery-text a i {
+  color: #fff;
+  font-size:30px;
+  padding-left: 13px;
   }
 }
 
@@ -532,17 +552,6 @@ hr {
 
 .sub-gallery-text h5 {
   font-size: 55px;
-}
-
-.sub-gallery-text span {
-  color: #fff;
-  font-size: 30px;
-}
-
-.sub-gallery-text a i {
-  color: #fff;
-  font-size: 25px;
-  padding-left: 13px;
 }
 
 .sub-gallery-text a:hover {

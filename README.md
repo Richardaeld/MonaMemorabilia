@@ -69,6 +69,8 @@ footer just keeps extending to fill the page.
 
 The file "Core.python3.2641.1592707923" will crash gitpod when attempting to delete it.
 
+When sub gallerys viewed at i5 resolution on landscape the nav bar and bottom cut off borders of images.
+
 # Scalability 
 
 + Photo slider to change photo from before digital editing to after (Would be neat but outside of scope of project)
