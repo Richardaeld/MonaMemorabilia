@@ -79,6 +79,15 @@ footer just keeps extending to fill the page.
 + firefox 3.6 and older
 + safari 8.0 and older
 
+### transition effect supported (video ref header adding a profile video 1 time before 6min)
++ Chrome 26.0 and newer
++ Internet explorer 10 and newer
++ Firefox 16 and newer
++ Safari 6.1 and newer
++ Opera 12.1 and newer
+
+
+
 # Scalability 
 
 + Photo slider to change photo from before digital editing to after (Would be neat but outside of scope of project)
