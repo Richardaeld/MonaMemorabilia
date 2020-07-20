@@ -125,6 +125,9 @@ hr {
   background-color: #fff;
   border: 3px solid #a9a9a9;
   transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -webkit-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
 }
 
 @media (max-width: 575.98px) {
@@ -247,12 +250,20 @@ hr {
 .footer-social ul li a {
   color: #fff;
   transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+
 }
 
 .footer-social ul li i:focus,
 .footer-social ul li i:hover {
   background-color: #fff;
   transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -webkit-transition-duration: 1.5s;
+  -o-transition-duration: 1.5s;
+
   color: #000;
 }
 
@@ -429,6 +440,10 @@ hr {
   height: 250px;
   box-shadow: 7px 7px 14px #3a4034;
   transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+
 }
 
 .photo-icons img:hover {
@@ -572,6 +587,10 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+
 }
 
 .header-nav-image li a img:hover {
@@ -674,4 +693,8 @@ hr {
   background-color: rgba(52, 58, 64, 0.75);
   color: #fff;
   transition: 0.25s;
+  -moz-transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+
 }
