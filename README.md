@@ -1,4 +1,4 @@
-![Monachese Photography](assets/images/logo.png "Monachese Photography")
+![Monachese Photography](assets/images/logo-readme.png "Monachese Photography")
 
 # Monachese Photography
 The purpose of this site is to showcase an independent photographer's gallery, demonstrate their ability to digitally enhance photos, to advertise photo session/editing packages,
