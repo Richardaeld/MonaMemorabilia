@@ -1,111 +1,100 @@
 ![Monachese Photography](assets/images/logo.png "Monachese Photography")
 
 # Monachese Photography
+The purpose of this site is to showcase an independent photographer's gallery, demonstrate their ability to digitally enhance photos, to advertise photo session/editing packages,
+and services to meet client photography needs. A majority of images showcased cater to the needs of parents and grandparents, however this sit also has appeal to a smaller market 
+of young adults seeking business portraits and clients who wish to digitally enhance photographs.
 
-This site allows a photographer's company to show off their brand of photograph, ability to digitally improve photos, and provide customers with a desireable end product. 
-The implied clientele is parents and grandparents, however this site also applies to a smaller market of young adults seeking business portraits and those seeking to digitally 
-improve previously taken photo's.
 
 # UX Choices
-
 ### Home
-
-+ Shows off four eye drawing images in bootstrap carousel
++ Shows off four eye catching photos in bootstrap carousel
 + Gives a brief description of general services offered in four boxes that make use of negative space
 
 ### Main Nav 
-
-+ Clean, responsive bootstrap nav bar 
-+ Clear display of company logo in top left corner
++ Includes a clean, responsive bootstrap nav bar 
++ Provides a clear display of the company logo in top left corner
 
 ### Main Footer
-
-+ Images used with minimal text to show user that text is a clickable link
-+ Added social links that would most likely be used by a photo image company
++ Uses Fontawesome icons paired with text to display a contemporary link design 
++ Added social links that would most likely be used by an independent photographer
 
 ### About Us
-
-+ Hero image showing the difference with and without color grading
-+ A text section emphasizing the above and beyond work offered by the company 
++ The Hero image used is a half edited and half unedited photo that shows the difference of an idependent photographers brand of digital enhancement
++ Features a no-frills text section emphasizing the above and beyond work offered by the company 
 
 ### Gallery
++ Utilizes negative space to draw the eye to four sub-gallery image links
++ Images on the page include a "hover" and "scale" feature to provide the appearence of conventional links
 
-+ Use of negative space to draw the eye to four sub-gallery links
-+ Scale feature when hovering over images to help confer it's a link
-
-### Sub Gallery (all pages)
-
-+ Back button to main gallery and a two way in page nav for user convience
-+ All images have an added border and shadow to give a 3 dimensional effect to help draw the eye
+### Sub-Galleries (all pages that are linked from within gallery)
++ Includes a back button to main gallery and a two way in page nav for user convience
++ All images have an added "border" and "box-shadow" to give a three-dimensional effect
 
 ### Contact us
-
-+ Simple submission form that prevents users from accidently submitting without filling in contact information
-+ Fitted with plenty of space for users to submit a well thought out idea, multiple questions or both
++ Contains a simple submission form that prevents users from accidental submittion without completing contact information
++ The final box (Describe Your Session needs...) includes plenty of space for users to submit a substantial and well-thought out response
 
 ### Brand Identity
++ The Headers font-familiess match the Style of the logo
++ The main page color scheme uses the monochromatic coloration of the logo
++ The pictures used maintain themes of family, digital enhancement, and photographers artistic brand 
 
-+ Header font-familys match the Style of the logo font-family
-+ Main page uses logo's monochromatic coloration
-+ Strong theme's of family and artistic photography 
-
-# Potiental Client Examples
-
+## Potiental Client Examples
 + A: Is looking for a "candid" photo
-    + Sees the home page carousel and describes a business portrait in the "Describe your session needs" on Contact Us page
+    + Client sees the home page carousel and describes a business portrait in the "Describe your session needs..." on Contact Us page
 
 + B: Wants a frameable photo of child to give to grandparents  
-    + Finds an artistic color graded photo in Children Gallery page 
+    + Client sees the home page text describing photo enhancement, looks at the Gallery, and finds the photo enhancement sub-gallery where they see artistic photos and decide they want to hire this photographer for his 
+    artistic brand 
 
-+ C: Has an idea for a photo session that is non standard
-    + Home page has a section about custom projects w/ button to submit custom ideas
++ C: Has an idea for a photo session that doesnt fit into any standard photo session
+    + Home page has a section about custom projects with button to submit custom ideas and decides to reach out to photographer with an e-mail link found in the footer
 
-+ D: Is looking for previously taken photos to be digitally edited
-    + Sees the half edited photo on About us page and decides that submitting a custom reediting project in that style is what they desire
++ D: Is looking for previously taken photos to be fixed from a previous photo editors poor work 
+    + Client sees an artistic photo on the home page carousel they appreciate, decides to learn more about what the independent photographer and looks at the About Us section, after seeing the half edited and half original
+    photograph they decide to use the session inquiry from found on the footer to submit a custom project 
 
-# Live Protype Demo and Wire Frame
-
-+ An active demo can be found [here](https://richardaeld.github.io/MonaMemorabilia/ "Web Page") at github. 
+## Live Protype Demo and Wire Frame
++ An active prototype can be found [here](https://richardaeld.github.io/MonaMemorabilia/ "Web Page") at github. 
 + The wire frame png's can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/wireframe "Wire Frame") also embedded at github.
 
+
 # Testing
-## Web Programs used
-+ pingdom results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom)
-+ browserstack results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack)
-+ W3C Validator was used to help identify errors in HTML and CSS
-
-
 ## Previous and Current Bugs
-+ Numerous graphical misalignments were experienced during the construction of this project.  These were primarily generated by bootstrap creating padding and margins with 
-    the use of rows and container-fluid commands. Thus they were easily taken care of with appropiate padding/margin removal and use of "!important".  
++ During the programming of this webpage, there were numerous graphical misalignments. These were primarily generated by Bootstrap creating padding and margins with as a result of using rows and container-fluid commands.
+    These were easily taken care of with appropiate padding/margin removal and the use of "!important".
++ Various pages were not filling the entire screen on specific interface devices when using the inspect function in chrome. By giving the body the default color of the footer it gives the illusion that the footer background
+    color extending to the bottom of the screen.
++ The file "Core.python3.2641.1592707923" will crash GitPod when attempting to delete it.
++ When viewing all sub-galleries at an i5 resolution in landscape (568px x 320px) while using the chrome inspect function, the top and bottom borders of photos cannot be seen due to the size of the nav bar and the 
+    physical limitation of pixals on the screen.
 
-+ Various pages were not filling the entire page on specific interface devices (using inspect in chrome). The fix used was giving the body a fall back color of the footer. Thus it 
-    appears the footer just keeps extending to fill the page. 
-
-+ The file "Core.python3.2641.1592707923" will crash gitpod when attempting to delete it.
-
-+ When sub gallerys viewed at i5 resolution on landscape the nav bar and bottom cut off borders of images.
-
-## Not supported 
+## Not supported determined by BrowserStack and version of Bootstrap 
 + internet explorer 9 and older
 + opera 12.15 and older
 + firefox 3.6 and older
 + safari 8.0 and older
 
-### transition effect supported (video ref header adding a profile video 1 time before 6min)
+## Web Browsers that support transition effects used 
 + Chrome 26.0 and newer
 + Internet explorer 10 and newer
 + Firefox 16 and newer
 + Safari 6.1 and newer
 + Opera 12.1 and newer
 
-# Scalability 
-+ Photo slider to change photo from before digital editing to after (Would be neat but outside of scope of project)
-+ Use of a modal in sub-gallery pages to pop up a picture rather than relying on a clunky in page nav 
-+ Changing of px to rem would help with code length and add better responsiveness to page on smaller devices 
+## Scalability 
++ Adding a user operable slide bar to change images from edited to original could offer better repenstation of the digital enhancment section and About Us hero image (Would be neat but outside of scope of project)
++ The use of a modal in sub-gallery pages would allow for pictuers to pop up instead of relying on a clunky in-page nav 
++ Changing px to rem in css would help reduce code length in css and add better responsiveness to all pages on smaller devices 
+
+## Web Programs used
++ pingdom results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom)
++ browserstack results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack)
++ W3C Validator was used to help identify errors in HTML and CSS
+
 
 # Technologies
-
 ## Languages 
 + HTML
 + CSS
@@ -117,45 +106,39 @@ improve previously taken photo's.
 + [Balsmiq](https://balsamiq.com/) - Helped produce the wireframe used for this web page
 
 ## Web based tools
-
 + GitHub - Deployment of prototype site
 + GitPod - Integrated development environment 
 + Pingdom - Checking for page load time
 + BrowserStack - Checking for platform incompatibility
-+ tiny.png - Minimizing KB load per image
-+ fontawesome - Icons used
-+ google fonts - Fonts used 
-+ bootstrap - Used as framework
++ TinyPNG - Minimizing KB load per image
++ Fontawesome - Icons used
++ Google fonts - Fonts used 
++ Bootstrap - Used as framework
 + W3C Validator - Used to identify errors in code
 
 ## Web based references and code used from
-
-+ [webaccessibilitychecklist](http://webaccessibilitychecklist.com/) - Helpped make page Aria accessible
-+ [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) -  helped with understanding when to use aria
-+ [w3schools](https://www.w3schools.com/) - helped fine tune css, and provided examples of advanced tricks involving transition, hover, and scale.  These can be seen in
-    1. Index (:hover button effects found uder custom project and text-shadow used on busisness name) 
-    2. Main footer(the buttons found under: Follow Us On)
-    3. Gallery and sub-galleries (the scaling effect used on images along with box shadow)
-    4. Sub-galleries (the selectable images scale and transition properities)
-
-+ [stack overflow](https://stackoverflow.com/) - helped understand how to correct visual bugs with bootstrap's automatic padding and margins
++ [webaccessibilitychecklist](http://webaccessibilitychecklist.com/) - Helped with making web page ARIA accessible
++ [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) -  Helped with understanding of when and how to use ARIA
++ [w3schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving *transition*, *hover*, and *scale*.  These can be seen in:
+    1. Index (*Hover* button effects are found under "Custom Project" and *text-shadow* is used on the busisness name, Monachese Photography) 
+    2. Main footer(*Hover* effect used for the social media icons)
+    3. Gallery and sub-galleries (All nav images use the *scale* effect and a *box-shadow*)
+    4. Sub-galleries (The clickable images use a *scale* and *transition* effect.  The other images use *box-shadow*)
++ [stack overflow](https://stackoverflow.com/) - Helped in understanding how to correct visual bugs with Bootstrap's automatic padding and margins
 + [bootstrap](https://getbootstrap.com/) - 
     1. Main nav (Used responsive design nav bar) 
     2. Index (Image carousel) 
-    3. Contact us (Form was put together using almost entirly bootstap code) 
-    4. Sub-Gallery(scrollspy was used for in page nav, "invisible" properity was used to hide placement of in page nav snap to points)
-
-+ Code Institute (Class) - used footer design based on golden ratio and made social links like those shown in class
-
-+ Used a visual reference from a classmate (Simon "jumboduck") for About us section. The idea used is a large hero image followed by the golden ratio of 3 text boxes that share 
+    3. Contact us (Form) 
+    4. Sub-Gallery(scrollspy was used for the in-page nav and the "invisible" properity was used to hide placement of in-page nav snap-to points)
++ Code Institute (Class) - Used footer design based on golden ratio and made social links like the examples shown in class
++ Used a visual reference from a classmate (Simon "jumboduck") for the About Us section. The idea that was used is a large hero image followed by the golden ratio of three text boxes that share 
     the background color of the page.
 
 # Acknowledgements 
-
-+ The photos and logo were created by the same person, "Micheal Monachese" 
-+ The idea for this website came from a childhood friend that has a forte for photography
-+ Felipe Souza Alarcon for guidence and providing a plethoria of information and useful web based applications
-
++ The idea for this website came from Micheal Monachese because of his photography forte
++ The photos and logo were all created by Micheal Monachese
++ Felipe Souza Alarcon for guidence and providing a plethoria of information and web-based applications
++ Emily Grooms for her wordsmithing skills
 
 
 
