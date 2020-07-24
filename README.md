@@ -1,6 +1,4 @@
-![Monachese Photography](assets/images/logo-readme.png "Monachese Photography")
-
-# Monachese Photography
+# ![Monachese Photography](assets/images/logo-readme.png "Monachese Photography")  onachese Photography
 
 The purpose of this site is to showcase an independent photographer's gallery, demonstrate their ability to digitally enhance photos, and to advertise photo 
 sessions and editing packages to meet the photography needs of potential clients. A majority of the images showcased cater to parents and grandparents, however 
@@ -120,19 +118,19 @@ these also may appeal to a smaller market of young adults seeking business portr
 + W3C Validator - Used to identify errors in code
 
 ## Web-based references and code used from
-+ [webaccessibilitychecklist](http://webaccessibilitychecklist.com/) - Helped with making web page ARIA accessible
++ [Webaccessibilitychecklist](http://webaccessibilitychecklist.com/) - Helped with making web page ARIA accessible
 + [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) - Helped with understanding of when and how to use ARIA
-+ [w3schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving *transition*, *hover*, and *scale*. These can be seen in:
++ [W3schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving *transition*, *hover*, and *scale*. These can be seen in:
     1. Index (*Hover* button effects are found under "Custom Project" and *text-shadow* is used on the busisness name, Monachese Photography)
-    2. Main footer(*Hover* effect used for the social media icons)
+    2. Main footer (*Hover* effect used for the social media icons)
     3. Gallery and sub-galleries (All nav images use the *scale* effect and a *box-shadow*)
     4. Sub-galleries (The clickable images use a *scale* and *transition* effect. The other images use *box-shadow*)
-- [stack overflow](https://stackoverflow.com/) - Helped in understanding how to correct visual bugs with Bootstrap's automatic padding and margins
-- [bootstrap](https://getbootstrap.com/) -
+- [Stack overflow](https://stackoverflow.com/) - Helped in understanding how to correct visual bugs with Bootstrap's automatic padding and margins
+- [Bootstrap](https://getbootstrap.com/) -
   1. Main nav (Used responsive design nav bar)
   2. Index (Image carousel)
   3. Contact us (Form)
-  4. Sub-Gallery(Scrollspy was used for the in-page nav and the "invisible" properity was used to hide placement of in-page nav snap-to points)
+  4. Sub-Gallery (Scrollspy was used for the in-page nav and the *invisible* properity was used to hide placement of in-page nav snap-to points)
 + Code Institute (Class) - Used footer design based on the golden ratio and made social links like the examples shown in class
 + Used a visual reference from a classmate (Simon "jumboduck") for the About Us section. The idea that was used is a large Hero image followed by the golden 
     ratio of three text boxes that share the *background-color* of the page.
