@@ -9,6 +9,7 @@ these also may appeal to a smaller market of young adults seeking business portr
 + The wireframe PNG's can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/wireframe "Wireframe") also embedded at GitHub.
 
 # UX Choices
+![display-responsiveness](assets/images/display-devices.png "display-responsiveness") 
 ### Home
 + Shows off four eye-catching photos in bootstrap carousel
 + Gives a brief description of the general services offered in a responsive four box layout that makes use of negative space
@@ -59,8 +60,6 @@ these also may appeal to a smaller market of young adults seeking business portr
         the footer to submit a photo-enhancement project.
 
 # Testing
-![display-responsiveness](assets/images/display-devices.png "display-responsiveness") 
-
 ## Web Programs Used For Pinging and Compatibility
 + Pingdom results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom)
 + Browserstack results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack)
