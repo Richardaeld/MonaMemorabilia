@@ -45,21 +45,49 @@ these also may appeal to a smaller market of young adults seeking business portr
 + The pictures used maintain themes of family, digital enhancement, and demonstrate the photographer’s artistic style
 
 # Potential Client Examples
-+ A: A client is uncertain of what type of photo service they are interested in 
-    + Client sees the home page carousel and likes the business portrait. The client then describes their desire for business portrait 
-        in the "Describe your session needs..." on Contact Us page
-+ B: Client wants to schedule a session for their children with the photographer and have photos digitally enhanced 
-    + The client sees the home page and decides to look at the children gallery. After client has looked through the children’s gallery 
-        and the digital enhancement gallery, the client is ready to describe their photo needs in the contact submission form. They request 
-        digital enhancement in addition to asking to book a photo session.
-+ C: Has an idea for a photo session that does not fit into any standard photo session 
-    + Home page has a section about custom projects and decides to reach out to photographer with an e-mail link found in the footer
-+ D: Is looking for previously taken photos to be fixed from a previous photo editors poor work 
-    + Client sees an artistic photo on the home page carousel they appreciate, decides to learn more about the independent photographer 
-        and looks at the About Us section. After seeing the half-edited photograph, they decide to use the session inquiry from found on 
-        the footer to submit a photo-enhancement project.
+## Clients **
++ As a client, I'd like a framable photograph for a gift**
++ As a client, I'd like a portrait photograph for a work portfolio**
++ As a client, I'd like a photograph I already own to be digitially improved **
++ As a client, I'd like a photographer to attent a family event to capture natural photos**
++ As a client, I'd like a photo session that is considered non-standard **
++ As a client, I'd like a studio photo session with my family
 
 # Testing
+## Checking Responsiveness **
+Pages should have good UX at a starting resolution of 320*px* width by 568*px* heigth and past 1200*px* wide <br />
++ Assumption:  
+    1. Using latest edition of Chrome 
+    1. A monitor that supports 1080p resolution or greater 
++ Testing steps:
+    1. Open inspect on Chrome browser
+    1. Select Responsive tab on top of screen and cycle through all media sizes availiable
+        + Check for visual bugs, misalignments, or bad UX at every single size
+    1. Select Responsive tab and select the responsive function
+    1. Stretch screen *width* from 320*px* to 1200*px* and beyond
+        + Check for visual bugs, misalignments, or bad UX as the pixal width is increased
++ Expected result:
+    1. All viewable resolutions show good UX
+    1. There are no visual bugs or misalignments
+--------------------------------
+## Checking for Errors in Code
+Code should not return errors<br />
++ Precondition: 
+    1. Website has been deployed and is visible browsers online
++ Assumption:
+    1. Know that vendor extensions do not validate and can be ignored
+    1. know that not all warnings given will show code that requires change 
+    1. Know that external resources, like Bootstrap, return errors and warning that do not concern this process
++ Testing Steps:
+    1. Open deployed website page, copy its index link, and leave open
+    1. Open another tab in browser and go to [W3C Markup Validation Service](https://validator.w3.org/)
+    1. Paste the link of websites index page into W3C's validation bar and submit it to see what W3C finds
+    1. Repeat step three until all pages have been checked in W3C
+    1. Open a tab in browser and go to  [Jigsaw(Validation Service)](https://jigsaw.w3.org/css-validator/)
+    1. Paste the link of websites index page into Jigsaws's validation bar and submit it to see what Jigsaw finds
++ Expected result:
+    1. No problem code found   
+
 ## Web Programs Used For Pinging and Compatibility
 + Pingdom results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom)
 + Browserstack results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack)
@@ -105,7 +133,8 @@ these also may appeal to a smaller market of young adults seeking business portr
 + [Fontawesome](https://fontawesome.com/v4.7.0/icons/) - Icons used
 + [Google fonts](https://fonts.google.com/) - Fonts used
 + [Bootstrap](https://getbootstrap.com/) - Used as framework
-+ [W3C Validator](https://validator.w3.org/) - Used to identify errors in code
++ [W3C Validator](https://validator.w3.org/) - Used to identify errors in markup
++ [Jigsaw(Validation Service)](https://jigsaw.w3.org/css-validator/) - Used to identify errors in CSS
 + [Techsini](https://techsini.com/multi-mockup/) - for their viewable responsiveness PNG
 + [Balsmiq](https://balsamiq.com/) - Helped produce the wireframe used for this web page
 
