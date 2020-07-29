@@ -23,7 +23,7 @@ hr {
   letter-spacing: 1px;
 }
 
-/*    ------------------------- index  header               ------------------*/
+/*    ------------------------- index header               ------------------*/
 
 .logo {
   background-color: #010203;
@@ -45,7 +45,7 @@ hr {
   font-size: 17px;
 }
 
-/*  ----  Allows for index's header to be responsive ----  */
+/*  ----  allows for index's business name to be responsive ----  */
 
 @media (min-width: 768px) {
   .logo h1 {
@@ -139,7 +139,7 @@ hr {
   -o-transition-duration: 0.25s;
 }
 
-/*  ----  Allows for index's sub-hero section to be responsive ----  */
+/*  ----  allows for index's sub-hero section to be responsive ----  */
 
 @media (max-width: 575.98px) {
   .sub-hero-text h3 {
@@ -282,7 +282,7 @@ hr {
   color: #000;
 }
 
-/*  ----  Allows for footer to be responsive ----  */
+/*  ----  allows for footer to be responsive ----  */
 
 
 @media (max-width: 767.98px) {
@@ -321,7 +321,7 @@ hr {
   }
 }
 
-/*    -------------------------    ABOUT US      ------------------*/
+/*    -------------------------    about us      ------------------*/
 
 .about-hero-text {
   font-family: "Rubik", sans-serif;
@@ -385,7 +385,7 @@ hr {
   font-weight: 500;
 }
 
-/*  ----  Allows for about us to be responsive ----  */
+/*  ----  allows for about us to be responsive ----  */
 
 @media (max-width: 767.98px) {
   .about-hero-text h1 {
@@ -485,7 +485,7 @@ hr {
   font-size: 23px;
 }
 
-/*  ----  Allows for gallery to be responsive ----  */
+/*  ----  allows for gallery to be responsive ----  */
 
 @media (min-width: 767.98px) {
   .gallery-padding {
@@ -533,7 +533,7 @@ hr {
   padding-left: 13px;
 }
 
-/*  ----  Allows for sub-gallery to be responsive ----  */
+/*  ----  allows for sub-gallery to be responsive ----  */
 
 @media (min-width: 768px) {
   .sub-gallery-text span,
@@ -670,7 +670,7 @@ hr {
   box-shadow: 14px 14px 7px #3a4034;
 }
 
-/*  ----  Allows for Contact Us to resize user input box size for better UX  ----  */
+/*  ----  allows for contact us to resize user input box size for better UX  ----  */
 
 .contact-input-spacing div {
   padding-right: 30px !important;
