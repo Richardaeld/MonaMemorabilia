@@ -34,7 +34,7 @@ hr {
 }
 
 .logo h1 {
-  padding: 12px 13px 13px 13px;
+  padding: 12px 20px 13px 20px;
   font-size: 40px;
   text-shadow: 2px 2px 4px white;
 }
@@ -153,6 +153,9 @@ hr {
   }
   .sub-hero-text span {
     font-size: 13px;
+  }
+  .time-text li span {
+    font-size: 14px;
   }
 }
 
