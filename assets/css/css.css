@@ -45,6 +45,8 @@ hr {
   font-size: 17px;
 }
 
+/*  ----  Allows for index's header to be responsive ----  */
+
 @media (min-width: 768px) {
   .logo h1 {
     font-size: 100px;
@@ -101,6 +103,11 @@ hr {
   padding: 5px 17px;
 }
 
+.time-text li span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
 .sub-hero-frame article ul {
   padding-left: 0;
 }
@@ -111,6 +118,8 @@ hr {
   height: 325px;
   color: #fff;
 }
+
+/*  ---- index custom button ----  */
 
 .custom-button-light {
   background-color: #a9a9a9;
@@ -129,6 +138,8 @@ hr {
   -webkit-transition-duration: 0.25s;
   -o-transition-duration: 0.25s;
 }
+
+/*  ----  Allows for index's sub-hero section to be responsive ----  */
 
 @media (max-width: 575.98px) {
   .sub-hero-text h3 {
@@ -238,6 +249,8 @@ hr {
   top: 10px;
 }
 
+/*  ----  footer's social buttons and effects ----  */
+
 .footer-social ul li i {
   list-style-type: none;
   width: 40px;
@@ -263,9 +276,11 @@ hr {
   -moz-transition-duration: 1.5s;
   -webkit-transition-duration: 1.5s;
   -o-transition-duration: 1.5s;
-
   color: #000;
 }
+
+/*  ----  Allows for footer to be responsive ----  */
+
 
 @media (max-width: 767.98px) {
   .footer-contact {
@@ -367,6 +382,8 @@ hr {
   font-weight: 500;
 }
 
+/*  ----  Allows for about us to be responsive ----  */
+
 @media (max-width: 767.98px) {
   .about-hero-text h1 {
     font-size: 60px;
@@ -434,6 +451,8 @@ hr {
   margin: 30px 0 0px 0;
 }
 
+/*  ----  gallery's images and effects ----  */
+
 .photo-icons img {
   border: 2px solid #fff;
   border-radius: 15px;
@@ -443,7 +462,6 @@ hr {
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-
 }
 
 .photo-icons img:hover {
@@ -463,6 +481,8 @@ hr {
   padding-bottom: 13px;
   font-size: 23px;
 }
+
+/*  ----  Allows for gallery to be responsive ----  */
 
 @media (min-width: 767.98px) {
   .gallery-padding {
@@ -509,6 +529,8 @@ hr {
   font-size:15px;
   padding-left: 13px;
 }
+
+/*  ----  Allows for sub-gallery to be responsive ----  */
 
 @media (min-width: 768px) {
   .sub-gallery-text span,
@@ -573,6 +595,8 @@ hr {
   text-decoration: none;
 }
 
+/*  ----  sub-gallery images and effects ----  */
+
 .sub-gallery-img img {
   border: 2px solid #fff;
   border-radius: 15px;
@@ -621,6 +645,8 @@ hr {
   width: 75%;
 }
 
+/*  ----  Allows for contact us hr to be responsive ----  */
+
 @media (min-width: 768px) {
   .contact-header hr {
     width: 80%;
@@ -640,6 +666,8 @@ hr {
   border-radius: 17px;
   box-shadow: 14px 14px 7px #3a4034;
 }
+
+/*  ----  Allows for Contact Us to resize user input box size for better UX  ----  */
 
 .contact-input-spacing div {
   padding-right: 30px !important;
@@ -668,6 +696,8 @@ hr {
   padding: 10px 0;
 }
 
+/*  ----  contact us radio button appearence and effects ----  */
+
 .radio-text label {
   border: 2px solid rgba(0, 0, 0, 0.25);
   background-color: rgba(0, 0, 0, 0.1);
@@ -678,6 +708,8 @@ hr {
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
 }
+
+/*  ----  contact us submit button ----  */
 
 .custom-button-contact {
   border: 2px solid #0102036b;
