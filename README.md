@@ -63,12 +63,14 @@ Pages should have good UX at a starting resolution of 320*px* width by 568*px* h
     1. Open inspect on Chrome browser
     1. Select Responsive tab on top of screen and cycle through all media sizes availiable
         + Check for visual bugs, misalignments, or bad UX at every single size
+        + Document any problem area or material witnessed
     1. Select Responsive tab and select the responsive function
     1. Stretch screen *width* from 320*px* to 1200*px* and beyond
         + Check for visual bugs, misalignments, or bad UX as the pixal width is increased
+        + Document any problem area or material witnessed
 + Expected result:
-    1. All viewable resolutions show good UX
-    1. There are no visual bugs or misalignments
+    1. Documented material on all viewable resolutions of bad UX
+    1. Documented material of where visual bugs or misalignments occure
 --------------------------------
 ## Checking for Errors in Code
 Code should not return errors<br />
@@ -82,11 +84,31 @@ Code should not return errors<br />
     1. Open deployed website page, copy its index link, and leave open
     1. Open another tab in browser and go to [W3C Markup Validation Service](https://validator.w3.org/)
     1. Paste the link of websites index page into W3C's validation bar and submit it to see what W3C finds
-    1. Repeat step three until all pages have been checked in W3C
-    1. Open a tab in browser and go to  [Jigsaw(Validation Service)](https://jigsaw.w3.org/css-validator/)
+    1. Document errors and warnings that should be corrected
+    1. Repeat steps three and four until all pages have been checked in W3C
+    1. Open a tab in browser and go to  [Jigsaw (CSS Validation Service)](https://jigsaw.w3.org/css-validator/)
     1. Paste the link of websites index page into Jigsaws's validation bar and submit it to see what Jigsaw finds
+    1. Document errors and warnings that should be corrected
 + Expected result:
-    1. No problem code found   
+    1. List of problem code and where it can be found   
+---------------------------------
+## Checking for browser support
+Should not return time out, error, or grapical misalignment <br />
++ Assumption:
+    1. Know what index page is supposed to look like at different resolutions
++ Testing Steps:
+    1. Open deployed website page, copy its index link, and leave open
+    1. Open another tab in browser and go to [browser Stack Screenshots](hhttps://www.browserstack.com/screenshots)
+    1. Paste the link of index page into Browser Screenshots testing bar
+    1. Pick an operating system and select the most current versions of browsers supported by said operating system
+    1. Repeat step four until there are 25 browser and device combinations
+    1. Click "Generate" and wait for results to finish
+    1. View each screenshot checking for image accuracy
+    1. Document the successful generations
+    1. Click "Back to Devices" and clear previous selections
+    1. Repeat steps four through nine until all operations systems and devices are documented
++ Expected result:
+    1. List of supported and none supported browsers and devices 
 
 ## Web Programs Used For Pinging and Compatibility
 + Pingdom results can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom)
@@ -104,6 +126,18 @@ Code should not return errors<br />
     borders of photos cannot be seen due to the size of the nav bar and the physical limitations of the pixels on the screen.
 
 ## Not Supported Determined by Browserstack and Version of Bootstrap
+## (append) Lastest version browser support with Operating system 
++ Full Windows 10 support
++ Windows 8.1, 8.0, 7 
+    + Chrome and Internet Explorer
++ Mac OS X Catalina and Mojave
+    + Chrome
++ Mac OS X High Sierra, Sierra, and El Capitan
+    + Safari and Chrome
++ Mac OX X Yosemite and Mavericks
+    + Chrome
+
+
 + Internet explorer 9 and older
 + Opera 12.15 and older
 + Firefox 3.6 and older
