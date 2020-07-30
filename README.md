@@ -39,6 +39,15 @@ these also may appeal to a smaller market of young adults seeking business portr
 + Contains a simple submission form which prevents users from accidentally submitting without completing the contact information
 + The final box (Describe Your Session needs...) includes plenty of space for users to submit a substantial and well-thought out response
 
+### Image compression
++ TinyPNG image compression roughly elimates 51% of kb load from images
++ With the reduction of image size this allows for the page to load in roughly .241 second 
+
+
+![Tinyify differrence image](assets/images/tiny-ping-combo.png "Displays the minification done to image")
+
+Helps with load time
+
 # Brand Identity
 + The headers (h1, h2…) *font-families* match the style of the logo
 + The main page color scheme uses the monochromatic coloration of the logo
