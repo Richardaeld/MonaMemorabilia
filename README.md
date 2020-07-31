@@ -41,7 +41,7 @@ these also may appeal to a smaller market of young adults seeking business portr
 
 ### Image Compression
 + [TinyPNG](https://tinypng.com/) image compression roughly elimates 51% of kb load from images
-+ The reduction of image size allows the page to load in roughly 0.241 seconds according to [Pingdom](https://tools.pingdom.com/)
++ The reduction of image size allows the pages to load in a rough average of under 0.250 seconds according to [Pingdom](https://tools.pingdom.com/)
 
 
 ![Tinyify differrence image](assets/images/tiny-ping-combo.png "Displays the minification done to image")
@@ -145,7 +145,7 @@ Should return a load time for page
 + When viewing all sub-galleries at an i5 resolution in landscape (568px x 320px) while using the Chrome inspect function, the top and bottom 
     borders of photos cannot be seen due to the size of the nav bar and the physical limitations of the pixels on the screen.
 
-## Supports these operatings systems with current versions of associated browsers 
+## Supports these operatings systems with a current version of associated browsers 
 + Windows 10
     + Chrome, Internet Explorer, Firefox
 + Windows 8.1, 8.0, 7 
@@ -156,19 +156,6 @@ Should return a load time for page
     + Safari and Chrome
 + Mac OX X Yosemite and Mavericks
     + Chrome
-
-## Not Supported Determined by Browserstack and Version of Bootstrap
-+ Internet explorer 9 and older
-+ Opera 12.15 and older
-+ Firefox 3.6 and older
-+ Safari 8.0 and older
-
-## Web Browsers That Support Transition Effects Used
-+ Chrome 26.0 and newer
-+ Internet explorer 10 and newer
-+ Firefox 16 and newer
-+ Safari 6.1 and newer
-+ Opera 12.1 and newer
 
 ## Scalability
 + Adding a user operable slide-bar to change images from the original to an edited version could offer better representation on the digital 
