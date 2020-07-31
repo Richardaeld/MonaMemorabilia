@@ -11,33 +11,62 @@ these also may appeal to a smaller market of young adults seeking business portr
 # UX Choices
 ![display-responsiveness](assets/images/display-devices.png "display-responsiveness") 
 ### Home
-+ Shows off four eye-catching photos in bootstrap carousel
++ Shows off four eye-catching photos in bootstrap carousel 
++ Shows off four eye-catching photos, in a bootstrap carousel, for potential clients to admire   
+
 + Gives a brief description of the general services offered in a responsive four box layout that makes use of negative space
++ Gives a brief description of the general services offered in a responsive layout that makes use of negative space for ease of readability
+
+potential clients
 
 ### Main Nav
 + Includes a clean, responsive bootstrap nav bar
++ Includes a clean, responsive bootstrap nav bar so potential clients on all devices can easily view and navigate
+
 + Provides a clear display of the company logo in top left corner
++ Provides a clear display of the company logo in top left corner
+
 
 ### Main Footer
 + Uses Fontawesome icons paired with text to display a contemporary social link design
++ Uses Fontawesome icons paired with text to display a contemporary social link design to appeal to potential clients of all ages
+
 + Added social links that could be used by an independent photographer
++ Added social links that could be used by an independent photographer or allow potential clients to view all forms of photographers work
 
 ### About Us
 + Features a Hero image which demonstrates the photographer’s ability to digitally enhance photos. One side of the photo is the original and has no editing, 
     while the other half shows the image after digital enhancement.
++ Features a Hero image which demonstrates the photographer’s ability to digitally enhance photos. This shows potential clients the ability and style of this independent photographer
 + Features a no-frills text section which emphasizes the exceptional work offered by the company
++ Features a no-frills text section which emphasizes the exceptional work offered by the company to help assure potential clients the best treatment
+ 
 
 ### Gallery
 + Utilizes negative space to draw the eye to the four categories of sub-gallery image links
++ Utilizes negative space and a grey *background-color* to draw the eye to the four sub-gallery image links and helps them "pop" at the same time
+
 + Images on the page include a *hover* and *scale* feature to provide the appearance of conventional links
++ Images on the page include a *hover* and *scale* feature to provide the appearance of conventional links and give potential clients a strong feeling of professional quality
+
+
 
 ### Sub-Galleries (All Pages That Are Linked From Within Gallery)
 + Includes a back button to the main gallery and a two-way in-page nav for user convenience
++ Includes a back button to the main gallery and a two-way in-page nav for potential clients convenience
+
 + All images have an added *border* and *box-shadow* to give a three-dimensional effect
++ All images have an added *border* and *box-shadow* to give a three-dimensional effect to give the potential clients an image that stands out from the *background-color*
+
+
 
 ### Contact Us
++ Contains a simple submission form which prevents potential clients from accidentally submitting without completing the contact information
 + Contains a simple submission form which prevents users from accidentally submitting without completing the contact information
+
++ The final box (Describe Your Session needs...) includes plenty of space for potential clients to submit a substantial and well-thought out response
 + The final box (Describe Your Session needs...) includes plenty of space for users to submit a substantial and well-thought out response
+
 
 ### Image Compression
 + [TinyPNG](https://tinypng.com/) image compression roughly elimates 51% of kb load from images
