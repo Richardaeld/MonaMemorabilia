@@ -206,15 +206,15 @@ these also may appeal to a smaller market of young adults seeking business portr
 + [W3schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving transition, hover, and scale. These can be seen in:
     + Index (Hover button effects are found under "Custom Project" and text shadow is used on the busisness name, Monachese Photography)
     + Main footer (Hover effect used for the social media icons)
-    + Gallery and sub-galleries (All nav images use the scale effect and a box shadow)
-    + Sub-galleries (The clickable images use a scale and transition effect. All the images use box shadow)<br/><br/>
+    + Gallery and Sub-Galleries (All nav images use the scale effect and a box shadow)
+    + Sub-Galleries (The clickable images use a scale and transition effect. All the images use box shadow)<br/><br/>
 + [Bootstrap](https://getbootstrap.com/) - Framework used to help speed up development and add a better UX
     + Main nav (Used responsive design nav bar)
     + Index (Image carousel)
-    + Contact us (Form)
+    + Contact Us (Form)
     + Sub-Gallery (Scrollspy was used, for the jump to anchor, and the invisible properity was used to hide placement of jump to anchor points for full size images)<br/><br/>
 + Code Institute (Class) - Used footer design based on the golden ratio and made social links like the examples shown in class from "Rosie" project
-+ Used a visual reference from a classmate (Simon "jumboduck") for the About Us section. The idea that was used is a large Hero image followed by the golden 
++ Used a visual reference from a classmate, [Simon "jumboduck"](https://jumboduck.github.io/Polygonal-Brewing-Co/brewery.html "Page visual reference was used from") for the About Us section. The idea that was used is a large Hero image followed by the golden 
     ratio of three text boxes that share the background color of the page.
 
 # Technologies
