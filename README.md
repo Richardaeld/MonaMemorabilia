@@ -38,11 +38,8 @@ these also may appeal to a smaller market of young adults seeking business portr
 + To make each image stand out to potential clients, all images have an added border and box-shadow to give a three-dimensional effect that provides contrast with the page background-color.
 
 ### Contact Us
-+ Contains a simple submission form which prevents clients from accidentally
-submitting the form without completing the contact information.
-
-+ The final box (Describe Your Session needs...) includes plenty of space for
-clients to submit a substantial, well-thought out response.
++ Contains a simple submission form which prevents clients from accidentally submitting the form without completing the contact information.
++ The final box (Describe Your Session needs...) includes plenty of space for clients to submit a substantial, well-thought out response.
 
 ### Image Compression
 + After using [TinyPNG](https://tinypng.com/) image compression, roughly 51% of the kb load from images was eliminated
@@ -70,6 +67,7 @@ Pages should have good UX at a starting resolution of 320*px* *width* by 568*px*
 + Assumptions:  
     1. Using latest version of Chrome 
     1. A monitor that supports 1080p resolution or greater 
+
 + Testing steps:
     1. Open index page in Chrome 
     1. Open inspect mode in Chrome browser
@@ -82,6 +80,7 @@ Pages should have good UX at a starting resolution of 320*px* *width* by 568*px*
     1. Stretch screen *width* from 320*px* to 1200*px* and beyond
     1. Check for visual bugs, misalignments, or bad UX as the pixel *width* is increased
     1. Document any problem areas or abnormal occurrences
+
 + Expected result:
     1. Documentation of all bad UX and where it occurs
     1. Documentation of where visual bugs or misalignments occure
@@ -90,10 +89,12 @@ Pages should have good UX at a starting resolution of 320*px* *width* by 568*px*
 Code should not return errors<br />
 + Precondition: 
     1. Website has been deployed 
+
 + Assumptions:
     1. Know that vendor extensions do not validate and can be ignored
     1. Know that not all warnings given will show code that requires change 
     1. Know that external resources, like Bootstrap, return errors and warnings that do not concern this process
+
 + Testing Steps:
     1. Open website, copy its index link, and leave open
     1. Open another tab in browser and go to [W3C Markup Validation Service](https://validator.w3.org/)
@@ -103,6 +104,7 @@ Code should not return errors<br />
     1. Open a tab in browser and go to  [Jigsaw (CSS Validation Service)](https://jigsaw.w3.org/css-validator/)
     1. Paste the index page link into Jigsaws's validation bar and submit it to see what Jigsaw finds
     1. Document errors and warnings that need to be corrected
+
 + Expected result:
     1. List of problem code and where in the page(s) it can be found   
 ---------------------------------
@@ -110,9 +112,10 @@ Code should not return errors<br />
 Should not return time out, have an error, or grapical misalignment when viewed<br />
 + Assumption:
     1. Know what the index page is supposed to look like at different resolutions
+
 + Testing Steps:
     1. Open website, copy its index link, and leave open
-    1. Open another tab in browser and go to [browser Stack Screenshots](hhttps://www.browserstack.com/screenshots)
+    1. Open another tab in browser and go to [browser Stack Screenshots](https://www.browserstack.com/screenshots)
     1. Paste the link of the index page into Browser Screenshots "testing bar"
     1. Pick a device or operating system and select the most current versions of browsers supported by the selected operating system
     1. Repeat step four until there are 25 browser and/or device combinations
@@ -121,14 +124,17 @@ Should not return time out, have an error, or grapical misalignment when viewed<
     1. Document the successful browser and/or  device combinations
     1. Click "Back to Devices" and clear all previous selections
     1. Repeat steps four through nine until all operations systems(with browser combinations) and devices are documented
+
 + Expected result:
     1. List of supported operating system browsers combinations and devices 
+    
 + Actual Browserstack results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack)
 ----------------------------------
 ## Checking for webpage load times
 Should return a load time for page
 + Precondition: 
     1. Website has been deployed
+
 + Testing Steps:
     1. Open website, copy its index link, and leave open
     1. Open another tab in browser and go to [Pingdom](https://tools.pingdom.com/)
@@ -139,6 +145,7 @@ Should return a load time for page
     1. Repeat steps three through six until all pages have been tested
 + Expected result:
     1. List of load times for site
+
 + Actual Pingdom results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom)
 
 ## Previous and Current Bugs
