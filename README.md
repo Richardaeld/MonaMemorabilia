@@ -207,12 +207,12 @@ these also may appeal to a smaller market of young adults seeking business portr
     + Index (Hover button effects are found under "Custom Project" and text shadow is used on the busisness name, Monachese Photography)
     + Main footer (Hover effect used for the social media icons)
     + Gallery and sub-galleries (All nav images use the scale effect and a box shadow)
-    + Sub-galleries (The clickable images use a scale and transition effect. All the images use box shadow)<br/>
+    + Sub-galleries (The clickable images use a scale and transition effect. All the images use box shadow)<br/><br/>
 + [Bootstrap](https://getbootstrap.com/) - Framework used to help speed up development and add a better UX
     + Main nav (Used responsive design nav bar)
     + Index (Image carousel)
     + Contact us (Form)
-    + Sub-Gallery (Scrollspy was used, for the jump to anchor, and the invisible properity was used to hide placement of jump to anchor points for full size images)<br/>
+    + Sub-Gallery (Scrollspy was used, for the jump to anchor, and the invisible properity was used to hide placement of jump to anchor points for full size images)<br/><br/>
 + Code Institute (Class) - Used footer design based on the golden ratio and made social links like the examples shown in class from "Rosie" project
 + Used a visual reference from a classmate (Simon "jumboduck") for the About Us section. The idea that was used is a large Hero image followed by the golden 
     ratio of three text boxes that share the background color of the page.
