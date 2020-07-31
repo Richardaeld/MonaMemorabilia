@@ -63,88 +63,88 @@ these also may appeal to a smaller market of young adults seeking business portr
 
 # Testing
 ## Checking Responsiveness 
-Pages should have good UX at a starting resolution of 320*px* *width* by 568*px* *height* and past 1200*px* *width* <br />
-+ Assumptions:  
-    1. Using latest version of Chrome 
-    1. A monitor that supports 1080p resolution or greater 
+### Pages should have good UX at a starting resolution of 320*px* *width* by 568*px* *height* and past 1200*px* *width* <br />
+#### Assumptions:
+1. Using latest version of Chrome 
+1. A monitor that supports 1080p resolution or greater 
 
-+ Testing steps:
-    1. Open index page in Chrome 
-    1. Open inspect mode in Chrome browser
-    1. Click Responsive tab, underneath the browser address bar, and select an untested device type
-    1. Check for visual bugs, misalignments, or bad UX at every single size
-    1. Document any problem area or abnormal occurrence witnessed
-    1. Select "Rotate" (which is located to the right of the Responsive tab)
-    1. Repeat step three through six until all media sizes available have been tested 
-    1. Select Responsive tab and select the responsive function
-    1. Stretch screen *width* from 320*px* to 1200*px* and beyond
-    1. Check for visual bugs, misalignments, or bad UX as the pixel *width* is increased
-    1. Document any problem areas or abnormal occurrences
+#### Testing steps:
+1. Open index page in Chrome 
+1. Open inspect mode in Chrome browser
+1. Click Responsive tab, underneath the browser address bar, and select an untested device type
+1. Check for visual bugs, misalignments, or bad UX at every single size
+1. Document any problem area or abnormal occurrence witnessed
+1. Select "Rotate" (which is located to the right of the Responsive tab)
+1. Repeat step three through six until all media sizes available have been tested 
+1. Select Responsive tab and select the responsive function
+1. Stretch screen *width* from 320*px* to 1200*px* and beyond
+1. Check for visual bugs, misalignments, or bad UX as the pixel *width* is increased
+1. Document any problem areas or abnormal occurrences
 
-+ Expected result:
-    1. Documentation of all bad UX and where it occurs
-    1. Documentation of where visual bugs or misalignments occure
+#### Expected result:
+1. Documentation of all bad UX and where it occurs
+1. Documentation of where visual bugs or misalignments occure
 --------------------------------
 ## Checking for Errors in Code
-Code should not return errors<br />
-+ Precondition: 
-    1. Website has been deployed 
+### Code should not return errors<br />
+#### Precondition: 
+1. Website has been deployed 
 
-+ Assumptions:
-    1. Know that vendor extensions do not validate and can be ignored
-    1. Know that not all warnings given will show code that requires change 
-    1. Know that external resources, like Bootstrap, return errors and warnings that do not concern this process
+#### Assumptions:
+1. Know that vendor extensions do not validate and can be ignored
+1. Know that not all warnings given will show code that requires change 
+1. Know that external resources, like Bootstrap, return errors and warnings that do not concern this process
 
-+ Testing Steps:
-    1. Open website, copy its index link, and leave open
-    1. Open another tab in browser and go to [W3C Markup Validation Service](https://validator.w3.org/)
-    1. Paste the link of the website page into W3C's validation bar and submit it to see what W3C finds
-    1. Document errors and warnings that need to be corrected
-    1. Repeat steps three and four until all pages have been checked in W3C
-    1. Open a tab in browser and go to  [Jigsaw (CSS Validation Service)](https://jigsaw.w3.org/css-validator/)
-    1. Paste the index page link into Jigsaws's validation bar and submit it to see what Jigsaw finds
-    1. Document errors and warnings that need to be corrected
+#### Testing Steps:
+1. Open website, copy its index link, and leave open
+1. Open another tab in browser and go to [W3C Markup Validation Service](https://validator.w3.org/)
+1. Paste the link of the website page into W3C's validation bar and submit it to see what W3C finds
+1. Document errors and warnings that need to be corrected
+1. Repeat steps three and four until all pages have been checked in W3C
+1. Open a tab in browser and go to  [Jigsaw (CSS Validation Service)](https://jigsaw.w3.org/css-validator/)
+1. Paste the index page link into Jigsaws's validation bar and submit it to see what Jigsaw finds
+1. Document errors and warnings that need to be corrected
 
-+ Expected result:
-    1. List of problem code and where in the page(s) it can be found   
+#### Expected result:
+1. List of problem code and where in the page(s) it can be found   
 ---------------------------------
 ## Checking for browser support
-Should not return time out, have an error, or grapical misalignment when viewed<br />
-+ Assumption:
-    1. Know what the index page is supposed to look like at different resolutions
+### Should not return time out, have an error, or grapical misalignment when viewed<br />
+#### Assumption:
+1. Know what the index page is supposed to look like at different resolutions
 
-+ Testing Steps:
-    1. Open website, copy its index link, and leave open
-    1. Open another tab in browser and go to [browser Stack Screenshots](https://www.browserstack.com/screenshots)
-    1. Paste the link of the index page into Browser Screenshots "testing bar"
-    1. Pick a device or operating system and select the most current versions of browsers supported by the selected operating system
-    1. Repeat step four until there are 25 browser and/or device combinations
-    1. Click "Generate" and wait for results to finish
-    1. View each screenshot to check for image accuracy
-    1. Document the successful browser and/or  device combinations
-    1. Click "Back to Devices" and clear all previous selections
-    1. Repeat steps four through nine until all operations systems(with browser combinations) and devices are documented
+#### Testing Steps:
+1. Open website, copy its index link, and leave open
+1. Open another tab in browser and go to [browser Stack Screenshots](https://www.browserstack.com/screenshots)
+1. Paste the link of the index page into Browser Screenshots "testing bar"
+1. Pick a device or operating system and select the most current versions of browsers supported by the selected operating system
+1. Repeat step four until there are 25 browser and/or device combinations
+1. Click "Generate" and wait for results to finish
+1. View each screenshot to check for image accuracy
+1. Document the successful browser and/or  device combinations
+1. Click "Back to Devices" and clear all previous selections
+1. Repeat steps four through nine until all operations systems(with browser combinations) and devices are documented
 
-+ Expected result:
-    1. List of supported operating system browsers combinations and devices 
-    
+#### Expected result:
+1. List of supported operating system browsers combinations and devices 
+
 + Actual Browserstack results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack)
 ----------------------------------
 ## Checking for webpage load times
-Should return a load time for page
-+ Precondition: 
-    1. Website has been deployed
+### Should return a load time for each page
+#### Precondition: 
+1. Website has been deployed
 
-+ Testing Steps:
-    1. Open website, copy its index link, and leave open
-    1. Open another tab in browser and go to [Pingdom](https://tools.pingdom.com/)
-    1. Paste the link of the page into Pingdom's "URL" bar
-    1. Select the location, North America-USA-San Francisco from the "Test from" drop down menu
-    1. Click "Start Test" and wait for the results
-    1. Record Results
-    1. Repeat steps three through six until all pages have been tested
-+ Expected result:
-    1. List of load times for site
+#### Testing Steps:
+1. Open website, copy its index link, and leave open
+1. Open another tab in browser and go to [Pingdom](https://tools.pingdom.com/)
+1. Paste the link of the page into Pingdom's "URL" bar
+1. Select the location, North America-USA-San Francisco from the "Test from" drop down menu
+1. Click "Start Test" and wait for the results
+1. Record Results
+1. Repeat steps three through six until all pages have been tested
+#### Expected result:
+1. List of load times for site
 
 + Actual Pingdom results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom)
 
@@ -160,8 +160,7 @@ Should return a load time for page
     borders of photos cannot be seen due to the size of the nav bar and the physical limitations of the pixels on the screen.
 
 ## Operating system and browser combinations with confirmed Support
-*According to Browserstack*
-*All Browsers must be current version*
+#### All Browsers must be current version
 + Windows 10
     + Chrome, Internet Explorer, Firefox
 + Windows 8.1, 8.0, 7 
