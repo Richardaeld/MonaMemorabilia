@@ -1,8 +1,8 @@
 # ![Monachese Photography](assets/images/logo-readme.png "Monachese Photography")  onachese Photography
 
 The purpose of this site is to showcase an independent photographer's gallery, demonstrate their ability to digitally enhance photos, and to advertise photo 
-session and editing packages to meet the photography needs of potential clients. A majority of the images showcased cater to parents and grandparents, however 
-these also may appeal to a smaller market of young adults seeking business portraits and clients who wish to digitally enhance photographs.
+sessions and editing packages to meet the photography needs of potential clients. A majority of the images showcased cater to parents and grandparents, however 
+these may also appeal to a smaller market of young adults seeking business portraits and clients who wish to digitally enhance photographs.
 
 # Live Prototype Demo and Wireframe
 + An active prototype can be found [here](https://richardaeld.github.io/MonaMemorabilia/ "Web Page") at GitHub.
@@ -50,20 +50,20 @@ these also may appeal to a smaller market of young adults seeking business portr
 # Brand Identity
 + The header tags, h1, h2, and h3 match the font family style of the logo.
 + The main page color scheme uses the monochromatic coloration of the logo.
-+ The pictures used maintain themes of family, digital enhancement, and demonstrate the photographer’s artistic style.
++ The pictures used maintain themes of family and digital enhancement, which demonstrate the photographer’s artistic style.
 
 # Potential Client Examples
 ## Clients 
 + As a client, I'd like a framable photograph for a gift.
 + As a client, I'd like a portrait photograph for a work portfolio.
 + As a client, I'd like a photograph that I already own to be digitally improved. 
-+ As a client, I'd like a photographer to attent a family event to capture candid photos.
++ As a client, I'd like a photographer to attend a family event to capture candid photos.
 + As a client, I'd like a photo session for a non-conventional project. 
 + As a client, I'd like a studio photo session with my family.
 
 # Testing
 ## Checking Responsiveness 
-### Pages Should Have Good UX At A Starting Resolution Of 320px Width By 568px Height And Past 1920px Width By 1080px Height <br />
+#### Pages Should Have Good UX At A Starting Resolution Of 320px Width By 568px Height And Past 1920px Width By 1080px Height <br />
 #### Assumption(s):
 1. Using latest version of Chrome. 
 1. A monitor that supports 1080p resolution or greater.
@@ -88,7 +88,7 @@ these also may appeal to a smaller market of young adults seeking business portr
 1. Documentation of where visual bugs or misalignments occure.
 --------------------------------
 ## Checking For Errors In Code
-### Code Should Not Return Errors<br />
+#### Code Should Not Return Errors<br />
 #### Precondition(s): 
 1. Website has been deployed.
 
@@ -111,7 +111,7 @@ these also may appeal to a smaller market of young adults seeking business portr
 1. List of problem code and where in the page(s) it can be found.
 ---------------------------------
 ## Checking For Browser Support
-### Should Not Return Time Out, Have An Error, Or Grapical Misalignment When Viewed<br />
+#### Should Not Return Time Out, Have An Error, Or Grapical Misalignment When Viewed<br />
 #### Assumption(s):
 1. Know what the index page is supposed to look like at different resolutions.
 1. Know that the free version of Browserstack is limited in selection options.
@@ -135,7 +135,7 @@ these also may appeal to a smaller market of young adults seeking business portr
 + Actual Browserstack results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack "Browserstack Results")
 ----------------------------------
 ## Checking For Webpage Load Times
-### Should Return An Accurate Load Time For Each Page
+#### Should Return An Accurate Load Time For Each Page
 #### Precondition(s): 
 1. Website has been deployed.
 
