@@ -70,16 +70,16 @@ these also may appeal to a smaller market of young adults seeking business portr
 
 #### Testing Steps:
 1. Open index page of website being tested in Chrome.
-1. Open *Inspect mode* in Chrome browser.
-1. Click the *Responsive tab* (that is located underneath the browser address bar) and select an untested device type.
+1. Open **Inspect mode** in Chrome browser.
+1. Click the **Responsive tab** (that is located underneath the browser address bar) and select an untested device type.
 1. Check for visual bugs, misalignments, or bad UX.
 1. Document any problem area(s) or abnormal occurrence(s).
-1. Select *Rotate* (which is located to the right of the Responsive tab).
+1. Select **Rotate** (which is located to the right of the Responsive tab).
 1. Check for visual bugs, misalignments, or bad UX.
 1. Document any problem area(s) or abnormal occurrence(s).
 1. Repeat step three through eight until all media sizes available have been tested.
-1. Select *Responsive tab* and select the *Responsive* function.
-1. Stretch screen width from 320px to 1920px and beyond (this may require the use of inspect's *zoom* feature).
+1. Select **Responsive tab** and select the **Responsive** function.
+1. Stretch screen width from 320px to 1920px and beyond (this may require the use of inspect's **zoom** feature).
 1. Check for visual bugs, misalignments, or bad UX as the pixel width is increased.
 1. Document any problem area(s) or abnormal occurrence(s).
 
@@ -100,11 +100,11 @@ these also may appeal to a smaller market of young adults seeking business portr
 #### Testing Steps:
 1. Open the website being tested in browser, copy its index link, and leave open.
 1. Open another tab in browser and go to [W3C Markup Validation Service](https://validator.w3.org/).
-1. Paste the link of the page being tested into W3C's *validation bar* and submit it to see what W3C finds.
+1. Paste the link of the page being tested into W3C's **validation bar** and submit it to see what W3C finds.
 1. Document errors and warnings that need to be corrected.
 1. Repeat steps three and four until all pages have been checked in W3C.
 1. Open a new tab in browser and go to  [Jigsaw (CSS Validation Service)](https://jigsaw.w3.org/css-validator/).
-1. Paste the index page link of the website being tested into Jigsaws's *validation bar* and submit it to see what Jigsaw finds.
+1. Paste the index page link of the website being tested into Jigsaws's **validation bar** and submit it to see what Jigsaw finds.
 1. Document errors and warnings that need to be corrected.
 
 #### Expected Result(s):
@@ -119,13 +119,13 @@ these also may appeal to a smaller market of young adults seeking business portr
 #### Testing Steps:
 1. Open the website being tested in browser, copy its index link, and leave open.
 1. Open another tab in browser and go to [browser Stack Screenshots](https://www.browserstack.com/screenshots).
-1. Paste the link of the index page into Browserstack Screenshots *testing bar*.
+1. Paste the link of the index page into Browserstack Screenshots **testing bar**.
 1. Pick a device or operating system and select the most current version of browsers supported by the selected operating system.
 1. Repeat step four until there are 25 browser and/or device combinations.
-1. Click *Generate* and wait for results to finish.
+1. Click **Generate** and wait for results to finish.
 1. View each screenshot to check for image accuracy.
 1. Document the successful browser and/or device combinations.
-1. Click *Back to Devices* and clear all previous selections.
+1. Click **Back to Devices** and clear all previous selections.
 1. Repeat steps four through nine until all operations systems(with browser combinations) and devices are documented.
 
 #### Expected Result(s):
@@ -142,9 +142,9 @@ these also may appeal to a smaller market of young adults seeking business portr
 #### Testing Steps:
 1. Open the website being tested in browser, copy its index link, and leave open.
 1. Open another tab in browser and go to [Pingdom](https://tools.pingdom.com/).
-1. Paste the link of the page being tested into Pingdom's *URL bar*.
-1. Select the location, North America-USA-San Francisco from the *Test from* drop down menu.
-1. Click *Start Test* and wait for the results.
+1. Paste the link of the page being tested into Pingdom's **URL bar**.
+1. Select the location, North America-USA-San Francisco from the **Test from** drop down menu.
+1. Click **Start Test** and wait for the results.
 1. Record Results.
 1. Repeat steps three through six until all pages have been tested.
 #### Expected Result(s):
