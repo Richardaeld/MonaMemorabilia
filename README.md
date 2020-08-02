@@ -63,7 +63,9 @@ these may also appeal to a smaller market of young adults seeking business portr
 
 # Testing
 ## Checking Responsiveness 
-#### Pages Should Have Good UX At A Starting Resolution Of 320px Width By 568px Height And Past 1920px Width By 1080px Height <br />
+#### Expectation(s):
+1. All Pages, reguardless of resolution, should Have Good UX, no visual bugs, or misalignments 
+
 #### Assumption(s):
 1. Using latest version of Chrome. 
 1. A monitor that supports 1080p resolution or greater.
@@ -88,7 +90,9 @@ these may also appeal to a smaller market of young adults seeking business portr
 1. Documentation of where visual bugs or misalignments occure.
 --------------------------------
 ## Checking For Errors In Code
-#### Code Should Not Return Errors<br />
+#### Expectation(s):
+1. Code Should Not Return Errors
+
 #### Precondition(s): 
 1. Website has been deployed.
 
@@ -111,7 +115,9 @@ these may also appeal to a smaller market of young adults seeking business portr
 1. List of problem code and where in the page(s) it can be found.
 ---------------------------------
 ## Checking For Browser Support
-#### Should Not Return Time Out, Have An Error, Or Grapical Misalignment When Viewed<br />
+#### Expectation(s):
+1. Should Not Return Time Out, Have An Error, Or Grapical Misalignment When Viewed
+
 #### Assumption(s):
 1. Know what the index page is supposed to look like at different resolutions.
 1. Know that the free version of Browserstack is limited in selection options.
@@ -135,7 +141,9 @@ these may also appeal to a smaller market of young adults seeking business portr
 + Actual Browserstack results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack "Browserstack Results")
 ----------------------------------
 ## Checking For Webpage Load Times
-#### Should Return An Accurate Load Time For Each Page
+#### Expectation(s):
+1. Should Return An Accurate Load Time For Each Page
+
 #### Precondition(s): 
 1. Website has been deployed.
 
