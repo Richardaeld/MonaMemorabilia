@@ -87,7 +87,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 
 #### Documented Result(s):
 1. Documentation of all bad UX and where it occurs.
-1. Documentation of where visual bugs or misalignments occure.
+1. Documentation of where visual bugs or misalignments occur.
 --------------------------------
 ## Checking For Errors In Code
 #### Expectation(s):
@@ -99,12 +99,12 @@ these may also appeal to a smaller market of young adults seeking business portr
 #### Assumption(s):
 1. Know that vendor extensions will not validate and can be ignored.
 1. Know that not all warnings given will show code that requires change. 
-1. Know that external resources, like Bootstrap, return errors and warnings that do not concern this process.
+1. Know that external resources, like Bootstrap, will return errors and warnings that do not concern this process.
 
 #### Testing Steps:
-1. Open the website that needs a html and css code check, copy its index link, and leave open.
-1. Open another tab in browser and go to [W3C Markup Validation Service](https://validator.w3.org/).
-1. Paste the link of a page requiring a html code check into W3C's **validation bar** and submit it to see what W3C finds.
+1. Open the website that needs an html and css code check, copy its index link, and leave the tab open.
+1. Open another tab in the browser and go to [W3C Markup Validation Service](https://validator.w3.org/).
+1. Paste the link of a page requiring an html code check into W3C's **validation bar** and submit it to see what W3C finds.
 1. Document errors and warnings that need to be corrected.
 1. Repeat steps three and four until all pages have been checked in W3C.
 1. Open a new browser tab and go to  [Jigsaw (CSS Validation Service)](https://jigsaw.w3.org/css-validator/).
@@ -116,30 +116,32 @@ these may also appeal to a smaller market of young adults seeking business portr
 ---------------------------------
 ## Checking For Browser Support
 #### Expectation(s):
-1. Should not return time out, have an error, or grapical misalignment when viewed.
+1. Should not return a time out, have an error, or grapical misalignment when viewed.
+
+#### Precondition(s): 
+1. Know what the index page looks like at different resolutions.
 
 #### Assumption(s):
-1. Know what the index page looks like at different resolutions.
-1. Know that the free version of Browserstack has a limit on selection options.
+1. Know that the free version of BrowserStack has a limit on selection options.
 
 #### Testing Steps:
-1. Open the index page of the website that needs to have a support check, copy its index link, and leave open.
-1. Open another tab in browser and go to [browser Stack Screenshots](https://www.browserstack.com/screenshots).
-1. Paste the link of the index page into Browserstack Screenshots **testing bar**.
+1. Open the index page of the website that needs to have a support check, copy its index link, and leave the tab open.
+1. Open another tab in browser and go to [BrowserStack Screenshots](https://www.browserstack.com/screenshots).
+1. Paste the link of the index page into BrowserStack Screenshots **testing bar**.
 1. Pick a device or operating system and select the most current version of browsers supported by the selected operating system.
 1. Repeat step four until there are 25 browser and/or device combinations.
-1. Click **Generate** and wait for results to finish.
+1. Click **Generate** and wait for the results to finish.
 1. View each screenshot to check for image accuracy.
 1. Document the successful browser and/or device combinations.
 1. Click **Back to Devices** and clear all previous selections.
-1. Repeat steps four through nine until all operations systems(with browser combinations) and devices are documented.
+1. Repeat steps four through nine until all operating systems (with browser combinations) and devices are documented.
 
 #### Documented Result(s):
 1. List of operating system and browser combinations with support.
 1. List of devices with support.
 
-#### Actual Raw Result(s)
-1. Browserstack results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack "Browserstack Results")
+#### Actual Raw Result(s):
+1. BrowserStack results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack "BrowserStack Results").
 ----------------------------------
 ## Checking For Webpage Load Times
 #### Expectation(s):
@@ -149,8 +151,8 @@ these may also appeal to a smaller market of young adults seeking business portr
 1. Website has been deployed.
 
 #### Testing Steps:
-1. Open the index page of the website that requires a latency ping, copy its index link, and leave open.
-1. Open another tab in browser and go to [Pingdom](https://tools.pingdom.com/).
+1. Open the index page of the website that requires a latency ping, copy its index link, and leave the tab open.
+1. Open another tab in the browser and go to [Pingdom](https://tools.pingdom.com/).
 1. Paste the link of the index page into Pingdom's **URL bar**.
 1. Select the location, North America-USA-San Francisco from the **Test from** drop down menu.
 1. Click **Start Test** and wait for the results.
@@ -166,7 +168,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 ## Previous And Current Bugs
 + During the programming of this webpage, there were numerous graphical misalignments. These were primarily generated by Bootstrap creating 
     padding and margins and was the result of using rows and container-fluid commands. These were easily taken care of with appropriate padding removal, 
-    margin removal, and the use of "!important".
+    margin removal, and the use of the !important command.
 + Various pages were not filling the entire screen on specific interface devices when using the inspect function in Chrome. By matching the 
     body’s default background color to the footer’s background color, it gives the illusion that the footer's background color extends 
     to the bottom of the screen.
@@ -174,7 +176,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 + When viewing all sub-galleries at an i5 resolution in landscape (568px x 320px) while using the Chrome inspect function, the top and bottom 
     borders of photos cannot be seen due to the size of the nav bar and the physical limitations of the pixels on the screen.
 
-## Operating System And Browser Combinations With Confirmed Support(According To Browserstack)
+## Operating System And Browser Combinations With Confirmed Support (According To BrowserStack)
 #### All Browsers Must Be The Current Version
 + Windows 10
     + Chrome, Internet Explorer, Firefox
@@ -188,10 +190,10 @@ these may also appeal to a smaller market of young adults seeking business portr
     + Chrome
 
 ## Scalability
-+ Adding a user operable slide-bar to change images from the original to an edited version could offer better representation on the digital 
-    enhancement section and in the About Us section. (This feature is outside the scope of this project.)
-+ The use of a modal in the sub-gallery pages would allow for pictures to pop up instead of relying on a clunky jump to anchor.
-+ Changing pixels to rem in CSS would help reduce code length in CSS and add better responsiveness to all pages on smaller devices.
++ Adding a user operable slide-bar to change images from the original to an edited version could offer better representation for the digital 
+    enhancement section and in the About Us section. However, this feature is outside the scope of the project.
++ The use of a modal in the sub-gallery pages would allow for pictures to pop-up instead of relying on a clunky jump to anchor link.
++ Changing pixels to rem in CSS would help reduce code length in the CSS and add better responsiveness to all pages on smaller devices.
 
 
 # Tool, References, And Code Used
@@ -199,32 +201,32 @@ these may also appeal to a smaller market of young adults seeking business portr
 + [Balsmiq](https://balsamiq.com/) - Helped produce the wireframe used for this webpage
 + [Bootstrap](https://getbootstrap.com/) - Used as framework
 + [BrowserStack](https://www.browserstack.com/screenshots) - Helped with checking for platform compatibility
-+ [Fontawesome](https://fontawesome.com/v4.7.0/icons/) - Used icons from here
++ [Font Awesome](https://fontawesome.com/v4.7.0/icons/) - Used icons from here
 + [GitHub](https://github.com/) - Deployment of prototype website
 + [GitPod](https://www.gitpod.io/) - Integrated development environment
-+ [Google fonts](https://fonts.google.com/) - Used font families from here
-+ [Jigsaw(Validation Service)](https://jigsaw.w3.org/css-validator/) - Used to identify errors in CSS
++ [Google Fonts](https://fonts.google.com/) - Used font families from here
++ [Jigsaw (Validation Service)](https://jigsaw.w3.org/css-validator/) - Used to identify errors in CSS
 + [Pingdom](https://tools.pingdom.com/) - Checked for page load time
 + [Techsini](https://techsini.com/multi-mockup/) - Used for their viewable responsiveness PNG
 + [TinyPNG](https://tinypng.com/) - Minimizing KB load per image
 + [W3C Validator](https://validator.w3.org/) - Used to identify errors in markup
 
 ## References And Code Used
-+ [Webaccessibilitychecklist](http://webaccessibilitychecklist.com/) - Helped with making webpage ARIA accessible
++ [Web Accessibility Checklist](http://webaccessibilitychecklist.com/) - Helped with making webpage ARIA accessible
 + [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) - Helped with understanding of when and how to use ARIA
-+ [Stack overflow](https://stackoverflow.com/) - Helped in understanding how to correct visual bugs with Bootstrap's automatic padding/margins and general questions
++ [Stack Overflow](https://stackoverflow.com/) - Helped in understanding how to correct visual bugs with Bootstrap's automatic padding/margins and general questions
 + [TestLodge](https://blog.testlodge.com/how-to-write-test-cases-for-software-with-sample/) - Used for test case examples
-+ [W3schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving transition, hover, and scale. These can be seen in:
-    + Index (Hover button effects are found under "Custom Project" and text shadow is used on the busisness name, Monachese Photography)
-    + Main footer (Hover effect used for the social media icons)
-    + Gallery and Sub-Galleries (All nav images use the scale effect and a box shadow)
-    + Sub-Galleries (The clickable images use a scale and transition effect. All the images use box shadow)<br/><br/>
++ [W3Schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving transition, hover, and scale. These can be seen in:
+    + Index - Hover button effects are found under "Custom Project" and text shadow is used on the busisness name, Monachese Photography
+    + Main footer - Hover effect used for the social media icons
+    + Gallery and Sub-Galleries - All nav images use the scale effect and a box shadow
+    + Sub-Galleries - The clickable images use a scale and transition effect. All the images use box shadow<br/><br/>
 + [Bootstrap](https://getbootstrap.com/) - Framework used to help speed up development and add a better UX
-    + Main nav (Used responsive design nav bar)
-    + Index (Image carousel)
-    + Contact Us (Form)
-    + Sub-Gallery (Scrollspy was used, for the jump to anchor, and the invisible properity was used to hide placement of jump to anchor points for full size images)<br/><br/>
-+ Code Institute (Class) - Used footer design based on the golden ratio and made social links like the examples shown in class from "Rosie" project.
+    + Main nav - used responsive design nav bar
+    + Index - image carousel
+    + Contact Us - form
+    + Sub-Gallery - scrollspy was used for the jump to anchor links and the invisible property was used to hide the placement of these links<br/><br/>
++ Code Institute (Class) - Used footer design based on the golden ratio and made social links like the examples shown in class from the "Rosie" project.
 + Used a visual reference from a classmate, [Simon "jumboduck"](https://jumboduck.github.io/Polygonal-Brewing-Co/brewery.html "Page visual reference was used from") for the About Us section. The idea that was used is a large Hero image followed by the golden 
     ratio of three text boxes that share the background color of the page.
 
@@ -236,7 +238,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 + JQuery (with Bootstrap)
 
 # Acknowledgements
-+ The idea for this website came from Micheal Monachese because of his forte for photography.
-+ The photos and logo were created by Micheal Monachese.
++ The idea for this website came from Michael Monachese because of his forte for photography.
++ The photos and logo were created by Michael Monachese.
 + Felipe Souza Alarcon for guidance and providing a plethora of information and web-based applications.
 + Emily Grooms for help in revising this README document.
