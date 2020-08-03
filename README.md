@@ -64,14 +64,14 @@ these may also appeal to a smaller market of young adults seeking business portr
 # Testing
 ## Checking Responsiveness 
 #### Expectation(s):
-1. All Pages, reguardless of resolution, should Have Good UX, no visual bugs, or misalignments 
+1. All Pages, regardless of resolution, should have good UX, no visual bugs, or misalignments.
 
 #### Assumption(s):
-1. Using latest version of Chrome. 
-1. A monitor that supports 1080p resolution or greater.
+1. Using the latest version of Chrome. 
+1. Using a monitor that supports 1080p resolution or greater.
 
 #### Testing Steps:
-1. Open index page of website being tested in Chrome.
+1. Open the index page of the website to test in Chrome.
 1. Open **Inspect mode** in Chrome browser.
 1. Click the **Responsive tab** (that is located underneath the browser address bar) and select an untested device type.
 1. Check for visual bugs, misalignments, or bad UX.
@@ -79,51 +79,51 @@ these may also appeal to a smaller market of young adults seeking business portr
 1. Select **Rotate** (which is located to the right of the Responsive tab).
 1. Check for visual bugs, misalignments, or bad UX.
 1. Document any problem area(s) or abnormal occurrence(s).
-1. Repeat step three through eight until all media sizes available have been tested.
+1. Repeat steps three through eight until all media sizes available have been tested.
 1. Select **Responsive tab** and select the **Responsive** function.
 1. Stretch screen width from 320px to 1920px and beyond (this may require the use of inspect's **zoom** feature).
-1. Check for visual bugs, misalignments, or bad UX as the pixel width is increased.
+1. Check for visual bugs, misalignments, or bad UX as the pixel width changes.
 1. Document any problem area(s) or abnormal occurrence(s).
 
-#### Expected Result(s):
+#### Documented Result(s):
 1. Documentation of all bad UX and where it occurs.
 1. Documentation of where visual bugs or misalignments occure.
 --------------------------------
 ## Checking For Errors In Code
 #### Expectation(s):
-1. Code Should Not Return Errors
+1. Code should not return errors.
 
 #### Precondition(s): 
 1. Website has been deployed.
 
 #### Assumption(s):
-1. Know that vendor extensions do not validate and can be ignored.
+1. Know that vendor extensions will not validate and can be ignored.
 1. Know that not all warnings given will show code that requires change. 
 1. Know that external resources, like Bootstrap, return errors and warnings that do not concern this process.
 
 #### Testing Steps:
-1. Open the website being tested in browser, copy its index link, and leave open.
+1. Open the website that needs a html and css code check, copy its index link, and leave open.
 1. Open another tab in browser and go to [W3C Markup Validation Service](https://validator.w3.org/).
-1. Paste the link of the page being tested into W3C's **validation bar** and submit it to see what W3C finds.
+1. Paste the link of a page requiring a html code check into W3C's **validation bar** and submit it to see what W3C finds.
 1. Document errors and warnings that need to be corrected.
 1. Repeat steps three and four until all pages have been checked in W3C.
-1. Open a new tab in browser and go to  [Jigsaw (CSS Validation Service)](https://jigsaw.w3.org/css-validator/).
-1. Paste the index page link of the website being tested into Jigsaws's **validation bar** and submit it to see what Jigsaw finds.
+1. Open a new browser tab and go to  [Jigsaw (CSS Validation Service)](https://jigsaw.w3.org/css-validator/).
+1. Paste the index page link of the website requiring a css code check into Jigsaws's **validation bar** and submit it to see what Jigsaw finds.
 1. Document errors and warnings that need to be corrected.
 
-#### Expected Result(s):
+#### Documented Result(s):
 1. List of problem code and where in the page(s) it can be found.
 ---------------------------------
 ## Checking For Browser Support
 #### Expectation(s):
-1. Should Not Return Time Out, Have An Error, Or Grapical Misalignment When Viewed
+1. Should not return time out, have an error, or grapical misalignment when viewed.
 
 #### Assumption(s):
-1. Know what the index page is supposed to look like at different resolutions.
-1. Know that the free version of Browserstack is limited in selection options.
+1. Know what the index page looks like at different resolutions.
+1. Know that the free version of Browserstack has a limit on selection options.
 
 #### Testing Steps:
-1. Open the website being tested in browser, copy its index link, and leave open.
+1. Open the index page of the website that needs to have a support check, copy its index link, and leave open.
 1. Open another tab in browser and go to [browser Stack Screenshots](https://www.browserstack.com/screenshots).
 1. Paste the link of the index page into Browserstack Screenshots **testing bar**.
 1. Pick a device or operating system and select the most current version of browsers supported by the selected operating system.
@@ -134,32 +134,35 @@ these may also appeal to a smaller market of young adults seeking business portr
 1. Click **Back to Devices** and clear all previous selections.
 1. Repeat steps four through nine until all operations systems(with browser combinations) and devices are documented.
 
-#### Expected Result(s):
+#### Documented Result(s):
 1. List of operating system and browser combinations with support.
 1. List of devices with support.
 
-+ Actual Browserstack results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack "Browserstack Results")
+#### Actual Raw Result(s)
+1. Browserstack results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/browserstack "Browserstack Results")
 ----------------------------------
 ## Checking For Webpage Load Times
 #### Expectation(s):
-1. Should Return An Accurate Load Time For Each Page
+1. Should return an accurate load time for each page.
 
 #### Precondition(s): 
 1. Website has been deployed.
 
 #### Testing Steps:
-1. Open the website being tested in browser, copy its index link, and leave open.
+1. Open the index page of the website that requires a latency ping, copy its index link, and leave open.
 1. Open another tab in browser and go to [Pingdom](https://tools.pingdom.com/).
-1. Paste the link of the page being tested into Pingdom's **URL bar**.
+1. Paste the link of the index page into Pingdom's **URL bar**.
 1. Select the location, North America-USA-San Francisco from the **Test from** drop down menu.
 1. Click **Start Test** and wait for the results.
 1. Record Results.
 1. Repeat steps three through six until all pages have been tested.
-#### Expected Result(s):
+
+#### Documented Result(s):
 1. List of load times for site.
 
-+ Actual Pingdom results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom "Pingdom Results")
-
+#### Actual Raw Result(s)
+1. Pingdom results for this site can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/pingdom "Pingdom Results")
+--------------------------------
 ## Previous And Current Bugs
 + During the programming of this webpage, there were numerous graphical misalignments. These were primarily generated by Bootstrap creating 
     padding and margins and was the result of using rows and container-fluid commands. These were easily taken care of with appropriate padding removal, 
