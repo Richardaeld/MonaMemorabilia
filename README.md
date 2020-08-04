@@ -216,21 +216,21 @@ these may also appeal to a smaller market of young adults seeking business portr
 + [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility) - Helped with understanding of when and how to use ARIA
 + [Stack Overflow](https://stackoverflow.com/) - Helped in understanding how to correct visual bugs with Bootstrap's automatic padding/margins and general questions
 + [TestLodge](https://blog.testlodge.com/how-to-write-test-cases-for-software-with-sample/) - Used for test case examples
-+ [W3Schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving transition, hover, and scale. These can be seen in:
++ [W3Schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving transition, hover, and scale:
     + Index - Hover button effects are found under "Custom Project" and text shadow is used on the busisness name, Monachese Photography
     + Main footer - Hover effect used for the social media icons
     + Gallery and Sub-Galleries - All nav images use the scale effect and a box shadow
     + Sub-Galleries - The clickable images use a scale and transition effect. All the images use box shadow<br/><br/>
-+ [Bootstrap](https://getbootstrap.com/) - Framework used to help speed up development and add a better UX
++ [Bootstrap](https://getbootstrap.com/) - Framework used to help speed up development and add a better UX:
     + Main nav - used responsive design nav bar
     + Index - image carousel
     + Contact Us - form
     + Sub-Gallery - scrollspy was used for the jump to anchor links and the invisible property was used to hide the placement of these links<br/><br/>
 + Code Institute (Class) - Provided two major ideas for the website during the "Rosie" project:
-    + Main footer - Golden ratio for the structure of the main footer
-    + Main footer - The style of the social links and how they use a color transition<br/><br/>
+    + Main footer - golden ratio for the structure of the main footer
+    + Main footer - the style of the social links and how they use a color transition<br/><br/>
 + [Simon "jumboduck"](https://jumboduck.github.io/Polygonal-Brewing-Co/brewery.html "Page visual reference was used from") - Used as visual reference for:
-    + About Us - A large Hero image followed by the golden ratio of three text boxes that share the background color of the page
+    + About Us - a large Hero image followed by the golden ratio of three text boxes that share the background color of the page
 
 # Technologies
 ## Languages
