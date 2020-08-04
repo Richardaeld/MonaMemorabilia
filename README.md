@@ -6,7 +6,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 
 # Live Prototype Demo and Wireframe
 + An active prototype can be found [here](https://richardaeld.github.io/MonaMemorabilia/ "Web Page") at GitHub.
-+ The wireframe PNG's can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/wireframe "Wireframe") also embedded at GitHub.
++ The wireframe images used to help design this webpage can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/wireframe "Wireframe").
 
 # UX Choices
 ![display-responsiveness](assets/images/display-devices.png "display-responsiveness") 
@@ -226,9 +226,11 @@ these may also appeal to a smaller market of young adults seeking business portr
     + Index - image carousel
     + Contact Us - form
     + Sub-Gallery - scrollspy was used for the jump to anchor links and the invisible property was used to hide the placement of these links<br/><br/>
-+ Code Institute (Class) - Used footer design based on the golden ratio and made social links like the examples shown in class from the "Rosie" project.
-+ Used a visual reference from a classmate, [Simon "jumboduck"](https://jumboduck.github.io/Polygonal-Brewing-Co/brewery.html "Page visual reference was used from") for the About Us section. The idea that was used is a large Hero image followed by the golden 
-    ratio of three text boxes that share the background color of the page.
++ Code Institute (Class) - Provided two major ideas for the website during the "Rosie" project:
+    + Main footer - Golden ratio for the structure of the main footer
+    + Main footer - The style of the social links and how they use a color transition<br/><br/>
++ [Simon "jumboduck"](https://jumboduck.github.io/Polygonal-Brewing-Co/brewery.html "Page visual reference was used from") - Used as visual reference for:
+    + About Us - A large Hero image followed by the golden ratio of three text boxes that share the background color of the page
 
 # Technologies
 ## Languages
