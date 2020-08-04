@@ -224,7 +224,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 + [Bootstrap](https://getbootstrap.com/) - Framework used to help speed up development and add a better UX:
     + Main nav bar- used responsive design nav bar
     + Index - image carousel
-    + Contact Us - form
+    + Contact Us - multiple pieces of form used for user inputs, radio buttons, and text area
     + Sub-Gallery - scrollspy was used for the jump to anchor links and the invisible property was used to hide the placement of these links<br/><br/>
 + [Code Institute (Class)](https://codeinstitute.net/) - Provided two major ideas for the website during the "Rosie" project:
     + All footers - golden ratio for the structure of all the footers
