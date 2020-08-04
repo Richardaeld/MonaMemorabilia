@@ -15,11 +15,11 @@ these may also appeal to a smaller market of young adults seeking business portr
 + Shows off four eye-catching photos, in a bootstrap carousel, for potential clients to get an impression of the photographer’s style.
 + Gives a brief description of the general services offered through a responsive layout that makes use of negative space to increase readability for clients.
 
-### Main Nav
+### Main Nav Bar
 + Includes a clean, responsive bootstrap nav bar where clients can clearly view the navigation bar on all devices.
 + Provides a clear display of the company logo in the top left corner.
 
-### Main Footer
+### All Footers
 + Uses Font Awesome icons paired with text to display a contemporary social link design which will appeal to potential clients of all ages.
 + Added social links that an independent photographer would use so that potential clients can view their work across multiple popular social platforms.
 
@@ -218,17 +218,17 @@ these may also appeal to a smaller market of young adults seeking business portr
 + [TestLodge](https://blog.testlodge.com/how-to-write-test-cases-for-software-with-sample/) - Used for test case examples
 + [W3Schools](https://www.w3schools.com/) - Helped with fine-tuning CSS and provided examples of advanced tricks involving transition, hover, and scale:
     + Index - Hover button effects are found under "Custom Project" and text shadow is used on the busisness name, Monachese Photography
-    + Main footer - Hover effect used for the social media icons
+    + All footers - Hover effect used for the social media icons
     + Gallery and Sub-Galleries - All nav images use the scale effect and a box shadow
     + Sub-Galleries - The clickable images use a scale and transition effect. All the images use box shadow<br/><br/>
 + [Bootstrap](https://getbootstrap.com/) - Framework used to help speed up development and add a better UX:
-    + Main nav - used responsive design nav bar
+    + Main nav bar- used responsive design nav bar
     + Index - image carousel
     + Contact Us - form
     + Sub-Gallery - scrollspy was used for the jump to anchor links and the invisible property was used to hide the placement of these links<br/><br/>
 + [Code Institute (Class)](https://codeinstitute.net/) - Provided two major ideas for the website during the "Rosie" project:
-    + Main footer - golden ratio for the structure of the main footer
-    + Main footer - the style of the social links and how they use a color transition<br/><br/>
+    + All footers - golden ratio for the structure of all the footers
+    + All footers - the style of the social links and how they use a color transition<br/><br/>
 + [Simon "jumboduck"](https://jumboduck.github.io/Polygonal-Brewing-Co/brewery.html "Page visual reference was used from") - Used as visual reference for:
     + About Us - a large Hero image followed by the golden ratio of three text boxes that share the background color of the page
 
