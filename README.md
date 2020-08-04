@@ -5,7 +5,7 @@ sessions and editing packages to meet the photography needs of potential clients
 these may also appeal to a smaller market of young adults seeking business portraits and clients who wish to digitally enhance photographs.
 
 # Live Prototype Demo and Wireframe
-+ An active prototype can be found [here](https://richardaeld.github.io/MonaMemorabilia/ "Web Page") at GitHub.
++ An active prototype can be found [here](https://richardaeld.github.io/MonaMemorabilia/ "Webpage") at GitHub.
 + The wireframe images used to help design this webpage can be found [here](https://github.com/Richardaeld/MonaMemorabilia/tree/master/assets/wireframe "Wireframe").
 
 # UX Choices
