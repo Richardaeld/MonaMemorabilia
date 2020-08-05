@@ -65,9 +65,9 @@ these may also appeal to a smaller market of young adults seeking business portr
 + The Hero carousel on the index page provides a guide to the artistic style, skill, and the overall quality of the photography provided by this company.
 + The sub-galleries provide a wide-range of styles and professional ideas for clients to discover the perfect photograph session to request.
 + The sub-gallery digital enhancement section shows the multiple color enhancements and digital effects that can be added to a picture.
-+ The paragraphs found on the index page describes the different types of sessions offered and the standard amount of session time to book. 
++ The paragraphs found on the index page describe the different types of sessions offered and the standard amount of session time to book. 
 + The about us section emphasizes the personalized services offered and the willingness to accept custom projects.
-+ The contact us section has a form where the client cane enter the specifics of any project with ample space.
++ The contact us section has a form where the client can enter the specifics of any project with ample space.
 
 # Testing
 ## Checking Responsiveness 
