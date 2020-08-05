@@ -52,7 +52,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 + The main page color scheme uses the monochromatic coloration of the logo.
 + The pictures used maintain themes of family and digital enhancement, which demonstrate the photographer’s artistic style.
 
-# Potential Client Examples
+# Clients Stories And Experience Provided 
 ## Clients 
 + As a client, I'd like a framable photograph for a gift.
 + As a client, I'd like a portrait photograph for a work portfolio.
@@ -60,6 +60,14 @@ these may also appeal to a smaller market of young adults seeking business portr
 + As a client, I'd like a photographer to attend a family event to capture candid photos.
 + As a client, I'd like a photo session for a non-conventional project. 
 + As a client, I'd like a studio photo session with my family.
+
+## Experience Provided
++ The Hero carousel on the index page provides a guide to artistic style, skill, and the overall quality of photograph provided by this company.
++ The sub-gallery portrait section provides a wide range of style and professional ideas for clients to find the perfect photograph session to request.
++ The sub-gallery digital enhancement section shows the multiple color and digital effects that can be added to a picture.
++ The index page's text shows the different types of sessions offered and blocks of time they usually take. 
++ The about us section emphasizes personal service and ability to request custom projects.
++ The contact us section has a form with a large amount of room for a client to enter the specifics of any project they want a photographer or studio time for.
 
 # Testing
 ## Checking Responsiveness 
@@ -225,7 +233,7 @@ these may also appeal to a smaller market of young adults seeking business portr
     + Main nav bar- used responsive design nav bar
     + Index - image carousel
     + Contact Us - multiple pieces of form used for user inputs, radio buttons, and text area
-    + Sub-Gallery - scrollspy was used for the jump to anchor links and the invisible property was used to hide the placement of these links<br/><br/>
+    + Sub-Gallery - scrollspy was used for the jump to anchor links (may be unrecognizable in current form because of reductions to and personalizing of code) and the invisible property was used to hide the placement of these links<br/><br/>
 + [Code Institute (Class)](https://codeinstitute.net/) - Provided two major ideas for the website during the "Rosie" project:
     + All footers - golden ratio for the structure of all the footers
     + All footers - the style of the social links and how they use a color transition<br/><br/>
