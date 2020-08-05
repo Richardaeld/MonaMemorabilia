@@ -62,11 +62,11 @@ these may also appeal to a smaller market of young adults seeking business portr
 + As a client, I'd like a studio photo session with my family.
 
 ## Experience Provided
-+ The Hero carousel on the index page provides a guide to artistic style, skill, and the overall quality of photograph provided by this company.
++ The Hero carousel on the index page provides a guide to artistic style, skill, and the overall quality of the photography provided by this company.
 + The sub-gallery portrait section provides a wide range of style and professional ideas for clients to find the perfect photograph session to request.
 + The sub-gallery digital enhancement section shows the multiple color and digital effects that can be added to a picture.
 + The index page's text shows the different types of sessions offered and blocks of time they usually take. 
-+ The about us section emphasizes personal service and ability to request custom projects.
++ The about us section emphasizes personal service and the ability to request custom projects.
 + The contact us section has a form with a large amount of room for a client to enter the specifics of any project they want a photographer or studio time for.
 
 # Testing
