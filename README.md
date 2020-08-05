@@ -52,8 +52,8 @@ these may also appeal to a smaller market of young adults seeking business portr
 + The main page color scheme uses the monochromatic coloration of the logo.
 + The pictures used maintain themes of family and digital enhancement, which demonstrate the photographer’s artistic style.
 
-# Clients Stories And Experience Provided 
-## Clients 
+# Client Stories And Experience Provided 
+## Client Stories 
 + As a client, I'd like a framable photograph for a gift.
 + As a client, I'd like a portrait photograph for a work portfolio.
 + As a client, I'd like a photograph that I already own to be digitally improved. 
