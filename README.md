@@ -98,7 +98,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 1. Documentation of where visual bugs or misalignments occur.
 
 #### Final Result(s)
-1. Starting at the resolution of an i5, this webpage automatically adjusts and provides the best UX possible.
+1. Starting at the resolution of an i5, and going beyond 1080p this webpage automatically adjusts and provides the best UX possible on all devices.
 --------------------------------
 ## Checking For Errors In Code
 #### Expectation(s):
@@ -126,7 +126,8 @@ these may also appeal to a smaller market of young adults seeking business portr
 1. List of problem code and where in the page(s) it can be found.
 
 #### Final Result(s)
-1. All problematic or erroneous code has been removed from the webpage.
+1. All problematic code has been removed from the webpage.
+1. One minor error still occurs on the contact us page which is detailed in previous and current bugs section.
 ---------------------------------
 ## Checking For Browser Support
 #### Expectation(s):
@@ -191,6 +192,7 @@ these may also appeal to a smaller market of young adults seeking business portr
 + The file "Core.python3.2641.1592707923" will crash GitPod when attempting to delete it.
 + When viewing all sub-galleries at an i5 resolution in landscape (568px x 320px) while using the Chrome inspect function, the top and bottom 
     borders of photos cannot be seen due to the size of the nav bar and the physical limitations of the pixels on the screen.
++ An error found by W3C Validator could not be corrected because of the use of an extra label tag that named the group of radio buttons in contact us.
 
 ## Operating System And Browser Combinations With Confirmed Support (According To BrowserStack)
 #### All Browsers Must Be The Current Version
@@ -210,6 +212,7 @@ these may also appeal to a smaller market of young adults seeking business portr
     enhancement section and in the About Us section. However, this feature is outside the scope of the project.
 + The use of a modal in the sub-gallery pages would allow for pictures to pop-up instead of relying on a clunky jump to anchor link.
 + Changing pixels to rem in CSS would help reduce code length in the CSS and add better responsiveness to all pages on smaller devices.
++ Change the input for telephone number, in contact us, to a more visually appealing and better functioning input involving JavaScript.
 
 
 # Tool, References, And Code Used
