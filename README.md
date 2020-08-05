@@ -96,6 +96,9 @@ these may also appeal to a smaller market of young adults seeking business portr
 #### Documented Result(s):
 1. Documentation of all bad UX and where it occurs.
 1. Documentation of where visual bugs or misalignments occur.
+
+#### Final Result(s)
+1. Starting at the resolution of an i5, this webpage automatically adjusts and provides the best UX possible.
 --------------------------------
 ## Checking For Errors In Code
 #### Expectation(s):
@@ -121,6 +124,9 @@ these may also appeal to a smaller market of young adults seeking business portr
 
 #### Documented Result(s):
 1. List of problem code and where in the page(s) it can be found.
+
+#### Final Result(s)
+1. All problematic or erroneous code has been removed from the webpage.
 ---------------------------------
 ## Checking For Browser Support
 #### Expectation(s):
